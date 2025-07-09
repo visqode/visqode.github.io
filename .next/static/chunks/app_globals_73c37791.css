@@ -369,16 +369,16 @@ img, video {
   bottom: 0;
 }
 
+.bottom-10 {
+  bottom: 2.5rem;
+}
+
 .bottom-24 {
   bottom: 6rem;
 }
 
 .bottom-4 {
   bottom: 1rem;
-}
-
-.bottom-6 {
-  bottom: 1.5rem;
 }
 
 .left-0 {
@@ -411,6 +411,10 @@ img, video {
 
 .right-1 {
   right: .25rem;
+}
+
+.right-10 {
+  right: 2.5rem;
 }
 
 .right-2 {
@@ -475,14 +479,6 @@ img, video {
 
 .top-full {
   top: 100%;
-}
-
-.bottom-10 {
-  bottom: 2.5rem;
-}
-
-.right-10 {
-  right: 2.5rem;
 }
 
 .z-10 {
@@ -2323,16 +2319,6 @@ img, video {
   line-height: 1rem;
 }
 
-.text-8xl {
-  font-size: 6rem;
-  line-height: 1;
-}
-
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
 .font-black {
   font-weight: 900;
 }
@@ -4160,28 +4146,13 @@ button, a, .interactive {
     text-align: left;
   }
 
-  .sm\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
-  .sm\:text-9xl {
-    font-size: 8rem;
+  .sm\:text-5xl {
+    font-size: 3rem;
     line-height: 1;
-  }
-
-  .sm\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
   }
 
   .sm\:text-6xl {
     font-size: 3.75rem;
-    line-height: 1;
-  }
-
-  .sm\:text-5xl {
-    font-size: 3rem;
     line-height: 1;
   }
 
@@ -4355,6 +4326,11 @@ button, a, .interactive {
     line-height: 1;
   }
 
+  .md\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
   .md\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
@@ -4373,11 +4349,6 @@ button, a, .interactive {
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .md\:text-7xl {
-    font-size: 4.5rem;
-    line-height: 1;
   }
 
   .md\:opacity-0 {
@@ -4683,6 +4654,16 @@ button, a, .interactive {
     line-height: 1;
   }
 
+  .lg\:text-8xl {
+    font-size: 6rem;
+    line-height: 1;
+  }
+
+  .lg\:text-9xl {
+    font-size: 8rem;
+    line-height: 1;
+  }
+
   .lg\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
@@ -4691,16 +4672,6 @@ button, a, .interactive {
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .lg\:text-9xl {
-    font-size: 8rem;
-    line-height: 1;
-  }
-
-  .lg\:text-8xl {
-    font-size: 6rem;
-    line-height: 1;
   }
 }
 
