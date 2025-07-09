@@ -4,6 +4,11 @@
 /* testing if it's working or not  */
 body {
   font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 @layer utilities {

@@ -1,9 +1,9 @@
-"use client"
-import Navigation from "./Navigation"
-import SplitText from "./Features/SplitText"
-import ShinyText from "./Features/ShinyText"
-import CircularText from "./Features/CircularText"
-import Link from "next/link"
+"use client";
+import Navigation from "./Navigation";
+import SplitText from "./Features/SplitText";
+import ShinyText from "./Features/ShinyText";
+import CircularText from "./Features/CircularText";
+import Link from "next/link";
 
 const HeroSection = () => {
   return (
@@ -18,7 +18,7 @@ const HeroSection = () => {
       <div className="flex justify-center items-center flex-col flex-1 text-center cursor-default px-4">
         <div className="max-w-[95%] md:max-w-[80%] mx-auto text-center text-white text-balance flex justify-center items-center flex-col">
           <SplitText
-            className="hero-text-large text-center py-2 md:py-3 racing font-bold"
+            className="text-5xl sm:text-6xl md:text-7xl lg:text-9xl text-center py-2 md:py-3 racing font-bold"
             text="We Build & Scale"
             delay={100}
             duration={0.3}
@@ -30,7 +30,7 @@ const HeroSection = () => {
             textAlign="center"
           />
           <SplitText
-            className="hero-text-medium text-center py-2 md:py-3 racing font-bold"
+            className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl text-center py-2 md:py-3 racing font-bold"
             text="Digital Products"
             delay={100}
             duration={0.3}
@@ -76,7 +76,7 @@ const HeroSection = () => {
         />
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default HeroSection
+export default HeroSection;
