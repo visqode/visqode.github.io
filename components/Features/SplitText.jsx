@@ -1,10 +1,10 @@
-"use client"
-import { useRef, useEffect } from "react"
-import { gsap } from "gsap"
-import { ScrollTrigger } from "gsap/ScrollTrigger"
+"use client";
+import { useRef, useEffect } from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 if (typeof window !== "undefined") {
-  gsap.registerPlugin(ScrollTrigger)
+  gsap.registerPlugin(ScrollTrigger);
 }
 
 const SplitText = ({
@@ -21,30 +21,30 @@ const SplitText = ({
   textAlign = "center",
   onLetterAnimationComplete,
 }) => {
-  const ref = useRef(null)
-  const animationCompletedRef = useRef(false)
+  const ref = useRef(null);
+  const animationCompletedRef = useRef(false);
 
   useEffect(() => {
-    const el = ref.current
-    if (!el || animationCompletedRef.current) return
+    const el = ref.current;
+    if (!el || animationCompletedRef.current) return;
 
     // Simple text splitting for chars
     const chars = text.split("").map((char, index) => {
-      const span = document.createElement("span")
-      span.textContent = char === " " ? "\u00A0" : char
-      span.style.display = "inline-block"
-      span.style.willChange = "transform, opacity"
-      return span
-    })
+      const span = document.createElement("span");
+      span.textContent = char === " " ? "\u00A0" : char;
+      span.style.display = "inline-block";
+      span.style.willChange = "transform, opacity";
+      return span;
+    });
 
-    el.innerHTML = ""
-    chars.forEach((char) => el.appendChild(char))
+    el.innerHTML = "";
+    chars.forEach((char) => el.appendChild(char));
 
-    const startPct = (1 - threshold) * 100
-    const m = /^(-?\d+)px$/.exec(rootMargin)
-    const raw = m ? Number.parseInt(m[1], 10) : 0
-    const sign = raw < 0 ? `-=${Math.abs(raw)}px` : `+=${raw}px`
-    const start = `top ${startPct}%${sign}`
+    const startPct = (1 - threshold) * 100;
+    const m = /^(-?\d+)px$/.exec(rootMargin);
+    const raw = m ? Number.parseInt(m[1], 10) : 0;
+    const sign = raw < 0 ? `-=${Math.abs(raw)}px` : `+=${raw}px`;
+    const start = `top ${startPct}%${sign}`;
 
     const tl = gsap.timeline({
       scrollTrigger: {
@@ -55,31 +55,42 @@ const SplitText = ({
       },
       smoothChildTiming: true,
       onComplete: () => {
-        animationCompletedRef.current = true
+        animationCompletedRef.current = true;
         gsap.set(chars, {
           ...to,
           clearProps: "willChange",
           immediateRender: true,
-        })
-        onLetterAnimationComplete?.()
+        });
+        onLetterAnimationComplete?.();
       },
-    })
+    });
 
-    tl.set(chars, { ...from, immediateRender: false, force3D: true })
+    tl.set(chars, { ...from, immediateRender: false, force3D: true });
     tl.to(chars, {
       ...to,
       duration,
       ease,
       stagger: delay / 1000,
       force3D: true,
-    })
+    });
 
     return () => {
-      tl.kill()
-      ScrollTrigger.getAll().forEach((t) => t.kill())
-      gsap.killTweensOf(chars)
-    }
-  }, [text, delay, duration, ease, splitType, from, to, threshold, rootMargin, onLetterAnimationComplete])
+      tl.kill();
+      ScrollTrigger.getAll().forEach((t) => t.kill());
+      gsap.killTweensOf(chars);
+    };
+  }, [
+    text,
+    delay,
+    duration,
+    ease,
+    splitType,
+    from,
+    to,
+    threshold,
+    rootMargin,
+    onLetterAnimationComplete,
+  ]);
 
   return (
     <p
@@ -92,7 +103,7 @@ const SplitText = ({
     >
       {text}
     </p>
-  )
-}
+  );
+};
 
-export default SplitText
+export default SplitText;

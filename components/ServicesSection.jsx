@@ -1,34 +1,38 @@
-"use client"
-import { motion } from "framer-motion"
-import Link from "next/link"
+"use client";
+import { motion } from "framer-motion";
+import Link from "next/link";
 
 const ServicesSection = () => {
   const services = [
     {
       number: "01",
       title: "Web Design",
-      description: "Make the appearance of website pages so that they look beautiful and pleasing to the eye.",
+      description:
+        "Make the appearance of website pages so that they look beautiful and pleasing to the eye.",
       icon: "bx-code-alt",
     },
     {
       number: "02",
       title: "UI/UX Design",
-      description: "Create intuitive and engaging user experiences that convert visitors into customers.",
+      description:
+        "Create intuitive and engaging user experiences that convert visitors into customers.",
       icon: "bx-palette",
     },
     {
       number: "03",
       title: "Brand Design",
-      description: "Develop compelling brand identities that resonate with your target audience.",
+      description:
+        "Develop compelling brand identities that resonate with your target audience.",
       icon: "bx-diamond",
     },
     {
       number: "04",
       title: "Graphic Design",
-      description: "Design stunning visual content that communicates your message effectively.",
+      description:
+        "Design stunning visual content that communicates your message effectively.",
       icon: "bx-brush",
     },
-  ]
+  ];
 
   return (
     <section className="py-20 lg:py-32 bg-gray-50">
@@ -43,9 +47,13 @@ const ServicesSection = () => {
             className="flex-1"
           >
             <div className="flex flex-col lg:flex-row items-start lg:items-end gap-6 lg:gap-12">
-              <h2 className="section-title text-4xl lg:text-5xl font-bold font-playfair text-gray-900">OUR SERVICES</h2>
+              <h2 className="section-title text-4xl lg:text-5xl font-bold font-playfair text-gray-900">
+                OUR SERVICES
+              </h2>
               <div className="hidden lg:block w-px h-16 bg-gray-300"></div>
-              <p className="text-gray-600 text-lg max-w-md">This part of our service that can give you satisfaction</p>
+              <p className="text-gray-600 text-lg max-w-md">
+                This part of our service that can give you satisfaction
+              </p>
             </div>
           </motion.div>
 
@@ -123,7 +131,9 @@ const ServicesSection = () => {
                         <i className="bx bx-arrow-up-right text-black text-xl"></i>
                       </motion.div>
                     </div>
-                    <p className="text-gray-600 text-lg leading-relaxed">{service.description}</p>
+                    <p className="text-gray-600 text-lg leading-relaxed">
+                      {service.description}
+                    </p>
                   </div>
                 </div>
               </motion.div>
@@ -132,7 +142,7 @@ const ServicesSection = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default ServicesSection
+export default ServicesSection;

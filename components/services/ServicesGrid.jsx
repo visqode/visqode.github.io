@@ -1,5 +1,5 @@
-"use client"
-import { motion } from "framer-motion"
+"use client";
+import { motion } from "framer-motion";
 
 const ServicesGrid = () => {
   const services = [
@@ -20,29 +20,50 @@ const ServicesGrid = () => {
     },
     {
       title: "UI/UX Design",
-      description: "User-centered design solutions that create intuitive interfaces and exceptional user experiences.",
-      features: ["User Research", "Wireframing", "Prototyping", "Design Systems", "Usability Testing"],
+      description:
+        "User-centered design solutions that create intuitive interfaces and exceptional user experiences.",
+      features: [
+        "User Research",
+        "Wireframing",
+        "Prototyping",
+        "Design Systems",
+        "Usability Testing",
+      ],
       image:
         "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       color: "from-pink-500 to-red-600",
     },
     {
       title: "Brand Identity",
-      description: "Comprehensive branding solutions that establish strong brand presence and market differentiation.",
-      features: ["Logo Design", "Brand Guidelines", "Visual Identity", "Marketing Materials", "Brand Strategy"],
-      image: "https://images.unsplash.com/photo-1542744094-3a31f272c490?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      description:
+        "Comprehensive branding solutions that establish strong brand presence and market differentiation.",
+      features: [
+        "Logo Design",
+        "Brand Guidelines",
+        "Visual Identity",
+        "Marketing Materials",
+        "Brand Strategy",
+      ],
+      image:
+        "https://images.unsplash.com/photo-1542744094-3a31f272c490?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       color: "from-green-500 to-teal-600",
     },
     {
       title: "Digital Marketing",
       description:
         "Strategic marketing campaigns that drive growth and maximize your digital presence across all channels.",
-      features: ["SEO Optimization", "Social Media", "Content Strategy", "PPC Campaigns", "Analytics & Reporting"],
+      features: [
+        "SEO Optimization",
+        "Social Media",
+        "Content Strategy",
+        "PPC Campaigns",
+        "Analytics & Reporting",
+      ],
       image:
         "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       color: "from-orange-500 to-yellow-600",
     },
-  ]
+  ];
 
   return (
     <section className="py-20 lg:py-32 bg-white">
@@ -66,13 +87,20 @@ const ServicesGrid = () => {
                   />
                 </div>
 
-                <div className={`absolute inset-0 bg-gradient-to-t ${service.color} opacity-80`}></div>
+                <div
+                  className={`absolute inset-0 bg-gradient-to-t ${service.color} opacity-80`}
+                ></div>
 
                 <div className="absolute inset-0 p-8 flex flex-col justify-end text-white">
-                  <motion.h3 whileHover={{ scale: 1.05 }} className="text-3xl font-bold font-playfair mb-4">
+                  <motion.h3
+                    whileHover={{ scale: 1.05 }}
+                    className="text-3xl font-bold font-playfair mb-4"
+                  >
                     {service.title}
                   </motion.h3>
-                  <p className="text-lg mb-6 opacity-90">{service.description}</p>
+                  <p className="text-lg mb-6 opacity-90">
+                    {service.description}
+                  </p>
 
                   <div className="space-y-2">
                     {service.features.map((feature, idx) => (
@@ -104,7 +132,7 @@ const ServicesGrid = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default ServicesGrid
+export default ServicesGrid;

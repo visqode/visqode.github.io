@@ -1,10 +1,10 @@
-"use client"
-import { useState } from "react"
-import Navigation from "@/components/Navigation"
-import PageHero from "@/components/PageHero"
-import Link from "next/link"
-import { motion } from "framer-motion"
-import Footer from "@/components/Footer" // Declare the Footer variable
+"use client";
+import { useState } from "react";
+import Navigation from "@/components/Navigation";
+import PageHero from "@/components/PageHero";
+import Link from "next/link";
+import { motion } from "framer-motion";
+import Footer from "@/components/Footer"; // Declare the Footer variable
 
 export default function SignUp() {
   const [formData, setFormData] = useState({
@@ -14,28 +14,28 @@ export default function SignUp() {
     password: "",
     confirmPassword: "",
     terms: false,
-  })
+  });
 
   const handleChange = (e) => {
-    const { name, value, type, checked } = e.target
+    const { name, value, type, checked } = e.target;
     setFormData({
       ...formData,
       [name]: type === "checkbox" ? checked : value,
-    })
-  }
+    });
+  };
 
   const handleSubmit = (e) => {
-    e.preventDefault()
+    e.preventDefault();
     if (formData.password !== formData.confirmPassword) {
-      alert("Passwords do not match")
-      return
+      alert("Passwords do not match");
+      return;
     }
     if (!formData.terms) {
-      alert("Please accept the terms and conditions")
-      return
+      alert("Please accept the terms and conditions");
+      return;
     }
-    console.log("Sign up attempt:", formData)
-  }
+    console.log("Sign up attempt:", formData);
+  };
 
   return (
     <div className="min-h-screen bg-white">
@@ -60,13 +60,17 @@ export default function SignUp() {
           >
             <div className="text-center mb-8">
               <h1 className="text-3xl racing font-bold mb-2">Create Account</h1>
-              <p className="openSans text-gray-600">Join our community and start building your digital presence</p>
+              <p className="openSans text-gray-600">
+                Join our community and start building your digital presence
+              </p>
             </div>
 
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid grid-cols-2 gap-4">
                 <div>
-                  <label className="block openSans font-semibold mb-2 text-gray-700">First Name</label>
+                  <label className="block openSans font-semibold mb-2 text-gray-700">
+                    First Name
+                  </label>
                   <input
                     type="text"
                     name="firstName"
@@ -78,7 +82,9 @@ export default function SignUp() {
                   />
                 </div>
                 <div>
-                  <label className="block openSans font-semibold mb-2 text-gray-700">Last Name</label>
+                  <label className="block openSans font-semibold mb-2 text-gray-700">
+                    Last Name
+                  </label>
                   <input
                     type="text"
                     name="lastName"
@@ -92,7 +98,9 @@ export default function SignUp() {
               </div>
 
               <div>
-                <label className="block openSans font-semibold mb-2 text-gray-700">Email Address</label>
+                <label className="block openSans font-semibold mb-2 text-gray-700">
+                  Email Address
+                </label>
                 <input
                   type="email"
                   name="email"
@@ -105,7 +113,9 @@ export default function SignUp() {
               </div>
 
               <div>
-                <label className="block openSans font-semibold mb-2 text-gray-700">Password</label>
+                <label className="block openSans font-semibold mb-2 text-gray-700">
+                  Password
+                </label>
                 <input
                   type="password"
                   name="password"
@@ -118,7 +128,9 @@ export default function SignUp() {
               </div>
 
               <div>
-                <label className="block openSans font-semibold mb-2 text-gray-700">Confirm Password</label>
+                <label className="block openSans font-semibold mb-2 text-gray-700">
+                  Confirm Password
+                </label>
                 <input
                   type="password"
                   name="confirmPassword"
@@ -141,11 +153,17 @@ export default function SignUp() {
                 />
                 <span className="ml-3 openSans text-sm text-gray-600">
                   I agree to the{" "}
-                  <Link href="#" className="text-[#a7ff59] hover:underline font-medium">
+                  <Link
+                    href="#"
+                    className="text-[#a7ff59] hover:underline font-medium"
+                  >
                     Terms of Service
                   </Link>{" "}
                   and{" "}
-                  <Link href="#" className="text-[#a7ff59] hover:underline font-medium">
+                  <Link
+                    href="#"
+                    className="text-[#a7ff59] hover:underline font-medium"
+                  >
                     Privacy Policy
                   </Link>
                 </span>
@@ -164,7 +182,10 @@ export default function SignUp() {
             <div className="text-center mt-8">
               <p className="openSans text-gray-600">
                 Already have an account?{" "}
-                <Link href="/signin" className="text-[#a7ff59] hover:underline font-semibold">
+                <Link
+                  href="/signin"
+                  className="text-[#a7ff59] hover:underline font-semibold"
+                >
                   Sign in here
                 </Link>
               </p>
@@ -177,7 +198,9 @@ export default function SignUp() {
                   <div className="w-full border-t border-gray-300"></div>
                 </div>
                 <div className="relative flex justify-center text-sm">
-                  <span className="px-2 bg-white text-gray-500 openSans">Or continue with</span>
+                  <span className="px-2 bg-white text-gray-500 openSans">
+                    Or continue with
+                  </span>
                 </div>
               </div>
 
@@ -204,5 +227,5 @@ export default function SignUp() {
 
       <Footer />
     </div>
-  )
+  );
 }

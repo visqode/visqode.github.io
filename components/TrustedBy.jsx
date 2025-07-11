@@ -1,5 +1,5 @@
-"use client"
-import { motion } from "framer-motion"
+"use client";
+import { motion } from "framer-motion";
 
 const TrustedBy = () => {
   const companies = [
@@ -23,7 +23,7 @@ const TrustedBy = () => {
       name: "Colonia",
       logo: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=120&h=60&fit=crop&crop=center",
     },
-  ]
+  ];
 
   return (
     <section className="py-16 lg:py-24 bg-gray-50">
@@ -35,7 +35,9 @@ const TrustedBy = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-12"
         >
-          <p className="text-gray-600 text-lg font-medium">Trusted by industry leaders</p>
+          <p className="text-gray-600 text-lg font-medium">
+            Trusted by industry leaders
+          </p>
         </motion.div>
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 items-center">
@@ -57,7 +59,7 @@ const TrustedBy = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default TrustedBy
+export default TrustedBy;

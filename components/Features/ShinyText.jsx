@@ -1,7 +1,7 @@
-"use client"
+"use client";
 
 const ShinyText = ({ text, disabled = false, speed = 5, className = "" }) => {
-  const animationDuration = `${speed}s`
+  const animationDuration = `${speed}s`;
 
   return (
     <div
@@ -16,7 +16,7 @@ const ShinyText = ({ text, disabled = false, speed = 5, className = "" }) => {
     >
       {text}
     </div>
-  )
-}
+  );
+};
 
-export default ShinyText
+export default ShinyText;

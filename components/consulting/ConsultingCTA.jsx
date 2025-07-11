@@ -1,6 +1,6 @@
-"use client"
-import { motion } from "framer-motion"
-import Link from "next/link"
+"use client";
+import { motion } from "framer-motion";
+import Link from "next/link";
 
 const ConsultingCTA = () => {
   return (
@@ -31,8 +31,8 @@ const ConsultingCTA = () => {
             Ready to Transform Your Business?
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-10">
-            Schedule a consultation with our experts to discuss your digital transformation goals and discover how we
-            can help you achieve them.
+            Schedule a consultation with our experts to discuss your digital
+            transformation goals and discover how we can help you achieve them.
           </p>
 
           <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
@@ -46,7 +46,7 @@ const ConsultingCTA = () => {
         </motion.div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default ConsultingCTA
+export default ConsultingCTA;

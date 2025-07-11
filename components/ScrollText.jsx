@@ -1,5 +1,5 @@
-"use client"
-import ScrollVelocity from "./Features/ScrollVelocity"
+"use client";
+import ScrollVelocity from "./Features/ScrollVelocity";
 
 const ScrollText = () => {
   return (
@@ -9,7 +9,7 @@ const ScrollText = () => {
         className="custom-scroll-text openSans italic py-[.5rem] text-5xl"
       />
     </section>
-  )
-}
+  );
+};
 
-export default ScrollText
+export default ScrollText;

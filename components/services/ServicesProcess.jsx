@@ -1,5 +1,5 @@
-"use client"
-import { motion } from "framer-motion"
+"use client";
+import { motion } from "framer-motion";
 
 const ServicesProcess = () => {
   const steps = [
@@ -24,19 +24,22 @@ const ServicesProcess = () => {
     {
       number: "04",
       title: "Development",
-      description: "Our developers bring the designs to life using cutting-edge technologies and best practices.",
+      description:
+        "Our developers bring the designs to life using cutting-edge technologies and best practices.",
     },
     {
       number: "05",
       title: "Testing",
-      description: "Rigorous testing ensures your project meets the highest standards of quality and performance.",
+      description:
+        "Rigorous testing ensures your project meets the highest standards of quality and performance.",
     },
     {
       number: "06",
       title: "Launch",
-      description: "We deploy your project and provide ongoing support to ensure continued success and growth.",
+      description:
+        "We deploy your project and provide ongoing support to ensure continued success and growth.",
     },
-  ]
+  ];
 
   return (
     <section className="py-20 lg:py-32 bg-gray-50">
@@ -48,9 +51,12 @@ const ServicesProcess = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl lg:text-5xl font-bold font-playfair text-gray-900 mb-6">Our Process</h2>
+          <h2 className="text-4xl lg:text-5xl font-bold font-playfair text-gray-900 mb-6">
+            Our Process
+          </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            A proven methodology that ensures successful project delivery and exceptional results every time.
+            A proven methodology that ensures successful project delivery and
+            exceptional results every time.
           </p>
         </motion.div>
 
@@ -69,15 +75,19 @@ const ServicesProcess = () => {
                 <div className="w-12 h-12 bg-[#a7ff59] rounded-full flex items-center justify-center text-black font-bold text-lg mr-4">
                   {step.number}
                 </div>
-                <h3 className="text-xl font-bold text-gray-900">{step.title}</h3>
+                <h3 className="text-xl font-bold text-gray-900">
+                  {step.title}
+                </h3>
               </div>
-              <p className="text-gray-600 leading-relaxed">{step.description}</p>
+              <p className="text-gray-600 leading-relaxed">
+                {step.description}
+              </p>
             </motion.div>
           ))}
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default ServicesProcess
+export default ServicesProcess;

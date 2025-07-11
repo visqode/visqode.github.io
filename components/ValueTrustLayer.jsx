@@ -1,8 +1,8 @@
-"use client"
-import CaseStudiesSection from "./CaseStudiesSection"
-import BlogSection from "./BlogSection"
-import TestimonialsCarousel from "./TestimonialsCarousel"
-import NewsletterSection from "./NewsletterSection"
+"use client";
+import CaseStudiesSection from "./CaseStudiesSection";
+import BlogSection from "./BlogSection";
+import TestimonialsCarousel from "./TestimonialsCarousel";
+import NewsletterSection from "./NewsletterSection";
 
 const ValueTrustLayer = () => {
   return (
@@ -12,7 +12,7 @@ const ValueTrustLayer = () => {
       <TestimonialsCarousel />
       <NewsletterSection />
     </>
-  )
-}
+  );
+};
 
-export default ValueTrustLayer
+export default ValueTrustLayer;

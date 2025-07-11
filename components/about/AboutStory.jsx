@@ -1,5 +1,5 @@
-"use client"
-import { motion } from "framer-motion"
+"use client";
+import { motion } from "framer-motion";
 
 const AboutStory = () => {
   return (
@@ -34,7 +34,9 @@ const AboutStory = () => {
             className="space-y-8"
           >
             <div>
-              <span className="text-[#a7ff59] font-semibold text-lg">Our Story</span>
+              <span className="text-[#a7ff59] font-semibold text-lg">
+                Our Story
+              </span>
               <h2 className="text-4xl lg:text-5xl font-bold font-playfair text-gray-900 mt-4 mb-6">
                 Building Digital Excellence Since Day One
               </h2>
@@ -42,19 +44,23 @@ const AboutStory = () => {
 
             <div className="space-y-6 text-gray-600 text-lg leading-relaxed">
               <p>
-                Founded with a vision to transform digital experiences, VisQode has been at the forefront of web
-                development and brand building. We combine creativity with technical expertise to deliver exceptional
-                results that exceed expectations.
+                Founded with a vision to transform digital experiences, VisQode
+                has been at the forefront of web development and brand building.
+                We combine creativity with technical expertise to deliver
+                exceptional results that exceed expectations.
               </p>
               <p>
-                Our journey began with a simple belief: that every business deserves a digital presence that truly
-                represents their vision and values. Today, we've helped hundreds of companies achieve their digital
-                goals through innovative solutions and strategic thinking.
+                Our journey began with a simple belief: that every business
+                deserves a digital presence that truly represents their vision
+                and values. Today, we've helped hundreds of companies achieve
+                their digital goals through innovative solutions and strategic
+                thinking.
               </p>
               <p>
-                We don't just build websites and brands – we create digital experiences that connect, engage, and
-                inspire. Our team of passionate professionals brings together diverse skills and perspectives to solve
-                complex challenges with elegant solutions.
+                We don't just build websites and brands – we create digital
+                experiences that connect, engage, and inspire. Our team of
+                passionate professionals brings together diverse skills and
+                perspectives to solve complex challenges with elegant solutions.
               </p>
             </div>
 
@@ -69,7 +75,7 @@ const AboutStory = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default AboutStory
+export default AboutStory;

@@ -1,16 +1,16 @@
-"use client"
-import { motion } from "framer-motion"
-import { useEffect, useRef } from "react"
-import { gsap } from "gsap"
-import { ScrollTrigger } from "gsap/ScrollTrigger"
+"use client";
+import { motion } from "framer-motion";
+import { useEffect, useRef } from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 if (typeof window !== "undefined") {
-  gsap.registerPlugin(ScrollTrigger)
+  gsap.registerPlugin(ScrollTrigger);
 }
 
 const ServicesDown = () => {
-  const imageRef = useRef(null)
-  const cardRefs = useRef([])
+  const imageRef = useRef(null);
+  const cardRefs = useRef([]);
 
   useEffect(() => {
     if (imageRef.current) {
@@ -29,7 +29,7 @@ const ServicesDown = () => {
             once: true,
           },
         },
-      )
+      );
     }
 
     cardRefs.current.forEach((card) => {
@@ -49,37 +49,41 @@ const ServicesDown = () => {
               once: true,
             },
           },
-        )
+        );
       }
-    })
+    });
 
     return () => {
-      ScrollTrigger.getAll().forEach((trigger) => trigger.kill())
-    }
-  }, [])
+      ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
+    };
+  }, []);
 
   const services = [
     {
       id: "01",
       title: "Web Design",
-      description: "Make the appearance of website pages so that they look so beautiful and pleasing to the eye.",
+      description:
+        "Make the appearance of website pages so that they look so beautiful and pleasing to the eye.",
     },
     {
       id: "02",
       title: "UI/UX Design",
-      description: "Create intuitive and engaging user experiences that convert visitors into customers.",
+      description:
+        "Create intuitive and engaging user experiences that convert visitors into customers.",
     },
     {
       id: "03",
       title: "Brand Design",
-      description: "Develop compelling brand identities that resonate with your target audience.",
+      description:
+        "Develop compelling brand identities that resonate with your target audience.",
     },
     {
       id: "04",
       title: "Graphic Design",
-      description: "Design stunning visual content that communicates your message effectively.",
+      description:
+        "Design stunning visual content that communicates your message effectively.",
     },
-  ]
+  ];
 
   return (
     <div className="flex flex-col lg:flex-row justify-center lg:justify-around items-center gap-8 lg:gap-12">
@@ -113,7 +117,9 @@ const ServicesDown = () => {
                   whileHover={{ y: -5 }}
                   transition={{ duration: 0.3, ease: "easeOut" }}
                 >
-                  <h3 className="service-title racing font-bold">{service.title}</h3>
+                  <h3 className="service-title racing font-bold">
+                    {service.title}
+                  </h3>
                   <motion.i
                     className="bx bx-arrow-up-right bg-lime-400 rounded-full p-2 text-xl self-start sm:self-center"
                     whileHover={{ scale: 1.2, rotate: 20 }}
@@ -129,7 +135,7 @@ const ServicesDown = () => {
         ))}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ServicesDown
+export default ServicesDown;

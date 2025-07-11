@@ -1,5 +1,5 @@
-"use client"
-import { motion } from "framer-motion"
+"use client";
+import { motion } from "framer-motion";
 
 const ConsultingServices = () => {
   const services = [
@@ -8,29 +8,50 @@ const ConsultingServices = () => {
       title: "Digital Strategy",
       description:
         "Comprehensive digital transformation roadmaps tailored to your business objectives and market position.",
-      features: ["Market Analysis", "Competitive Research", "Technology Roadmap", "ROI Planning"],
+      features: [
+        "Market Analysis",
+        "Competitive Research",
+        "Technology Roadmap",
+        "ROI Planning",
+      ],
     },
     {
       icon: "bx-cog",
       title: "Technology Consulting",
-      description: "Expert guidance on technology stack selection, architecture design, and implementation strategies.",
-      features: ["Tech Stack Selection", "Architecture Design", "Scalability Planning", "Security Assessment"],
+      description:
+        "Expert guidance on technology stack selection, architecture design, and implementation strategies.",
+      features: [
+        "Tech Stack Selection",
+        "Architecture Design",
+        "Scalability Planning",
+        "Security Assessment",
+      ],
     },
     {
       icon: "bx-analyse",
       title: "Business Analysis",
       description:
         "In-depth analysis of your business processes and identification of digital opportunities for growth.",
-      features: ["Process Optimization", "Digital Opportunities", "Workflow Analysis", "Efficiency Improvements"],
+      features: [
+        "Process Optimization",
+        "Digital Opportunities",
+        "Workflow Analysis",
+        "Efficiency Improvements",
+      ],
     },
     {
       icon: "bx-rocket",
       title: "Growth Optimization",
       description:
         "Data-driven strategies to optimize your digital growth and maximize performance across all channels.",
-      features: ["Performance Analytics", "Conversion Optimization", "User Experience", "Growth Hacking"],
+      features: [
+        "Performance Analytics",
+        "Conversion Optimization",
+        "User Experience",
+        "Growth Hacking",
+      ],
     },
-  ]
+  ];
 
   return (
     <section className="py-20 lg:py-32 bg-white">
@@ -42,9 +63,12 @@ const ConsultingServices = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl lg:text-5xl font-bold font-playfair text-gray-900 mb-6">Consulting Services</h2>
+          <h2 className="text-4xl lg:text-5xl font-bold font-playfair text-gray-900 mb-6">
+            Consulting Services
+          </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Expert consultation across all aspects of digital transformation and business growth.
+            Expert consultation across all aspects of digital transformation and
+            business growth.
           </p>
         </motion.div>
 
@@ -64,8 +88,12 @@ const ConsultingServices = () => {
                   <i className={`bx ${service.icon} text-2xl text-black`}></i>
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">{service.title}</h3>
-                  <p className="text-gray-600 leading-relaxed mb-6">{service.description}</p>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                    {service.title}
+                  </h3>
+                  <p className="text-gray-600 leading-relaxed mb-6">
+                    {service.description}
+                  </p>
                 </div>
               </div>
 
@@ -82,7 +110,7 @@ const ConsultingServices = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default ConsultingServices
+export default ConsultingServices;

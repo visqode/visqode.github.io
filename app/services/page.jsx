@@ -1,10 +1,10 @@
-"use client"
+"use client";
 
-import Navigation from "@/components/Navigation"
-import Footer from "@/components/Footer"
-import PageHero from "@/components/PageHero"
-import ScrollReveal from "@/components/Features/ScrollReveal"
-import { motion } from "framer-motion"
+import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
+import PageHero from "@/components/PageHero";
+import ScrollReveal from "@/components/Features/ScrollReveal";
+import { motion } from "framer-motion";
 
 export default function Services() {
   const currentServices = [
@@ -37,7 +37,8 @@ export default function Services() {
         "Website Design & Development",
         "Deployment Support",
       ],
-      image: "https://images.unsplash.com/photo-1542744094-3a31f272c490?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      image:
+        "https://images.unsplash.com/photo-1542744094-3a31f272c490?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       color: "from-green-500 to-teal-600",
     },
     {
@@ -57,7 +58,7 @@ export default function Services() {
         "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       color: "from-orange-500 to-red-600",
     },
-  ]
+  ];
 
   const comingSoon = [
     {
@@ -87,7 +88,7 @@ export default function Services() {
       icon: "bx-store",
       status: "Coming Soon",
     },
-  ]
+  ];
 
   return (
     <div className="min-h-screen bg-white">
@@ -106,7 +107,9 @@ export default function Services() {
         {/* Current Services */}
         <div className="max-w-7xl mx-auto mb-20">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl racing font-bold mb-6">What We Offer</h2>
+            <h2 className="text-4xl md:text-5xl racing font-bold mb-6">
+              What We Offer
+            </h2>
             <ScrollReveal
               baseOpacity={0}
               enableBlur={true}
@@ -114,7 +117,8 @@ export default function Services() {
               blurStrength={10}
               textClassName="text-lg md:text-xl openSans text-gray-600 max-w-3xl mx-auto"
             >
-              Our current services designed to transform your digital presence and drive business growth.
+              Our current services designed to transform your digital presence
+              and drive business growth.
             </ScrollReveal>
           </div>
 
@@ -135,14 +139,20 @@ export default function Services() {
                       alt={service.title}
                       className="w-full h-64 md:h-80 lg:h-96 object-cover"
                     />
-                    <div className={`absolute inset-0 bg-gradient-to-t ${service.color} opacity-80`}></div>
+                    <div
+                      className={`absolute inset-0 bg-gradient-to-t ${service.color} opacity-80`}
+                    ></div>
                   </div>
                 </div>
 
                 <div className="flex-1 space-y-6 text-center lg:text-left">
                   <div className="flex flex-col lg:flex-row items-center lg:items-start gap-4">
-                    <span className="text-5xl md:text-6xl racing text-gray-300 font-bold">{service.id}</span>
-                    <h3 className="text-3xl md:text-4xl racing font-bold">{service.title}</h3>
+                    <span className="text-5xl md:text-6xl racing text-gray-300 font-bold">
+                      {service.id}
+                    </span>
+                    <h3 className="text-3xl md:text-4xl racing font-bold">
+                      {service.title}
+                    </h3>
                   </div>
 
                   <ScrollReveal
@@ -157,7 +167,10 @@ export default function Services() {
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                     {service.features.map((feature, idx) => (
-                      <div key={idx} className="flex items-center justify-center lg:justify-start gap-3">
+                      <div
+                        key={idx}
+                        className="flex items-center justify-center lg:justify-start gap-3"
+                      >
                         <i className="bx bx-check text-[#a7ff59] text-xl flex-shrink-0"></i>
                         <span className="openSans text-sm">{feature}</span>
                       </div>
@@ -176,7 +189,9 @@ export default function Services() {
         {/* Coming Soon Services */}
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl racing font-bold mb-6">What's Coming Next</h2>
+            <h2 className="text-4xl md:text-5xl racing font-bold mb-6">
+              What's Coming Next
+            </h2>
             <ScrollReveal
               baseOpacity={0}
               enableBlur={true}
@@ -184,7 +199,8 @@ export default function Services() {
               blurStrength={10}
               textClassName="text-lg md:text-xl openSans text-gray-600 max-w-3xl mx-auto"
             >
-              Exciting new features and services we're developing to expand our offerings.
+              Exciting new features and services we're developing to expand our
+              offerings.
             </ScrollReveal>
           </div>
 
@@ -206,7 +222,9 @@ export default function Services() {
                   <div className="w-16 h-16 bg-[#a7ff59] rounded-full flex items-center justify-center">
                     <i className={`bx ${service.icon} text-2xl text-black`}></i>
                   </div>
-                  <h3 className="text-2xl md:text-3xl racing font-bold">{service.title}</h3>
+                  <h3 className="text-2xl md:text-3xl racing font-bold">
+                    {service.title}
+                  </h3>
                 </div>
 
                 <ScrollReveal
@@ -235,5 +253,5 @@ export default function Services() {
 
       <Footer />
     </div>
-  )
+  );
 }

@@ -1,30 +1,30 @@
-"use client"
-import { useState } from "react"
-import Navigation from "@/components/Navigation"
-import PageHero from "@/components/PageHero"
-import Link from "next/link"
-import { motion } from "framer-motion"
-import Footer from "@/components/Footer" // Import Footer component
+"use client";
+import { useState } from "react";
+import Navigation from "@/components/Navigation";
+import PageHero from "@/components/PageHero";
+import Link from "next/link";
+import { motion } from "framer-motion";
+import Footer from "@/components/Footer"; // Import Footer component
 
 export default function SignIn() {
   const [formData, setFormData] = useState({
     email: "",
     password: "",
     remember: false,
-  })
+  });
 
   const handleChange = (e) => {
-    const { name, value, type, checked } = e.target
+    const { name, value, type, checked } = e.target;
     setFormData({
       ...formData,
       [name]: type === "checkbox" ? checked : value,
-    })
-  }
+    });
+  };
 
   const handleSubmit = (e) => {
-    e.preventDefault()
-    console.log("Sign in attempt:", formData)
-  }
+    e.preventDefault();
+    console.log("Sign in attempt:", formData);
+  };
 
   return (
     <div className="min-h-screen bg-white">
@@ -47,12 +47,16 @@ export default function SignIn() {
           >
             <div className="text-center mb-8">
               <h1 className="text-3xl racing font-bold mb-2">Sign In</h1>
-              <p className="openSans text-gray-600">Enter your credentials to access your account</p>
+              <p className="openSans text-gray-600">
+                Enter your credentials to access your account
+              </p>
             </div>
 
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
-                <label className="block openSans font-semibold mb-2 text-gray-700">Email Address</label>
+                <label className="block openSans font-semibold mb-2 text-gray-700">
+                  Email Address
+                </label>
                 <input
                   type="email"
                   name="email"
@@ -65,7 +69,9 @@ export default function SignIn() {
               </div>
 
               <div>
-                <label className="block openSans font-semibold mb-2 text-gray-700">Password</label>
+                <label className="block openSans font-semibold mb-2 text-gray-700">
+                  Password
+                </label>
                 <input
                   type="password"
                   name="password"
@@ -86,9 +92,14 @@ export default function SignIn() {
                     onChange={handleChange}
                     className="w-4 h-4 text-[#a7ff59] border-gray-300 rounded focus:ring-[#a7ff59]"
                   />
-                  <span className="ml-2 openSans text-sm text-gray-600">Remember me</span>
+                  <span className="ml-2 openSans text-sm text-gray-600">
+                    Remember me
+                  </span>
                 </label>
-                <Link href="#" className="openSans text-sm text-[#a7ff59] hover:underline font-medium">
+                <Link
+                  href="#"
+                  className="openSans text-sm text-[#a7ff59] hover:underline font-medium"
+                >
                   Forgot password?
                 </Link>
               </div>
@@ -106,7 +117,10 @@ export default function SignIn() {
             <div className="text-center mt-8">
               <p className="openSans text-gray-600">
                 Don't have an account?{" "}
-                <Link href="/signup" className="text-[#a7ff59] hover:underline font-semibold">
+                <Link
+                  href="/signup"
+                  className="text-[#a7ff59] hover:underline font-semibold"
+                >
                   Sign up here
                 </Link>
               </p>
@@ -119,7 +133,9 @@ export default function SignIn() {
                   <div className="w-full border-t border-gray-300"></div>
                 </div>
                 <div className="relative flex justify-center text-sm">
-                  <span className="px-2 bg-white text-gray-500 openSans">Or continue with</span>
+                  <span className="px-2 bg-white text-gray-500 openSans">
+                    Or continue with
+                  </span>
                 </div>
               </div>
 
@@ -145,5 +161,5 @@ export default function SignIn() {
       </main>
       <Footer /> {/* Use Footer component */}
     </div>
-  )
+  );
 }

@@ -1,6 +1,6 @@
-"use client"
-import { motion } from "framer-motion"
-import Link from "next/link"
+"use client";
+import { motion } from "framer-motion";
+import Link from "next/link";
 
 const ServicesCTA = () => {
   return (
@@ -27,9 +27,12 @@ const ServicesCTA = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-4xl lg:text-5xl font-bold font-playfair text-white mb-6">Ready to Start Your Project?</h2>
+          <h2 className="text-4xl lg:text-5xl font-bold font-playfair text-white mb-6">
+            Ready to Start Your Project?
+          </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-10">
-            Let's discuss how our services can help transform your business and achieve your digital goals.
+            Let's discuss how our services can help transform your business and
+            achieve your digital goals.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
@@ -53,7 +56,7 @@ const ServicesCTA = () => {
         </motion.div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default ServicesCTA
+export default ServicesCTA;

@@ -1,13 +1,15 @@
-"use client"
-import { motion } from "framer-motion"
+"use client";
+import { motion } from "framer-motion";
 
 const ProjectsSection = () => {
   const projects = [
     {
       title: "Labore Real Estate",
       category: "Web Development",
-      image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      description: "Modern real estate platform with advanced search and virtual tours",
+      image:
+        "https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      description:
+        "Modern real estate platform with advanced search and virtual tours",
     },
     {
       title: "Musthala Music Platform",
@@ -19,10 +21,11 @@ const ProjectsSection = () => {
     {
       title: "Bankol Financial Web",
       category: "Brand Design",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      image:
+        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       description: "Comprehensive financial dashboard with data visualization",
     },
-  ]
+  ];
 
   return (
     <section className="py-20 lg:py-32 bg-white">
@@ -35,8 +38,12 @@ const ProjectsSection = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="text-4xl lg:text-5xl racing font-bold text-gray-900 mb-4">BEST PROJECTS</h2>
-            <p className="text-gray-600 text-lg">Explore some of our best projects</p>
+            <h2 className="text-4xl lg:text-5xl racing font-bold text-gray-900 mb-4">
+              BEST PROJECTS
+            </h2>
+            <p className="text-gray-600 text-lg">
+              Explore some of our best projects
+            </p>
           </motion.div>
 
           <motion.div
@@ -77,9 +84,15 @@ const ProjectsSection = () => {
 
                 {/* Project Info Overlay */}
                 <div className="absolute bottom-0 left-0 right-0 p-6 text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                  <span className="text-[#a7ff59] text-sm font-medium">{project.category}</span>
-                  <h3 className="text-xl font-bold mb-2 racing">{project.title}</h3>
-                  <p className="text-sm opacity-90 openSans">{project.description}</p>
+                  <span className="text-[#a7ff59] text-sm font-medium">
+                    {project.category}
+                  </span>
+                  <h3 className="text-xl font-bold mb-2 racing">
+                    {project.title}
+                  </h3>
+                  <p className="text-sm opacity-90 openSans">
+                    {project.description}
+                  </p>
                 </div>
 
                 {/* Arrow Icon */}
@@ -95,7 +108,7 @@ const ProjectsSection = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default ProjectsSection
+export default ProjectsSection;

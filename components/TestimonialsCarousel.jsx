@@ -1,17 +1,17 @@
-"use client"
-import { motion, AnimatePresence } from "framer-motion"
-import { useState, useEffect, useRef } from "react"
-import { gsap } from "gsap"
-import { ScrollTrigger } from "gsap/ScrollTrigger"
+"use client";
+import { motion, AnimatePresence } from "framer-motion";
+import { useState, useEffect, useRef } from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 if (typeof window !== "undefined") {
-  gsap.registerPlugin(ScrollTrigger)
+  gsap.registerPlugin(ScrollTrigger);
 }
 
 const TestimonialsCarousel = () => {
-  const [currentIndex, setCurrentIndex] = useState(0)
-  const sectionRef = useRef(null)
-  const [isAutoPlaying, setIsAutoPlaying] = useState(true)
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const sectionRef = useRef(null);
+  const [isAutoPlaying, setIsAutoPlaying] = useState(true);
 
   const testimonials = [
     {
@@ -74,18 +74,18 @@ const TestimonialsCarousel = () => {
       rating: 5,
       project: "Complete Brand Identity & Web Platform",
     },
-  ]
+  ];
 
   // Auto-play functionality
   useEffect(() => {
-    if (!isAutoPlaying) return
+    if (!isAutoPlaying) return;
 
     const interval = setInterval(() => {
-      setCurrentIndex((prev) => (prev + 1) % testimonials.length)
-    }, 5000)
+      setCurrentIndex((prev) => (prev + 1) % testimonials.length);
+    }, 5000);
 
-    return () => clearInterval(interval)
-  }, [isAutoPlaying, testimonials.length])
+    return () => clearInterval(interval);
+  }, [isAutoPlaying, testimonials.length]);
 
   // GSAP Animation on scroll
   useEffect(() => {
@@ -105,28 +105,33 @@ const TestimonialsCarousel = () => {
             toggleActions: "play none none reverse",
           },
         },
-      )
+      );
     }
 
     return () => {
-      ScrollTrigger.getAll().forEach((trigger) => trigger.kill())
-    }
-  }, [])
+      ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
+    };
+  }, []);
 
   const nextTestimonial = () => {
-    setCurrentIndex((prev) => (prev + 1) % testimonials.length)
-  }
+    setCurrentIndex((prev) => (prev + 1) % testimonials.length);
+  };
 
   const prevTestimonial = () => {
-    setCurrentIndex((prev) => (prev - 1 + testimonials.length) % testimonials.length)
-  }
+    setCurrentIndex(
+      (prev) => (prev - 1 + testimonials.length) % testimonials.length,
+    );
+  };
 
   const goToSlide = (index) => {
-    setCurrentIndex(index)
-  }
+    setCurrentIndex(index);
+  };
 
   return (
-    <section ref={sectionRef} className="py-20 lg:py-32 bg-white relative overflow-hidden">
+    <section
+      ref={sectionRef}
+      className="py-20 lg:py-32 bg-white relative overflow-hidden"
+    >
       {/* Background Elements */}
       <div className="absolute inset-0">
         <motion.div
@@ -152,9 +157,12 @@ const TestimonialsCarousel = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-16 lg:mb-20"
         >
-          <h2 className="text-4xl lg:text-5xl xl:text-6xl racing font-bold text-gray-900 mb-6">What Our Clients Say</h2>
+          <h2 className="text-4xl lg:text-5xl xl:text-6xl racing font-bold text-gray-900 mb-6">
+            What Our Clients Say
+          </h2>
           <p className="text-xl lg:text-2xl text-gray-600 max-w-3xl mx-auto openSans leading-relaxed">
-            Don't just take our word for it. Here's what our clients have to say about working with us.
+            Don't just take our word for it. Here's what our clients have to say
+            about working with us.
           </p>
         </motion.div>
 
@@ -200,11 +208,16 @@ const TestimonialsCarousel = () => {
                   className="w-16 h-16 rounded-full object-cover shadow-lg"
                 />
                 <div className="text-center sm:text-left">
-                  <h4 className="text-xl racing font-bold text-gray-900">{testimonials[currentIndex].name}</h4>
+                  <h4 className="text-xl racing font-bold text-gray-900">
+                    {testimonials[currentIndex].name}
+                  </h4>
                   <p className="text-[#a7ff59] openSans font-semibold">
-                    {testimonials[currentIndex].role} at {testimonials[currentIndex].company}
+                    {testimonials[currentIndex].role} at{" "}
+                    {testimonials[currentIndex].company}
                   </p>
-                  <p className="text-gray-600 openSans text-sm mt-1">{testimonials[currentIndex].project}</p>
+                  <p className="text-gray-600 openSans text-sm mt-1">
+                    {testimonials[currentIndex].project}
+                  </p>
                 </div>
               </div>
             </motion.div>
@@ -239,7 +252,9 @@ const TestimonialsCarousel = () => {
               whileTap={{ scale: 0.8 }}
               onClick={() => goToSlide(index)}
               className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                index === currentIndex ? "bg-[#a7ff59] scale-125" : "bg-gray-300 hover:bg-gray-400"
+                index === currentIndex
+                  ? "bg-[#a7ff59] scale-125"
+                  : "bg-gray-300 hover:bg-gray-400"
               }`}
             />
           ))}
@@ -253,7 +268,9 @@ const TestimonialsCarousel = () => {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="mt-16 lg:mt-20"
         >
-          <p className="text-center text-gray-500 openSans mb-8">Trusted by industry leaders</p>
+          <p className="text-center text-gray-500 openSans mb-8">
+            Trusted by industry leaders
+          </p>
           <div className="flex flex-wrap justify-center items-center gap-8 lg:gap-12 opacity-60">
             {testimonials.map((testimonial, index) => (
               <motion.div
@@ -268,7 +285,7 @@ const TestimonialsCarousel = () => {
         </motion.div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default TestimonialsCarousel
+export default TestimonialsCarousel;

@@ -1,17 +1,18 @@
-"use client"
+"use client";
 
-import Navigation from "@/components/Navigation"
-import Footer from "@/components/Footer"
-import PageHero from "@/components/PageHero"
-import ScrollReveal from "@/components/Features/ScrollReveal"
-import { motion } from "framer-motion"
+import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
+import PageHero from "@/components/PageHero";
+import ScrollReveal from "@/components/Features/ScrollReveal";
+import { motion } from "framer-motion";
 
 export default function Consulting() {
   const consultingAreas = [
     {
       icon: "bx-cog",
       title: "Tech Stack Selection",
-      description: "Choose the right technology stack or platform for your project with expert guidance.",
+      description:
+        "Choose the right technology stack or platform for your project with expert guidance.",
       benefits: [
         "Future-proof solutions",
         "Cost-effective choices",
@@ -22,49 +23,71 @@ export default function Consulting() {
     {
       icon: "bx-trending-up",
       title: "Digital Strategy",
-      description: "Get a custom digital strategy for launch or scale tailored to your business goals.",
-      benefits: ["Market analysis", "Competitive research", "Growth roadmap", "ROI planning"],
+      description:
+        "Get a custom digital strategy for launch or scale tailored to your business goals.",
+      benefits: [
+        "Market analysis",
+        "Competitive research",
+        "Growth roadmap",
+        "ROI planning",
+      ],
     },
     {
       icon: "bx-palette",
       title: "Branding & Marketing",
-      description: "Learn how to streamline branding, marketing, and development for maximum impact.",
-      benefits: ["Brand positioning", "Marketing channels", "Content strategy", "Visual consistency"],
+      description:
+        "Learn how to streamline branding, marketing, and development for maximum impact.",
+      benefits: [
+        "Brand positioning",
+        "Marketing channels",
+        "Content strategy",
+        "Visual consistency",
+      ],
     },
     {
       icon: "bx-shield-check",
       title: "Expert Guidance",
-      description: "Avoid expensive mistakes with expert advice tailored to your specific needs.",
-      benefits: ["Risk assessment", "Best practices", "Industry insights", "Cost optimization"],
+      description:
+        "Avoid expensive mistakes with expert advice tailored to your specific needs.",
+      benefits: [
+        "Risk assessment",
+        "Best practices",
+        "Industry insights",
+        "Cost optimization",
+      ],
     },
-  ]
+  ];
 
   const process = [
     {
       step: "01",
       title: "Discovery Call",
-      description: "We start with a comprehensive discussion about your goals, challenges, and current situation.",
+      description:
+        "We start with a comprehensive discussion about your goals, challenges, and current situation.",
       duration: "30-60 minutes",
     },
     {
       step: "02",
       title: "Analysis & Research",
-      description: "Our team analyzes your requirements and researches the best solutions for your needs.",
+      description:
+        "Our team analyzes your requirements and researches the best solutions for your needs.",
       duration: "1-2 days",
     },
     {
       step: "03",
       title: "Strategy Development",
-      description: "We create a detailed roadmap and recommendations tailored to your specific situation.",
+      description:
+        "We create a detailed roadmap and recommendations tailored to your specific situation.",
       duration: "2-3 days",
     },
     {
       step: "04",
       title: "Implementation Support",
-      description: "We provide ongoing guidance and support as you implement our recommendations.",
+      description:
+        "We provide ongoing guidance and support as you implement our recommendations.",
       duration: "Ongoing",
     },
-  ]
+  ];
 
   return (
     <div className="min-h-screen bg-white">
@@ -83,7 +106,9 @@ export default function Consulting() {
         {/* Consulting Areas */}
         <div className="max-w-7xl mx-auto mb-20">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl racing font-bold mb-6">How We Guide You</h2>
+            <h2 className="text-4xl md:text-5xl racing font-bold mb-6">
+              How We Guide You
+            </h2>
             <ScrollReveal
               baseOpacity={0}
               enableBlur={true}
@@ -91,8 +116,8 @@ export default function Consulting() {
               blurStrength={10}
               textClassName="text-lg md:text-xl openSans text-gray-600 max-w-3xl mx-auto"
             >
-              Our consulting services help you make informed decisions and avoid costly mistakes in your digital
-              journey.
+              Our consulting services help you make informed decisions and avoid
+              costly mistakes in your digital journey.
             </ScrollReveal>
           </div>
 
@@ -111,7 +136,9 @@ export default function Consulting() {
                     <i className={`bx ${area.icon} text-2xl text-black`}></i>
                   </div>
                   <div>
-                    <h3 className="text-2xl md:text-3xl racing font-bold mb-4">{area.title}</h3>
+                    <h3 className="text-2xl md:text-3xl racing font-bold mb-4">
+                      {area.title}
+                    </h3>
                     <ScrollReveal
                       baseOpacity={0}
                       enableBlur={true}
@@ -128,7 +155,9 @@ export default function Consulting() {
                   {area.benefits.map((benefit, idx) => (
                     <div key={idx} className="flex items-center gap-2">
                       <i className="bx bx-check text-[#a7ff59] text-sm flex-shrink-0"></i>
-                      <span className="openSans text-sm text-gray-600">{benefit}</span>
+                      <span className="openSans text-sm text-gray-600">
+                        {benefit}
+                      </span>
                     </div>
                   ))}
                 </div>
@@ -140,7 +169,9 @@ export default function Consulting() {
         {/* Our Process */}
         <div className="max-w-6xl mx-auto mb-20">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl racing font-bold mb-6">Our Consulting Process</h2>
+            <h2 className="text-4xl md:text-5xl racing font-bold mb-6">
+              Our Consulting Process
+            </h2>
             <ScrollReveal
               baseOpacity={0}
               enableBlur={true}
@@ -148,7 +179,8 @@ export default function Consulting() {
               blurStrength={10}
               textClassName="text-lg md:text-xl openSans text-gray-600 max-w-3xl mx-auto"
             >
-              A structured approach that ensures you get the guidance and support you need at every step.
+              A structured approach that ensures you get the guidance and
+              support you need at every step.
             </ScrollReveal>
           </div>
 
@@ -164,10 +196,16 @@ export default function Consulting() {
               >
                 <div className="flex-1 bg-white p-8 rounded-3xl shadow-lg">
                   <div className="flex items-center gap-4 mb-4">
-                    <span className="text-4xl md:text-5xl racing text-[#a7ff59] font-bold">{step.step}</span>
+                    <span className="text-4xl md:text-5xl racing text-[#a7ff59] font-bold">
+                      {step.step}
+                    </span>
                     <div>
-                      <h3 className="text-2xl md:text-3xl racing font-bold">{step.title}</h3>
-                      <span className="text-sm openSans text-gray-500">{step.duration}</span>
+                      <h3 className="text-2xl md:text-3xl racing font-bold">
+                        {step.title}
+                      </h3>
+                      <span className="text-sm openSans text-gray-500">
+                        {step.duration}
+                      </span>
                     </div>
                   </div>
                   <ScrollReveal
@@ -193,7 +231,9 @@ export default function Consulting() {
 
         {/* CTA Section */}
         <div className="bg-black text-white rounded-3xl p-12 text-center max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-4xl racing font-bold mb-6">Ready to Get Expert Guidance?</h2>
+          <h2 className="text-3xl md:text-4xl racing font-bold mb-6">
+            Ready to Get Expert Guidance?
+          </h2>
           <ScrollReveal
             baseOpacity={0}
             enableBlur={true}
@@ -201,7 +241,8 @@ export default function Consulting() {
             blurStrength={10}
             textClassName="text-lg md:text-xl openSans mb-8 text-gray-300"
           >
-            Let's discuss your digital challenges and create a roadmap for success. Schedule your consultation today.
+            Let's discuss your digital challenges and create a roadmap for
+            success. Schedule your consultation today.
           </ScrollReveal>
           <motion.button
             whileHover={{ scale: 1.05 }}
@@ -215,5 +256,5 @@ export default function Consulting() {
 
       <Footer />
     </div>
-  )
+  );
 }

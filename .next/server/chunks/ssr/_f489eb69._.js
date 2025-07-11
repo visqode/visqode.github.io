@@ -367,7 +367,7 @@ const SplitText = ({ text, className = "", delay = 100, duration = 0.6, ease = "
         children: text
     }, void 0, false, {
         fileName: "[project]/components/Features/SplitText.jsx",
-        lineNumber: 85,
+        lineNumber: 96,
         columnNumber: 5
     }, this);
 };
@@ -531,13 +531,13 @@ const CircularText = ({ text, spinDuration = 20, onHover = "speedUp", className 
                 children: letter
             }, i, false, {
                 fileName: "[project]/components/Features/CircularText.jsx",
-                lineNumber: 99,
+                lineNumber: 104,
                 columnNumber: 11
             }, this);
         })
     }, void 0, false, {
         fileName: "[project]/components/Features/CircularText.jsx",
-        lineNumber: 83,
+        lineNumber: 88,
         columnNumber: 5
     }, this);
 };
@@ -806,7 +806,7 @@ const ScrollVelocity = ({ scrollContainerRef, texts = [], velocity = 100, classN
                 children: children
             }, i, false, {
                 fileName: "[project]/components/Features/ScrollVelocity.jsx",
-                lineNumber: 104,
+                lineNumber: 106,
                 columnNumber: 9
             }, this));
         }
@@ -822,12 +822,12 @@ const ScrollVelocity = ({ scrollContainerRef, texts = [], velocity = 100, classN
                 children: spans
             }, void 0, false, {
                 fileName: "[project]/components/Features/ScrollVelocity.jsx",
-                lineNumber: 112,
+                lineNumber: 121,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/Features/ScrollVelocity.jsx",
-            lineNumber: 111,
+            lineNumber: 117,
             columnNumber: 7
         }, this);
     }
@@ -850,12 +850,12 @@ const ScrollVelocity = ({ scrollContainerRef, texts = [], velocity = 100, classN
                 ]
             }, index, true, {
                 fileName: "[project]/components/Features/ScrollVelocity.jsx",
-                lineNumber: 125,
+                lineNumber: 134,
                 columnNumber: 9
             }, this))
     }, void 0, false, {
         fileName: "[project]/components/Features/ScrollVelocity.jsx",
-        lineNumber: 123,
+        lineNumber: 132,
         columnNumber: 5
     }, this);
 };
@@ -1052,12 +1052,12 @@ const ScrollReveal = ({ children, scrollContainerRef, enableBlur = true, baseOpa
             children: splitText
         }, void 0, false, {
             fileName: "[project]/components/Features/ScrollReveal.jsx",
-            lineNumber: 136,
+            lineNumber: 147,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/Features/ScrollReveal.jsx",
-        lineNumber: 128,
+        lineNumber: 139,
         columnNumber: 5
     }, this);
 };
@@ -1218,7 +1218,7 @@ const AboutSection = ()=>{
                             children: "We are a dynamic web development and brand-building company dedicated to crafting innovative digital experiences. Specializing in cutting-edge web solutions and strategic branding, we empower businesses to stand out in the digital landscape with bespoke websites and compelling brand identities."
                         }, void 0, false, {
                             fileName: "[project]/components/AboutSection.jsx",
-                            lineNumber: 18,
+                            lineNumber: 20,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Features$2f$ScrollReveal$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1230,7 +1230,7 @@ const AboutSection = ()=>{
                             children: "Our team combines creativity and technical expertise to deliver seamless, high-performance websites using technologies like React, Next.js, and GSAP. From startups to established enterprises, we transform visions into reality, ensuring every project resonates with its audience and drives growth."
                         }, void 0, false, {
                             fileName: "[project]/components/AboutSection.jsx",
-                            lineNumber: 29,
+                            lineNumber: 33,
                             columnNumber: 11
                         }, this)
                     ]
@@ -1276,17 +1276,17 @@ const AboutSection = ()=>{
                             alt: "Team collaboration"
                         }, void 0, false, {
                             fileName: "[project]/components/AboutSection.jsx",
-                            lineNumber: 58,
+                            lineNumber: 64,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/AboutSection.jsx",
-                        lineNumber: 49,
+                        lineNumber: 55,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/AboutSection.jsx",
-                    lineNumber: 42,
+                    lineNumber: 48,
                     columnNumber: 9
                 }, this)
             ]
@@ -1410,12 +1410,12 @@ const ServicesDown = ()=>{
                     className: "w-full max-w-[400px] lg:max-w-[500px] h-auto lg:h-[500px] object-cover rounded-lg shadow-black shadow-md"
                 }, void 0, false, {
                     fileName: "[project]/components/ServicesDown.jsx",
-                    lineNumber: 92,
+                    lineNumber: 96,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/ServicesDown.jsx",
-                lineNumber: 86,
+                lineNumber: 90,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1440,7 +1440,7 @@ const ServicesDown = ()=>{
                                             children: service.id
                                         }, void 0, false, {
                                             fileName: "[project]/components/ServicesDown.jsx",
-                                            lineNumber: 104,
+                                            lineNumber: 108,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1458,7 +1458,7 @@ const ServicesDown = ()=>{
                                                     children: service.title
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ServicesDown.jsx",
-                                                    lineNumber: 116,
+                                                    lineNumber: 120,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].i, {
@@ -1473,19 +1473,19 @@ const ServicesDown = ()=>{
                                                     }
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ServicesDown.jsx",
-                                                    lineNumber: 117,
+                                                    lineNumber: 123,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/ServicesDown.jsx",
-                                            lineNumber: 111,
+                                            lineNumber: 115,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/ServicesDown.jsx",
-                                    lineNumber: 103,
+                                    lineNumber: 107,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1493,29 +1493,29 @@ const ServicesDown = ()=>{
                                     children: service.description
                                 }, void 0, false, {
                                     fileName: "[project]/components/ServicesDown.jsx",
-                                    lineNumber: 124,
+                                    lineNumber: 130,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/ServicesDown.jsx",
-                            lineNumber: 102,
+                            lineNumber: 106,
                             columnNumber: 13
                         }, this)
                     }, service.id, false, {
                         fileName: "[project]/components/ServicesDown.jsx",
-                        lineNumber: 101,
+                        lineNumber: 105,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/components/ServicesDown.jsx",
-                lineNumber: 99,
+                lineNumber: 103,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/ServicesDown.jsx",
-        lineNumber: 85,
+        lineNumber: 89,
         columnNumber: 5
     }, this);
 };
@@ -1558,7 +1558,7 @@ const OurService = ()=>{
                                 className: "hidden lg:block h-10 w-[.1rem] bg-gray-300"
                             }, void 0, false, {
                                 fileName: "[project]/components/OurService.jsx",
-                                lineNumber: 11,
+                                lineNumber: 13,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1566,7 +1566,7 @@ const OurService = ()=>{
                                 children: "This part of our service that can give you satisfaction"
                             }, void 0, false, {
                                 fileName: "[project]/components/OurService.jsx",
-                                lineNumber: 12,
+                                lineNumber: 14,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -1583,12 +1583,12 @@ const OurService = ()=>{
                             children: "View more"
                         }, void 0, false, {
                             fileName: "[project]/components/OurService.jsx",
-                            lineNumber: 17,
+                            lineNumber: 19,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/OurService.jsx",
-                        lineNumber: 16,
+                        lineNumber: 18,
                         columnNumber: 9
                     }, this)
                 ]
@@ -1601,12 +1601,12 @@ const OurService = ()=>{
                 className: "mt-8 mb-16",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ServicesDown$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/components/OurService.jsx",
-                    lineNumber: 24,
+                    lineNumber: 26,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/OurService.jsx",
-                lineNumber: 23,
+                lineNumber: 25,
                 columnNumber: 7
             }, this)
         ]
@@ -1681,7 +1681,7 @@ const ProjectsSection = ()=>{
                                     children: "BEST PROJECTS"
                                 }, void 0, false, {
                                     fileName: "[project]/components/ProjectsSection.jsx",
-                                    lineNumber: 38,
+                                    lineNumber: 41,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1689,13 +1689,13 @@ const ProjectsSection = ()=>{
                                     children: "Explore some of our best projects"
                                 }, void 0, false, {
                                     fileName: "[project]/components/ProjectsSection.jsx",
-                                    lineNumber: 39,
+                                    lineNumber: 44,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/ProjectsSection.jsx",
-                            lineNumber: 32,
+                            lineNumber: 35,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1725,18 +1725,18 @@ const ProjectsSection = ()=>{
                                 children: "View More"
                             }, void 0, false, {
                                 fileName: "[project]/components/ProjectsSection.jsx",
-                                lineNumber: 48,
+                                lineNumber: 55,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/ProjectsSection.jsx",
-                            lineNumber: 42,
+                            lineNumber: 49,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/ProjectsSection.jsx",
-                    lineNumber: 31,
+                    lineNumber: 34,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1770,14 +1770,14 @@ const ProjectsSection = ()=>{
                                         className: "w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ProjectsSection.jsx",
-                                        lineNumber: 71,
+                                        lineNumber: 78,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ProjectsSection.jsx",
-                                        lineNumber: 76,
+                                        lineNumber: 83,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1788,7 +1788,7 @@ const ProjectsSection = ()=>{
                                                 children: project.category
                                             }, void 0, false, {
                                                 fileName: "[project]/components/ProjectsSection.jsx",
-                                                lineNumber: 80,
+                                                lineNumber: 87,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1796,7 +1796,7 @@ const ProjectsSection = ()=>{
                                                 children: project.title
                                             }, void 0, false, {
                                                 fileName: "[project]/components/ProjectsSection.jsx",
-                                                lineNumber: 81,
+                                                lineNumber: 90,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1804,13 +1804,13 @@ const ProjectsSection = ()=>{
                                                 children: project.description
                                             }, void 0, false, {
                                                 fileName: "[project]/components/ProjectsSection.jsx",
-                                                lineNumber: 82,
+                                                lineNumber: 93,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/ProjectsSection.jsx",
-                                        lineNumber: 79,
+                                        lineNumber: 86,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1822,39 +1822,39 @@ const ProjectsSection = ()=>{
                                             className: "bx bx-arrow-up-right text-black"
                                         }, void 0, false, {
                                             fileName: "[project]/components/ProjectsSection.jsx",
-                                            lineNumber: 90,
+                                            lineNumber: 103,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/ProjectsSection.jsx",
-                                        lineNumber: 86,
+                                        lineNumber: 99,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/ProjectsSection.jsx",
-                                lineNumber: 70,
+                                lineNumber: 77,
                                 columnNumber: 15
                             }, this)
                         }, project.title, false, {
                             fileName: "[project]/components/ProjectsSection.jsx",
-                            lineNumber: 61,
+                            lineNumber: 68,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/components/ProjectsSection.jsx",
-                    lineNumber: 59,
+                    lineNumber: 66,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/ProjectsSection.jsx",
-            lineNumber: 29,
+            lineNumber: 32,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/ProjectsSection.jsx",
-        lineNumber: 28,
+        lineNumber: 31,
         columnNumber: 5
     }, this);
 };
@@ -1959,12 +1959,12 @@ const TeamSection = ()=>{
                                 children: "View More"
                             }, void 0, false, {
                                 fileName: "[project]/components/TeamSection.jsx",
-                                lineNumber: 52,
+                                lineNumber: 54,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/TeamSection.jsx",
-                            lineNumber: 46,
+                            lineNumber: 48,
                             columnNumber: 11
                         }, this)
                     ]
@@ -2006,12 +2006,12 @@ const TeamSection = ()=>{
                                             className: "w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                                         }, void 0, false, {
                                             fileName: "[project]/components/TeamSection.jsx",
-                                            lineNumber: 76,
+                                            lineNumber: 78,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/TeamSection.jsx",
-                                        lineNumber: 75,
+                                        lineNumber: 77,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2022,7 +2022,7 @@ const TeamSection = ()=>{
                                                 children: member.name
                                             }, void 0, false, {
                                                 fileName: "[project]/components/TeamSection.jsx",
-                                                lineNumber: 84,
+                                                lineNumber: 86,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2030,13 +2030,13 @@ const TeamSection = ()=>{
                                                 children: member.role
                                             }, void 0, false, {
                                                 fileName: "[project]/components/TeamSection.jsx",
-                                                lineNumber: 85,
+                                                lineNumber: 89,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/TeamSection.jsx",
-                                        lineNumber: 83,
+                                        lineNumber: 85,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2049,7 +2049,7 @@ const TeamSection = ()=>{
                                                     children: member.name
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/TeamSection.jsx",
-                                                    lineNumber: 91,
+                                                    lineNumber: 95,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2057,7 +2057,7 @@ const TeamSection = ()=>{
                                                     children: member.role
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/TeamSection.jsx",
-                                                    lineNumber: 92,
+                                                    lineNumber: 98,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2073,12 +2073,12 @@ const TeamSection = ()=>{
                                                                 className: "bxl bx-linkedin text-white"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/TeamSection.jsx",
-                                                                lineNumber: 99,
+                                                                lineNumber: 105,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/TeamSection.jsx",
-                                                            lineNumber: 94,
+                                                            lineNumber: 100,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].a, {
@@ -2091,45 +2091,45 @@ const TeamSection = ()=>{
                                                                 className: "bxl bx-twitter text-white"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/TeamSection.jsx",
-                                                                lineNumber: 106,
+                                                                lineNumber: 112,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/TeamSection.jsx",
-                                                            lineNumber: 101,
+                                                            lineNumber: 107,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/TeamSection.jsx",
-                                                    lineNumber: 93,
+                                                    lineNumber: 99,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/TeamSection.jsx",
-                                            lineNumber: 90,
+                                            lineNumber: 94,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/TeamSection.jsx",
-                                        lineNumber: 89,
+                                        lineNumber: 93,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/TeamSection.jsx",
-                                lineNumber: 74,
+                                lineNumber: 76,
                                 columnNumber: 15
                             }, this)
                         }, member.name, false, {
                             fileName: "[project]/components/TeamSection.jsx",
-                            lineNumber: 65,
+                            lineNumber: 67,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/components/TeamSection.jsx",
-                    lineNumber: 63,
+                    lineNumber: 65,
                     columnNumber: 9
                 }, this)
             ]
@@ -2218,7 +2218,7 @@ const TestimonialsSection = ()=>{
                             children: "Don't just take our word for it. Here's what our clients have to say about working with us."
                         }, void 0, false, {
                             fileName: "[project]/components/TestimonialsSection.jsx",
-                            lineNumber: 47,
+                            lineNumber: 49,
                             columnNumber: 11
                         }, this)
                     ]
@@ -2258,12 +2258,12 @@ const TestimonialsSection = ()=>{
                                             className: "bx bxs-star text-[#a7ff59] text-xl"
                                         }, i, false, {
                                             fileName: "[project]/components/TestimonialsSection.jsx",
-                                            lineNumber: 67,
+                                            lineNumber: 70,
                                             columnNumber: 19
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/TestimonialsSection.jsx",
-                                    lineNumber: 65,
+                                    lineNumber: 68,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2275,7 +2275,7 @@ const TestimonialsSection = ()=>{
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/TestimonialsSection.jsx",
-                                    lineNumber: 72,
+                                    lineNumber: 75,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2287,7 +2287,7 @@ const TestimonialsSection = ()=>{
                                             className: "w-12 h-12 rounded-full object-cover mr-4"
                                         }, void 0, false, {
                                             fileName: "[project]/components/TestimonialsSection.jsx",
-                                            lineNumber: 76,
+                                            lineNumber: 81,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2297,7 +2297,7 @@ const TestimonialsSection = ()=>{
                                                     children: testimonial.name
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/TestimonialsSection.jsx",
-                                                    lineNumber: 82,
+                                                    lineNumber: 87,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2305,30 +2305,30 @@ const TestimonialsSection = ()=>{
                                                     children: testimonial.role
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/TestimonialsSection.jsx",
-                                                    lineNumber: 83,
+                                                    lineNumber: 90,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/TestimonialsSection.jsx",
-                                            lineNumber: 81,
+                                            lineNumber: 86,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/TestimonialsSection.jsx",
-                                    lineNumber: 75,
+                                    lineNumber: 80,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, testimonial.name, true, {
                             fileName: "[project]/components/TestimonialsSection.jsx",
-                            lineNumber: 55,
+                            lineNumber: 58,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/components/TestimonialsSection.jsx",
-                    lineNumber: 53,
+                    lineNumber: 56,
                     columnNumber: 9
                 }, this)
             ]
@@ -2500,7 +2500,7 @@ const CaseStudiesSection = ()=>{
                             children: "Our Work Speaks for Itself"
                         }, void 0, false, {
                             fileName: "[project]/components/CaseStudiesSection.jsx",
-                            lineNumber: 115,
+                            lineNumber: 124,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2508,13 +2508,13 @@ const CaseStudiesSection = ()=>{
                             children: "Discover how we've helped businesses transform their digital presence and achieve remarkable growth."
                         }, void 0, false, {
                             fileName: "[project]/components/CaseStudiesSection.jsx",
-                            lineNumber: 118,
+                            lineNumber: 127,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/CaseStudiesSection.jsx",
-                    lineNumber: 108,
+                    lineNumber: 117,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2539,14 +2539,14 @@ const CaseStudiesSection = ()=>{
                                             className: "w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudiesSection.jsx",
-                                            lineNumber: 135,
+                                            lineNumber: 145,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudiesSection.jsx",
-                                            lineNumber: 140,
+                                            lineNumber: 150,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2554,13 +2554,13 @@ const CaseStudiesSection = ()=>{
                                             children: study.category
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudiesSection.jsx",
-                                            lineNumber: 143,
+                                            lineNumber: 153,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudiesSection.jsx",
-                                    lineNumber: 134,
+                                    lineNumber: 144,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2571,7 +2571,7 @@ const CaseStudiesSection = ()=>{
                                             children: study.title
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudiesSection.jsx",
-                                            lineNumber: 150,
+                                            lineNumber: 160,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2579,7 +2579,7 @@ const CaseStudiesSection = ()=>{
                                             children: study.description
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudiesSection.jsx",
-                                            lineNumber: 154,
+                                            lineNumber: 164,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2589,12 +2589,12 @@ const CaseStudiesSection = ()=>{
                                                     children: tag
                                                 }, tagIndex, false, {
                                                     fileName: "[project]/components/CaseStudiesSection.jsx",
-                                                    lineNumber: 159,
+                                                    lineNumber: 171,
                                                     columnNumber: 21
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudiesSection.jsx",
-                                            lineNumber: 157,
+                                            lineNumber: 169,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].button, {
@@ -2611,30 +2611,30 @@ const CaseStudiesSection = ()=>{
                                                     className: "bx bx-arrow-up-right ml-2 text-lg"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudiesSection.jsx",
-                                                    lineNumber: 175,
+                                                    lineNumber: 187,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudiesSection.jsx",
-                                            lineNumber: 169,
+                                            lineNumber: 181,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudiesSection.jsx",
-                                    lineNumber: 149,
+                                    lineNumber: 159,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, study.id, true, {
                             fileName: "[project]/components/CaseStudiesSection.jsx",
-                            lineNumber: 126,
+                            lineNumber: 136,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/components/CaseStudiesSection.jsx",
-                    lineNumber: 124,
+                    lineNumber: 134,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -2665,23 +2665,23 @@ const CaseStudiesSection = ()=>{
                         children: "View All Projects"
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudiesSection.jsx",
-                        lineNumber: 190,
+                        lineNumber: 202,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/CaseStudiesSection.jsx",
-                    lineNumber: 183,
+                    lineNumber: 195,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/CaseStudiesSection.jsx",
-            lineNumber: 106,
+            lineNumber: 115,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/CaseStudiesSection.jsx",
-        lineNumber: 105,
+        lineNumber: 114,
         columnNumber: 5
     }, this);
 };
@@ -2828,7 +2828,7 @@ const BlogSection = ()=>{
                             children: "Insights, Tips & Tutorials"
                         }, void 0, false, {
                             fileName: "[project]/components/BlogSection.jsx",
-                            lineNumber: 109,
+                            lineNumber: 114,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2836,13 +2836,13 @@ const BlogSection = ()=>{
                             children: "Stay updated with the latest trends, best practices, and expert insights from our team."
                         }, void 0, false, {
                             fileName: "[project]/components/BlogSection.jsx",
-                            lineNumber: 112,
+                            lineNumber: 117,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/BlogSection.jsx",
-                    lineNumber: 102,
+                    lineNumber: 107,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2867,14 +2867,14 @@ const BlogSection = ()=>{
                                             className: "w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                                         }, void 0, false, {
                                             fileName: "[project]/components/BlogSection.jsx",
-                                            lineNumber: 129,
+                                            lineNumber: 135,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                                         }, void 0, false, {
                                             fileName: "[project]/components/BlogSection.jsx",
-                                            lineNumber: 134,
+                                            lineNumber: 140,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2882,7 +2882,7 @@ const BlogSection = ()=>{
                                             children: post.category
                                         }, void 0, false, {
                                             fileName: "[project]/components/BlogSection.jsx",
-                                            lineNumber: 137,
+                                            lineNumber: 143,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2890,13 +2890,13 @@ const BlogSection = ()=>{
                                             children: post.readTime
                                         }, void 0, false, {
                                             fileName: "[project]/components/BlogSection.jsx",
-                                            lineNumber: 142,
+                                            lineNumber: 148,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/BlogSection.jsx",
-                                    lineNumber: 128,
+                                    lineNumber: 134,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2907,7 +2907,7 @@ const BlogSection = ()=>{
                                             children: post.title
                                         }, void 0, false, {
                                             fileName: "[project]/components/BlogSection.jsx",
-                                            lineNumber: 149,
+                                            lineNumber: 155,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2915,7 +2915,7 @@ const BlogSection = ()=>{
                                             children: post.excerpt
                                         }, void 0, false, {
                                             fileName: "[project]/components/BlogSection.jsx",
-                                            lineNumber: 153,
+                                            lineNumber: 159,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2925,12 +2925,12 @@ const BlogSection = ()=>{
                                                     children: tag
                                                 }, tagIndex, false, {
                                                     fileName: "[project]/components/BlogSection.jsx",
-                                                    lineNumber: 160,
+                                                    lineNumber: 166,
                                                     columnNumber: 21
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/components/BlogSection.jsx",
-                                            lineNumber: 158,
+                                            lineNumber: 164,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2945,12 +2945,12 @@ const BlogSection = ()=>{
                                                             children: post.author.split(" ").map((n)=>n[0]).join("")
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/BlogSection.jsx",
-                                                            lineNumber: 173,
+                                                            lineNumber: 179,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/BlogSection.jsx",
-                                                        lineNumber: 172,
+                                                        lineNumber: 178,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2960,7 +2960,7 @@ const BlogSection = ()=>{
                                                                 children: post.author
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/BlogSection.jsx",
-                                                                lineNumber: 181,
+                                                                lineNumber: 187,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2968,24 +2968,24 @@ const BlogSection = ()=>{
                                                                 children: post.date
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/BlogSection.jsx",
-                                                                lineNumber: 182,
+                                                                lineNumber: 190,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/BlogSection.jsx",
-                                                        lineNumber: 180,
+                                                        lineNumber: 186,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/BlogSection.jsx",
-                                                lineNumber: 171,
+                                                lineNumber: 177,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/BlogSection.jsx",
-                                            lineNumber: 170,
+                                            lineNumber: 176,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].button, {
@@ -3002,30 +3002,30 @@ const BlogSection = ()=>{
                                                     className: "bx bx-arrow-up-right ml-2 text-lg"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/BlogSection.jsx",
-                                                    lineNumber: 194,
+                                                    lineNumber: 204,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/BlogSection.jsx",
-                                            lineNumber: 188,
+                                            lineNumber: 198,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/BlogSection.jsx",
-                                    lineNumber: 148,
+                                    lineNumber: 154,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, post.id, true, {
                             fileName: "[project]/components/BlogSection.jsx",
-                            lineNumber: 120,
+                            lineNumber: 126,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/components/BlogSection.jsx",
-                    lineNumber: 118,
+                    lineNumber: 124,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -3056,23 +3056,23 @@ const BlogSection = ()=>{
                         children: "View All Articles"
                     }, void 0, false, {
                         fileName: "[project]/components/BlogSection.jsx",
-                        lineNumber: 209,
+                        lineNumber: 219,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/BlogSection.jsx",
-                    lineNumber: 202,
+                    lineNumber: 212,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/BlogSection.jsx",
-            lineNumber: 100,
+            lineNumber: 105,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/BlogSection.jsx",
-        lineNumber: 99,
+        lineNumber: 104,
         columnNumber: 5
     }, this);
 };
@@ -3227,12 +3227,12 @@ const TestimonialsCarousel = ()=>{
                     className: "absolute -top-1/2 -right-1/2 w-full h-full bg-gradient-to-br from-[#a7ff59]/5 to-transparent rounded-full"
                 }, void 0, false, {
                     fileName: "[project]/components/TestimonialsCarousel.jsx",
-                    lineNumber: 132,
+                    lineNumber: 137,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/TestimonialsCarousel.jsx",
-                lineNumber: 131,
+                lineNumber: 136,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3260,7 +3260,7 @@ const TestimonialsCarousel = ()=>{
                                 children: "What Our Clients Say"
                             }, void 0, false, {
                                 fileName: "[project]/components/TestimonialsCarousel.jsx",
-                                lineNumber: 155,
+                                lineNumber: 160,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3268,13 +3268,13 @@ const TestimonialsCarousel = ()=>{
                                 children: "Don't just take our word for it. Here's what our clients have to say about working with us."
                             }, void 0, false, {
                                 fileName: "[project]/components/TestimonialsCarousel.jsx",
-                                lineNumber: 156,
+                                lineNumber: 163,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/TestimonialsCarousel.jsx",
-                        lineNumber: 148,
+                        lineNumber: 153,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3323,12 +3323,12 @@ const TestimonialsCarousel = ()=>{
                                                     className: "bx bxs-star text-[#a7ff59] text-2xl mx-1"
                                                 }, i, false, {
                                                     fileName: "[project]/components/TestimonialsCarousel.jsx",
-                                                    lineNumber: 179,
+                                                    lineNumber: 187,
                                                     columnNumber: 19
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/components/TestimonialsCarousel.jsx",
-                                            lineNumber: 177,
+                                            lineNumber: 185,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("blockquote", {
@@ -3340,7 +3340,7 @@ const TestimonialsCarousel = ()=>{
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/TestimonialsCarousel.jsx",
-                                            lineNumber: 190,
+                                            lineNumber: 198,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3355,7 +3355,7 @@ const TestimonialsCarousel = ()=>{
                                                     className: "w-16 h-16 rounded-full object-cover shadow-lg"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/TestimonialsCarousel.jsx",
-                                                    lineNumber: 196,
+                                                    lineNumber: 204,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3366,19 +3366,20 @@ const TestimonialsCarousel = ()=>{
                                                             children: testimonials[currentIndex].name
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/TestimonialsCarousel.jsx",
-                                                            lineNumber: 203,
+                                                            lineNumber: 211,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                             className: "text-[#a7ff59] openSans font-semibold",
                                                             children: [
                                                                 testimonials[currentIndex].role,
-                                                                " at ",
+                                                                " at",
+                                                                " ",
                                                                 testimonials[currentIndex].company
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/TestimonialsCarousel.jsx",
-                                                            lineNumber: 204,
+                                                            lineNumber: 214,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3386,30 +3387,30 @@ const TestimonialsCarousel = ()=>{
                                                             children: testimonials[currentIndex].project
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/TestimonialsCarousel.jsx",
-                                                            lineNumber: 207,
+                                                            lineNumber: 218,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/TestimonialsCarousel.jsx",
-                                                    lineNumber: 202,
+                                                    lineNumber: 210,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/TestimonialsCarousel.jsx",
-                                            lineNumber: 195,
+                                            lineNumber: 203,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, currentIndex, true, {
                                     fileName: "[project]/components/TestimonialsCarousel.jsx",
-                                    lineNumber: 168,
+                                    lineNumber: 176,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/TestimonialsCarousel.jsx",
-                                lineNumber: 167,
+                                lineNumber: 175,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].button, {
@@ -3425,12 +3426,12 @@ const TestimonialsCarousel = ()=>{
                                     className: "bx bx-chevron-left text-2xl"
                                 }, void 0, false, {
                                     fileName: "[project]/components/TestimonialsCarousel.jsx",
-                                    lineNumber: 220,
+                                    lineNumber: 233,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/TestimonialsCarousel.jsx",
-                                lineNumber: 214,
+                                lineNumber: 227,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].button, {
@@ -3446,18 +3447,18 @@ const TestimonialsCarousel = ()=>{
                                     className: "bx bx-chevron-right text-2xl"
                                 }, void 0, false, {
                                     fileName: "[project]/components/TestimonialsCarousel.jsx",
-                                    lineNumber: 229,
+                                    lineNumber: 242,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/TestimonialsCarousel.jsx",
-                                lineNumber: 223,
+                                lineNumber: 236,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/TestimonialsCarousel.jsx",
-                        lineNumber: 162,
+                        lineNumber: 170,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3473,12 +3474,12 @@ const TestimonialsCarousel = ()=>{
                                 className: `w-3 h-3 rounded-full transition-all duration-300 ${index === currentIndex ? "bg-[#a7ff59] scale-125" : "bg-gray-300 hover:bg-gray-400"}`
                             }, index, false, {
                                 fileName: "[project]/components/TestimonialsCarousel.jsx",
-                                lineNumber: 236,
+                                lineNumber: 249,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/TestimonialsCarousel.jsx",
-                        lineNumber: 234,
+                        lineNumber: 247,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -3504,7 +3505,7 @@ const TestimonialsCarousel = ()=>{
                                 children: "Trusted by industry leaders"
                             }, void 0, false, {
                                 fileName: "[project]/components/TestimonialsCarousel.jsx",
-                                lineNumber: 256,
+                                lineNumber: 271,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3518,30 +3519,30 @@ const TestimonialsCarousel = ()=>{
                                         children: testimonial.company
                                     }, testimonial.id, false, {
                                         fileName: "[project]/components/TestimonialsCarousel.jsx",
-                                        lineNumber: 259,
+                                        lineNumber: 276,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/components/TestimonialsCarousel.jsx",
-                                lineNumber: 257,
+                                lineNumber: 274,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/TestimonialsCarousel.jsx",
-                        lineNumber: 249,
+                        lineNumber: 264,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/TestimonialsCarousel.jsx",
-                lineNumber: 146,
+                lineNumber: 151,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/TestimonialsCarousel.jsx",
-        lineNumber: 129,
+        lineNumber: 131,
         columnNumber: 5
     }, this);
 };
@@ -3780,12 +3781,12 @@ const NewsletterSection = ()=>{
                                                 className: `bx ${benefit.icon} text-black text-xl`
                                             }, void 0, false, {
                                                 fileName: "[project]/components/NewsletterSection.jsx",
-                                                lineNumber: 151,
+                                                lineNumber: 152,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/NewsletterSection.jsx",
-                                            lineNumber: 150,
+                                            lineNumber: 151,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3793,18 +3794,18 @@ const NewsletterSection = ()=>{
                                             children: benefit.text
                                         }, void 0, false, {
                                             fileName: "[project]/components/NewsletterSection.jsx",
-                                            lineNumber: 153,
+                                            lineNumber: 154,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, index, true, {
                                     fileName: "[project]/components/NewsletterSection.jsx",
-                                    lineNumber: 141,
+                                    lineNumber: 142,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/components/NewsletterSection.jsx",
-                            lineNumber: 133,
+                            lineNumber: 134,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -3849,7 +3850,7 @@ const NewsletterSection = ()=>{
                                                 className: "flex-1 px-6 py-4 bg-transparent text-white placeholder-gray-300 border-none outline-none openSans text-lg"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/NewsletterSection.jsx",
-                                                lineNumber: 176,
+                                                lineNumber: 179,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].button, {
@@ -3874,7 +3875,7 @@ const NewsletterSection = ()=>{
                                                     className: "w-6 h-6 border-2 border-black border-t-transparent rounded-full"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/NewsletterSection.jsx",
-                                                    lineNumber: 192,
+                                                    lineNumber: 195,
                                                     columnNumber: 23
                                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
                                                     children: [
@@ -3883,20 +3884,20 @@ const NewsletterSection = ()=>{
                                                             className: "bx bx-arrow-right ml-2 text-xl"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/NewsletterSection.jsx",
-                                                            lineNumber: 200,
+                                                            lineNumber: 207,
                                                             columnNumber: 25
                                                         }, this)
                                                     ]
                                                 }, void 0, true)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/NewsletterSection.jsx",
-                                                lineNumber: 184,
+                                                lineNumber: 187,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, "form", true, {
                                         fileName: "[project]/components/NewsletterSection.jsx",
-                                        lineNumber: 168,
+                                        lineNumber: 171,
                                         columnNumber: 17
                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
                                         initial: {
@@ -3930,12 +3931,12 @@ const NewsletterSection = ()=>{
                                                     className: "bx bx-check text-black text-3xl"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/NewsletterSection.jsx",
-                                                    lineNumber: 219,
+                                                    lineNumber: 226,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/NewsletterSection.jsx",
-                                                lineNumber: 213,
+                                                lineNumber: 220,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -3943,7 +3944,7 @@ const NewsletterSection = ()=>{
                                                 children: "Welcome to VisQode!"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/NewsletterSection.jsx",
-                                                lineNumber: 221,
+                                                lineNumber: 228,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3951,18 +3952,18 @@ const NewsletterSection = ()=>{
                                                 children: "Thank you for subscribing. Check your inbox for a welcome email with exclusive resources."
                                             }, void 0, false, {
                                                 fileName: "[project]/components/NewsletterSection.jsx",
-                                                lineNumber: 222,
+                                                lineNumber: 231,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, "success", true, {
                                         fileName: "[project]/components/NewsletterSection.jsx",
-                                        lineNumber: 206,
+                                        lineNumber: 213,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/NewsletterSection.jsx",
-                                    lineNumber: 166,
+                                    lineNumber: 169,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].p, {
@@ -3989,20 +3990,20 @@ const NewsletterSection = ()=>{
                                             children: "Privacy Policy"
                                         }, void 0, false, {
                                             fileName: "[project]/components/NewsletterSection.jsx",
-                                            lineNumber: 238,
+                                            lineNumber: 249,
                                             columnNumber: 15
                                         }, this),
                                         "."
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/NewsletterSection.jsx",
-                                    lineNumber: 230,
+                                    lineNumber: 240,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/NewsletterSection.jsx",
-                            lineNumber: 159,
+                            lineNumber: 162,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -4030,7 +4031,7 @@ const NewsletterSection = ()=>{
                                             className: "bx bx-user text-[#a7ff59] text-xl mr-2"
                                         }, void 0, false, {
                                             fileName: "[project]/components/NewsletterSection.jsx",
-                                            lineNumber: 254,
+                                            lineNumber: 265,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -4038,13 +4039,13 @@ const NewsletterSection = ()=>{
                                             children: "5,000+ subscribers"
                                         }, void 0, false, {
                                             fileName: "[project]/components/NewsletterSection.jsx",
-                                            lineNumber: 255,
+                                            lineNumber: 266,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/NewsletterSection.jsx",
-                                    lineNumber: 253,
+                                    lineNumber: 264,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4054,7 +4055,7 @@ const NewsletterSection = ()=>{
                                             className: "bx bx-star text-[#a7ff59] text-xl mr-2"
                                         }, void 0, false, {
                                             fileName: "[project]/components/NewsletterSection.jsx",
-                                            lineNumber: 258,
+                                            lineNumber: 269,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -4062,13 +4063,13 @@ const NewsletterSection = ()=>{
                                             children: "4.9/5 average rating"
                                         }, void 0, false, {
                                             fileName: "[project]/components/NewsletterSection.jsx",
-                                            lineNumber: 259,
+                                            lineNumber: 270,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/NewsletterSection.jsx",
-                                    lineNumber: 257,
+                                    lineNumber: 268,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4078,7 +4079,7 @@ const NewsletterSection = ()=>{
                                             className: "bx bx-shield-check text-[#a7ff59] text-xl mr-2"
                                         }, void 0, false, {
                                             fileName: "[project]/components/NewsletterSection.jsx",
-                                            lineNumber: 262,
+                                            lineNumber: 273,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -4086,19 +4087,19 @@ const NewsletterSection = ()=>{
                                             children: "GDPR compliant"
                                         }, void 0, false, {
                                             fileName: "[project]/components/NewsletterSection.jsx",
-                                            lineNumber: 263,
+                                            lineNumber: 274,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/NewsletterSection.jsx",
-                                    lineNumber: 261,
+                                    lineNumber: 272,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/NewsletterSection.jsx",
-                            lineNumber: 246,
+                            lineNumber: 257,
                             columnNumber: 11
                         }, this)
                     ]
@@ -5592,12 +5593,12 @@ const ContactForm = ()=>{
                                 className: "bx bx-check text-[#a7ff59] text-4xl"
                             }, void 0, false, {
                                 fileName: "[project]/components/ContactForm.jsx",
-                                lineNumber: 189,
+                                lineNumber: 244,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/ContactForm.jsx",
-                            lineNumber: 183,
+                            lineNumber: 238,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -5605,7 +5606,7 @@ const ContactForm = ()=>{
                             children: "Message Sent Successfully!"
                         }, void 0, false, {
                             fileName: "[project]/components/ContactForm.jsx",
-                            lineNumber: 192,
+                            lineNumber: 247,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5613,7 +5614,7 @@ const ContactForm = ()=>{
                             children: submitStatus.message
                         }, void 0, false, {
                             fileName: "[project]/components/ContactForm.jsx",
-                            lineNumber: 193,
+                            lineNumber: 250,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5624,7 +5625,7 @@ const ContactForm = ()=>{
                                     children: "What happens next?"
                                 }, void 0, false, {
                                     fileName: "[project]/components/ContactForm.jsx",
-                                    lineNumber: 196,
+                                    lineNumber: 255,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5637,7 +5638,7 @@ const ContactForm = ()=>{
                                                     className: "bx bx-time-five text-2xl mb-2"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                    lineNumber: 199,
+                                                    lineNumber: 260,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5645,20 +5646,20 @@ const ContactForm = ()=>{
                                                     children: "Within 2 hours"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                    lineNumber: 200,
+                                                    lineNumber: 261,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     children: "Email confirmation"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                    lineNumber: 201,
+                                                    lineNumber: 262,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/ContactForm.jsx",
-                                            lineNumber: 198,
+                                            lineNumber: 259,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5668,7 +5669,7 @@ const ContactForm = ()=>{
                                                     className: "bx bx-phone text-2xl mb-2"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                    lineNumber: 204,
+                                                    lineNumber: 265,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5676,20 +5677,20 @@ const ContactForm = ()=>{
                                                     children: "Within 24 hours"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                    lineNumber: 205,
+                                                    lineNumber: 266,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     children: "Personal response"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                    lineNumber: 206,
+                                                    lineNumber: 267,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/ContactForm.jsx",
-                                            lineNumber: 203,
+                                            lineNumber: 264,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5699,7 +5700,7 @@ const ContactForm = ()=>{
                                                     className: "bx bx-calendar text-2xl mb-2"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                    lineNumber: 209,
+                                                    lineNumber: 270,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5707,32 +5708,32 @@ const ContactForm = ()=>{
                                                     children: "Within 48 hours"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                    lineNumber: 210,
+                                                    lineNumber: 271,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     children: "Project discussion"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                    lineNumber: 211,
+                                                    lineNumber: 272,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/ContactForm.jsx",
-                                            lineNumber: 208,
+                                            lineNumber: 269,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/ContactForm.jsx",
-                                    lineNumber: 197,
+                                    lineNumber: 258,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/ContactForm.jsx",
-                            lineNumber: 195,
+                            lineNumber: 254,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5758,14 +5759,14 @@ const ContactForm = ()=>{
                                             className: "bx bx-arrow-left mr-2"
                                         }, void 0, false, {
                                             fileName: "[project]/components/ContactForm.jsx",
-                                            lineNumber: 226,
+                                            lineNumber: 287,
                                             columnNumber: 17
                                         }, this),
                                         "Send Another Message"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/ContactForm.jsx",
-                                    lineNumber: 217,
+                                    lineNumber: 278,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].a, {
@@ -5782,20 +5783,20 @@ const ContactForm = ()=>{
                                             className: "bx bx-phone mr-2"
                                         }, void 0, false, {
                                             fileName: "[project]/components/ContactForm.jsx",
-                                            lineNumber: 236,
+                                            lineNumber: 297,
                                             columnNumber: 17
                                         }, this),
                                         "Call Us Now"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/ContactForm.jsx",
-                                    lineNumber: 230,
+                                    lineNumber: 291,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/ContactForm.jsx",
-                            lineNumber: 216,
+                            lineNumber: 277,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5809,29 +5810,29 @@ const ContactForm = ()=>{
                                     children: "ibwmahin@gmail.com"
                                 }, void 0, false, {
                                     fileName: "[project]/components/ContactForm.jsx",
-                                    lineNumber: 243,
+                                    lineNumber: 304,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/ContactForm.jsx",
-                            lineNumber: 241,
+                            lineNumber: 302,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/ContactForm.jsx",
-                    lineNumber: 177,
+                    lineNumber: 232,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/ContactForm.jsx",
-                lineNumber: 176,
+                lineNumber: 231,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/ContactForm.jsx",
-            lineNumber: 175,
+            lineNumber: 230,
             columnNumber: 7
         }, this);
     }
@@ -5863,7 +5864,7 @@ const ContactForm = ()=>{
                             children: "Start Your Project"
                         }, void 0, false, {
                             fileName: "[project]/components/ContactForm.jsx",
-                            lineNumber: 264,
+                            lineNumber: 328,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5871,13 +5872,13 @@ const ContactForm = ()=>{
                             children: "Ready to transform your digital presence? Tell us about your project and let's create something amazing together."
                         }, void 0, false, {
                             fileName: "[project]/components/ContactForm.jsx",
-                            lineNumber: 265,
+                            lineNumber: 331,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/ContactForm.jsx",
-                    lineNumber: 257,
+                    lineNumber: 321,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5907,7 +5908,7 @@ const ContactForm = ()=>{
                                         children: "Let's Talk"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ContactForm.jsx",
-                                        lineNumber: 281,
+                                        lineNumber: 347,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5922,12 +5923,12 @@ const ContactForm = ()=>{
                                                             className: "bx bx-phone text-black text-xl"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/ContactForm.jsx",
-                                                            lineNumber: 286,
+                                                            lineNumber: 354,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/ContactForm.jsx",
-                                                        lineNumber: 285,
+                                                        lineNumber: 353,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5937,7 +5938,7 @@ const ContactForm = ()=>{
                                                                 children: "Phone"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/ContactForm.jsx",
-                                                                lineNumber: 289,
+                                                                lineNumber: 357,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -5946,19 +5947,19 @@ const ContactForm = ()=>{
                                                                 children: "+1 (555) 123-4567"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/ContactForm.jsx",
-                                                                lineNumber: 290,
+                                                                lineNumber: 358,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/ContactForm.jsx",
-                                                        lineNumber: 288,
+                                                        lineNumber: 356,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/ContactForm.jsx",
-                                                lineNumber: 284,
+                                                lineNumber: 352,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5970,12 +5971,12 @@ const ContactForm = ()=>{
                                                             className: "bx bx-envelope text-black text-xl"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/ContactForm.jsx",
-                                                            lineNumber: 301,
+                                                            lineNumber: 369,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/ContactForm.jsx",
-                                                        lineNumber: 300,
+                                                        lineNumber: 368,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5985,7 +5986,7 @@ const ContactForm = ()=>{
                                                                 children: "Email"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/ContactForm.jsx",
-                                                                lineNumber: 304,
+                                                                lineNumber: 372,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -5994,19 +5995,19 @@ const ContactForm = ()=>{
                                                                 children: "visqode@gmail.com"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/ContactForm.jsx",
-                                                                lineNumber: 305,
+                                                                lineNumber: 373,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/ContactForm.jsx",
-                                                        lineNumber: 303,
+                                                        lineNumber: 371,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/ContactForm.jsx",
-                                                lineNumber: 299,
+                                                lineNumber: 367,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6018,12 +6019,12 @@ const ContactForm = ()=>{
                                                             className: "bx bx-time text-black text-xl"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/ContactForm.jsx",
-                                                            lineNumber: 316,
+                                                            lineNumber: 384,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/ContactForm.jsx",
-                                                        lineNumber: 315,
+                                                        lineNumber: 383,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6033,7 +6034,7 @@ const ContactForm = ()=>{
                                                                 children: "Response Time"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/ContactForm.jsx",
-                                                                lineNumber: 319,
+                                                                lineNumber: 387,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6041,19 +6042,19 @@ const ContactForm = ()=>{
                                                                 children: "Within 24 hours"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/ContactForm.jsx",
-                                                                lineNumber: 320,
+                                                                lineNumber: 388,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/ContactForm.jsx",
-                                                        lineNumber: 318,
+                                                        lineNumber: 386,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/ContactForm.jsx",
-                                                lineNumber: 314,
+                                                lineNumber: 382,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6065,12 +6066,12 @@ const ContactForm = ()=>{
                                                             className: "bx bx-error text-white text-xl"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/ContactForm.jsx",
-                                                            lineNumber: 326,
+                                                            lineNumber: 394,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/ContactForm.jsx",
-                                                        lineNumber: 325,
+                                                        lineNumber: 393,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6080,7 +6081,7 @@ const ContactForm = ()=>{
                                                                 children: "Urgent Matters"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/ContactForm.jsx",
-                                                                lineNumber: 329,
+                                                                lineNumber: 397,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -6089,25 +6090,25 @@ const ContactForm = ()=>{
                                                                 children: "ibwmahin@gmail.com"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/ContactForm.jsx",
-                                                                lineNumber: 330,
+                                                                lineNumber: 398,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/ContactForm.jsx",
-                                                        lineNumber: 328,
+                                                        lineNumber: 396,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/ContactForm.jsx",
-                                                lineNumber: 324,
+                                                lineNumber: 392,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/ContactForm.jsx",
-                                        lineNumber: 283,
+                                        lineNumber: 351,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].a, {
@@ -6124,25 +6125,25 @@ const ContactForm = ()=>{
                                                 className: "bx bx-phone mr-2"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/ContactForm.jsx",
-                                                lineNumber: 346,
+                                                lineNumber: 414,
                                                 columnNumber: 17
                                             }, this),
                                             "Call Us Now"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/ContactForm.jsx",
-                                        lineNumber: 340,
+                                        lineNumber: 408,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/ContactForm.jsx",
-                                lineNumber: 280,
+                                lineNumber: 346,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/ContactForm.jsx",
-                            lineNumber: 273,
+                            lineNumber: 339,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -6180,7 +6181,7 @@ const ContactForm = ()=>{
                                                     className: "bx bx-error-circle text-red-500 text-xl mr-2"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                    lineNumber: 368,
+                                                    lineNumber: 436,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -6188,13 +6189,13 @@ const ContactForm = ()=>{
                                                     children: "Please fix the following errors:"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                    lineNumber: 369,
+                                                    lineNumber: 437,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/ContactForm.jsx",
-                                            lineNumber: 367,
+                                            lineNumber: 435,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -6203,18 +6204,18 @@ const ContactForm = ()=>{
                                                     children: error
                                                 }, index, false, {
                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                    lineNumber: 373,
+                                                    lineNumber: 443,
                                                     columnNumber: 21
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/components/ContactForm.jsx",
-                                            lineNumber: 371,
+                                            lineNumber: 441,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/ContactForm.jsx",
-                                    lineNumber: 362,
+                                    lineNumber: 430,
                                     columnNumber: 15
                                 }, this),
                                 submitStatus.message && !submitStatus.success && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -6234,7 +6235,7 @@ const ContactForm = ()=>{
                                                 className: "bx bx-error-circle text-red-500 text-xl mr-2"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/ContactForm.jsx",
-                                                lineNumber: 387,
+                                                lineNumber: 457,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6242,18 +6243,18 @@ const ContactForm = ()=>{
                                                 children: submitStatus.message
                                             }, void 0, false, {
                                                 fileName: "[project]/components/ContactForm.jsx",
-                                                lineNumber: 388,
+                                                lineNumber: 458,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/ContactForm.jsx",
-                                        lineNumber: 386,
+                                        lineNumber: 456,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/ContactForm.jsx",
-                                    lineNumber: 381,
+                                    lineNumber: 451,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -6270,7 +6271,7 @@ const ContactForm = ()=>{
                                                             children: "Full Name *"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/ContactForm.jsx",
-                                                            lineNumber: 397,
+                                                            lineNumber: 469,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -6283,13 +6284,13 @@ const ContactForm = ()=>{
                                                             placeholder: "Your full name"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/ContactForm.jsx",
-                                                            lineNumber: 398,
+                                                            lineNumber: 472,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                    lineNumber: 396,
+                                                    lineNumber: 468,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6299,7 +6300,7 @@ const ContactForm = ()=>{
                                                             children: "Business/Brand Name"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/ContactForm.jsx",
-                                                            lineNumber: 410,
+                                                            lineNumber: 484,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -6311,19 +6312,19 @@ const ContactForm = ()=>{
                                                             placeholder: "Your business name (optional)"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/ContactForm.jsx",
-                                                            lineNumber: 411,
+                                                            lineNumber: 487,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                    lineNumber: 409,
+                                                    lineNumber: 483,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/ContactForm.jsx",
-                                            lineNumber: 395,
+                                            lineNumber: 467,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6333,7 +6334,7 @@ const ContactForm = ()=>{
                                                     children: "Email Address *"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                    lineNumber: 423,
+                                                    lineNumber: 499,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -6346,13 +6347,13 @@ const ContactForm = ()=>{
                                                     placeholder: "your@email.com"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                    lineNumber: 424,
+                                                    lineNumber: 502,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/ContactForm.jsx",
-                                            lineNumber: 422,
+                                            lineNumber: 498,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6362,7 +6363,7 @@ const ContactForm = ()=>{
                                                     children: "What services are you interested in? *"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                    lineNumber: 437,
+                                                    lineNumber: 515,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6380,7 +6381,7 @@ const ContactForm = ()=>{
                                                                     className: "sr-only"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                                    lineNumber: 449,
+                                                                    lineNumber: 529,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6395,12 +6396,12 @@ const ContactForm = ()=>{
                                                                         className: "bx bx-check text-black text-sm"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/ContactForm.jsx",
-                                                                        lineNumber: 461,
+                                                                        lineNumber: 543,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                                    lineNumber: 455,
+                                                                    lineNumber: 535,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6413,7 +6414,7 @@ const ContactForm = ()=>{
                                                                                     className: `bx ${service.icon} text-lg mr-2 ${formData.services.includes(service.id) ? "text-[#a7ff59]" : "text-gray-600"}`
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                                                    lineNumber: 470,
+                                                                                    lineNumber: 552,
                                                                                     columnNumber: 27
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -6421,13 +6422,13 @@ const ContactForm = ()=>{
                                                                                     children: service.name
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                                                    lineNumber: 475,
+                                                                                    lineNumber: 559,
                                                                                     columnNumber: 27
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/components/ContactForm.jsx",
-                                                                            lineNumber: 469,
+                                                                            lineNumber: 551,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6435,30 +6436,30 @@ const ContactForm = ()=>{
                                                                             children: service.description
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/ContactForm.jsx",
-                                                                            lineNumber: 477,
+                                                                            lineNumber: 563,
                                                                             columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                                    lineNumber: 468,
+                                                                    lineNumber: 550,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, service.id, true, {
                                                             fileName: "[project]/components/ContactForm.jsx",
-                                                            lineNumber: 440,
+                                                            lineNumber: 520,
                                                             columnNumber: 21
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                    lineNumber: 438,
+                                                    lineNumber: 518,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/ContactForm.jsx",
-                                            lineNumber: 436,
+                                            lineNumber: 514,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6468,7 +6469,7 @@ const ContactForm = ()=>{
                                                     children: "Budget Range *"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                    lineNumber: 486,
+                                                    lineNumber: 574,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6488,7 +6489,7 @@ const ContactForm = ()=>{
                                                                     className: "sr-only"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                                    lineNumber: 498,
+                                                                    lineNumber: 588,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6503,12 +6504,12 @@ const ContactForm = ()=>{
                                                                         className: "w-2 h-2 bg-black rounded-full"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/ContactForm.jsx",
-                                                                        lineNumber: 512,
+                                                                        lineNumber: 604,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                                    lineNumber: 506,
+                                                                    lineNumber: 596,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6519,7 +6520,7 @@ const ContactForm = ()=>{
                                                                             children: budget.label
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/ContactForm.jsx",
-                                                                            lineNumber: 520,
+                                                                            lineNumber: 612,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -6527,30 +6528,30 @@ const ContactForm = ()=>{
                                                                             children: budget.description
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/ContactForm.jsx",
-                                                                            lineNumber: 521,
+                                                                            lineNumber: 615,
                                                                             columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                                    lineNumber: 519,
+                                                                    lineNumber: 611,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, budget.value, true, {
                                                             fileName: "[project]/components/ContactForm.jsx",
-                                                            lineNumber: 489,
+                                                            lineNumber: 579,
                                                             columnNumber: 21
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                    lineNumber: 487,
+                                                    lineNumber: 577,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/ContactForm.jsx",
-                                            lineNumber: 485,
+                                            lineNumber: 573,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6560,7 +6561,7 @@ const ContactForm = ()=>{
                                                     children: "Project Description *"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                    lineNumber: 530,
+                                                    lineNumber: 626,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
@@ -6573,7 +6574,7 @@ const ContactForm = ()=>{
                                                     placeholder: "Tell us about your project goals, target audience, timeline, and any specific requirements..."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                    lineNumber: 531,
+                                                    lineNumber: 629,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6585,13 +6586,13 @@ const ContactForm = ()=>{
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                    lineNumber: 540,
+                                                    lineNumber: 638,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/ContactForm.jsx",
-                                            lineNumber: 529,
+                                            lineNumber: 625,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].button, {
@@ -6618,7 +6619,7 @@ const ContactForm = ()=>{
                                                         className: "w-6 h-6 border-2 border-black border-t-transparent rounded-full mr-3"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/ContactForm.jsx",
-                                                        lineNumber: 555,
+                                                        lineNumber: 653,
                                                         columnNumber: 21
                                                     }, this),
                                                     "Sending Message..."
@@ -6630,14 +6631,14 @@ const ContactForm = ()=>{
                                                         className: "bx bx-send ml-3 text-2xl"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/ContactForm.jsx",
-                                                        lineNumber: 565,
+                                                        lineNumber: 667,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true)
                                         }, void 0, false, {
                                             fileName: "[project]/components/ContactForm.jsx",
-                                            lineNumber: 546,
+                                            lineNumber: 644,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6651,43 +6652,43 @@ const ContactForm = ()=>{
                                                     children: "Privacy Policy"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                    lineNumber: 573,
+                                                    lineNumber: 675,
                                                     columnNumber: 17
                                                 }, this),
                                                 ". We'll never share your information with third parties."
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/ContactForm.jsx",
-                                            lineNumber: 571,
+                                            lineNumber: 673,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/ContactForm.jsx",
-                                    lineNumber: 393,
+                                    lineNumber: 465,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/ContactForm.jsx",
-                            lineNumber: 353,
+                            lineNumber: 421,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/ContactForm.jsx",
-                    lineNumber: 271,
+                    lineNumber: 337,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/ContactForm.jsx",
-            lineNumber: 255,
+            lineNumber: 319,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/ContactForm.jsx",
-        lineNumber: 254,
+        lineNumber: 318,
         columnNumber: 5
     }, this);
 };

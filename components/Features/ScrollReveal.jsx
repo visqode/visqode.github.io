@@ -1,11 +1,11 @@
-"use client"
-import { useEffect, useRef, useMemo } from "react"
-import { motion } from "framer-motion"
-import { gsap } from "gsap"
-import { ScrollTrigger } from "gsap/ScrollTrigger"
+"use client";
+import { useEffect, useRef, useMemo } from "react";
+import { motion } from "framer-motion";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 if (typeof window !== "undefined") {
-  gsap.registerPlugin(ScrollTrigger)
+  gsap.registerPlugin(ScrollTrigger);
 }
 
 const ScrollReveal = ({
@@ -20,12 +20,12 @@ const ScrollReveal = ({
   rotationEnd = "bottom 80%",
   wordAnimationEnd = "bottom 60%",
 }) => {
-  const containerRef = useRef(null)
+  const containerRef = useRef(null);
 
   const splitText = useMemo(() => {
-    const text = typeof children === "string" ? children : ""
+    const text = typeof children === "string" ? children : "";
     return text.split(/(\s+)/).map((word, index) => {
-      if (word.match(/^\s+$/)) return word
+      if (word.match(/^\s+$/)) return word;
       return (
         <motion.span
           className="inline-block word"
@@ -37,15 +37,18 @@ const ScrollReveal = ({
         >
           {word}
         </motion.span>
-      )
-    })
-  }, [children])
+      );
+    });
+  }, [children]);
 
   useEffect(() => {
-    const el = containerRef.current
-    if (!el) return
+    const el = containerRef.current;
+    if (!el) return;
 
-    const scroller = scrollContainerRef && scrollContainerRef.current ? scrollContainerRef.current : window
+    const scroller =
+      scrollContainerRef && scrollContainerRef.current
+        ? scrollContainerRef.current
+        : window;
 
     // Container animation
     gsap.fromTo(
@@ -72,9 +75,9 @@ const ScrollReveal = ({
           anticipatePin: 0.1,
         },
       },
-    )
+    );
 
-    const wordElements = el.querySelectorAll(".word")
+    const wordElements = el.querySelectorAll(".word");
 
     // Word opacity and translation
     gsap.fromTo(
@@ -97,7 +100,7 @@ const ScrollReveal = ({
           scrub: 0.1,
         },
       },
-    )
+    );
 
     // Blur effect
     if (enableBlur) {
@@ -116,13 +119,21 @@ const ScrollReveal = ({
             scrub: 0.1,
           },
         },
-      )
+      );
     }
 
     return () => {
-      ScrollTrigger.getAll().forEach((trigger) => trigger.kill())
-    }
-  }, [scrollContainerRef, enableBlur, baseRotation, baseOpacity, rotationEnd, wordAnimationEnd, blurStrength])
+      ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
+    };
+  }, [
+    scrollContainerRef,
+    enableBlur,
+    baseRotation,
+    baseOpacity,
+    rotationEnd,
+    wordAnimationEnd,
+    blurStrength,
+  ]);
 
   return (
     <motion.div
@@ -133,9 +144,13 @@ const ScrollReveal = ({
       viewport={{ once: true, margin: "-100px" }}
       transition={{ duration: 0.6, ease: [0.33, 0, 0, 1] }}
     >
-      <p className={`text-base md:text-lg leading-relaxed font-semibold ${textClassName}`}>{splitText}</p>
+      <p
+        className={`text-base md:text-lg leading-relaxed font-semibold ${textClassName}`}
+      >
+        {splitText}
+      </p>
     </motion.div>
-  )
-}
+  );
+};
 
-export default ScrollReveal
+export default ScrollReveal;

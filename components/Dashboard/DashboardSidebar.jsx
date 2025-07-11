@@ -1,5 +1,5 @@
-"use client"
-import { motion } from "framer-motion"
+"use client";
+import { motion } from "framer-motion";
 
 const DashboardSidebar = ({ activeTab, setActiveTab, isOpen, setIsOpen }) => {
   const navItems = [
@@ -8,7 +8,7 @@ const DashboardSidebar = ({ activeTab, setActiveTab, isOpen, setIsOpen }) => {
     { id: "files", label: "Files", icon: "bx-folder", badge: null },
     { id: "invoices", label: "Invoices", icon: "bx-receipt", badge: "2" },
     { id: "support", label: "Support", icon: "bx-support", badge: "1" },
-  ]
+  ];
 
   const sidebarVariants = {
     open: {
@@ -27,7 +27,7 @@ const DashboardSidebar = ({ activeTab, setActiveTab, isOpen, setIsOpen }) => {
         damping: 30,
       },
     },
-  }
+  };
 
   return (
     <>
@@ -71,8 +71,8 @@ const DashboardSidebar = ({ activeTab, setActiveTab, isOpen, setIsOpen }) => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: index * 0.1 }}
               onClick={() => {
-                setActiveTab(item.id)
-                setIsOpen(false)
+                setActiveTab(item.id);
+                setIsOpen(false);
               }}
               className={`w-full flex items-center justify-between p-3 rounded-xl transition-all duration-300 ${
                 activeTab === item.id
@@ -87,7 +87,9 @@ const DashboardSidebar = ({ activeTab, setActiveTab, isOpen, setIsOpen }) => {
               {item.badge && (
                 <span
                   className={`px-2 py-1 text-xs rounded-full ${
-                    activeTab === item.id ? "bg-black text-white" : "bg-[#a7ff59] text-black"
+                    activeTab === item.id
+                      ? "bg-black text-white"
+                      : "bg-[#a7ff59] text-black"
                   }`}
                 >
                   {item.badge}
@@ -114,7 +116,7 @@ const DashboardSidebar = ({ activeTab, setActiveTab, isOpen, setIsOpen }) => {
         </div>
       </motion.div>
     </>
-  )
-}
+  );
+};
 
-export default DashboardSidebar
+export default DashboardSidebar;

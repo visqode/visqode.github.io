@@ -1,6 +1,6 @@
-"use client"
-import { motion } from "framer-motion"
-import Link from "next/link"
+"use client";
+import { motion } from "framer-motion";
+import Link from "next/link";
 
 const CTASection = () => {
   return (
@@ -46,8 +46,8 @@ const CTASection = () => {
               READY TO WORK WITH US?
             </h2>
             <p className="text-xl lg:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              Partner with our design agency for your business with amazing results. Let's create something
-              extraordinary together.
+              Partner with our design agency for your business with amazing
+              results. Let's create something extraordinary together.
             </p>
           </motion.div>
 
@@ -79,7 +79,11 @@ const CTASection = () => {
           {/* Floating CTA Element */}
           <motion.div
             animate={{ rotate: 360 }}
-            transition={{ duration: 20, repeat: Number.POSITIVE_INFINITY, ease: "linear" }}
+            transition={{
+              duration: 20,
+              repeat: Number.POSITIVE_INFINITY,
+              ease: "linear",
+            }}
             className="absolute top-1/2 right-8 lg:right-16 transform -translate-y-1/2 hidden lg:block"
           >
             <div className="w-24 h-24 bg-[#a7ff59] rounded-full flex items-center justify-center shadow-lg">
@@ -89,7 +93,7 @@ const CTASection = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default CTASection
+export default CTASection;

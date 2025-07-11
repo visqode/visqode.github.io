@@ -1,12 +1,13 @@
-"use client"
-import { motion } from "framer-motion"
+"use client";
+import { motion } from "framer-motion";
 
 const AboutValues = () => {
   const values = [
     {
       icon: "bx-rocket",
       title: "Innovation",
-      description: "We constantly push boundaries and explore new technologies to deliver cutting-edge solutions.",
+      description:
+        "We constantly push boundaries and explore new technologies to deliver cutting-edge solutions.",
     },
     {
       icon: "bx-heart",
@@ -17,14 +18,16 @@ const AboutValues = () => {
     {
       icon: "bx-shield-check",
       title: "Quality",
-      description: "We maintain the highest standards in everything we do, ensuring excellence in every detail.",
+      description:
+        "We maintain the highest standards in everything we do, ensuring excellence in every detail.",
     },
     {
       icon: "bx-group",
       title: "Collaboration",
-      description: "We believe in the power of teamwork and close partnership with our clients to achieve success.",
+      description:
+        "We believe in the power of teamwork and close partnership with our clients to achieve success.",
     },
-  ]
+  ];
 
   return (
     <section className="py-20 lg:py-32 bg-white">
@@ -36,9 +39,12 @@ const AboutValues = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl lg:text-5xl font-bold font-playfair text-gray-900 mb-6">Our Core Values</h2>
+          <h2 className="text-4xl lg:text-5xl font-bold font-playfair text-gray-900 mb-6">
+            Our Core Values
+          </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            These principles guide everything we do and shape the way we work with our clients and each other.
+            These principles guide everything we do and shape the way we work
+            with our clients and each other.
           </p>
         </motion.div>
 
@@ -59,14 +65,18 @@ const AboutValues = () => {
               >
                 <i className={`bx ${value.icon} text-2xl text-black`}></i>
               </motion.div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">{value.title}</h3>
-              <p className="text-gray-600 leading-relaxed">{value.description}</p>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">
+                {value.title}
+              </h3>
+              <p className="text-gray-600 leading-relaxed">
+                {value.description}
+              </p>
             </motion.div>
           ))}
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default AboutValues
+export default AboutValues;

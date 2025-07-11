@@ -1,16 +1,16 @@
-"use client"
-import { motion } from "framer-motion"
-import { useEffect, useRef } from "react"
-import { gsap } from "gsap"
-import { ScrollTrigger } from "gsap/ScrollTrigger"
+"use client";
+import { motion } from "framer-motion";
+import { useEffect, useRef } from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 if (typeof window !== "undefined") {
-  gsap.registerPlugin(ScrollTrigger)
+  gsap.registerPlugin(ScrollTrigger);
 }
 
 const FreelancerProfile = () => {
-  const heroRef = useRef(null)
-  const sectionsRef = useRef([])
+  const heroRef = useRef(null);
+  const sectionsRef = useRef([]);
 
   useEffect(() => {
     // Hero animation
@@ -24,7 +24,7 @@ const FreelancerProfile = () => {
           duration: 1,
           ease: "power3.out",
         },
-      )
+      );
     }
 
     // Sections animation
@@ -45,19 +45,20 @@ const FreelancerProfile = () => {
               toggleActions: "play none none reverse",
             },
           },
-        )
+        );
       }
-    })
+    });
 
     return () => {
-      ScrollTrigger.getAll().forEach((trigger) => trigger.kill())
-    }
-  }, [])
+      ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
+    };
+  }, []);
 
   const freelancer = {
     name: "Sarah Chen",
     title: "Senior UI/UX Designer",
-    avatar: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=300&h=300&fit=crop&crop=face",
+    avatar:
+      "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=300&h=300&fit=crop&crop=face",
     rating: 4.9,
     reviews: 127,
     hourlyRate: 85,
@@ -67,31 +68,43 @@ const FreelancerProfile = () => {
     isOnline: true,
     location: "San Francisco, CA",
     memberSince: "2019",
-    skills: ["UI Design", "UX Research", "Figma", "Prototyping", "User Testing", "Wireframing", "Design Systems"],
+    skills: [
+      "UI Design",
+      "UX Research",
+      "Figma",
+      "Prototyping",
+      "User Testing",
+      "Wireframing",
+      "Design Systems",
+    ],
     bio: "I'm a passionate UI/UX designer with over 8 years of experience creating beautiful, user-centered digital experiences. I specialize in SaaS platforms, e-commerce solutions, and mobile applications. My approach combines data-driven insights with creative problem-solving to deliver designs that not only look great but also drive business results.",
     portfolio: [
       {
         id: 1,
         title: "E-commerce Mobile App",
-        image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&h=300&fit=crop",
+        image:
+          "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&h=300&fit=crop",
         category: "Mobile Design",
       },
       {
         id: 2,
         title: "SaaS Dashboard Design",
-        image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop",
+        image:
+          "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop",
         category: "Web Design",
       },
       {
         id: 3,
         title: "Brand Identity System",
-        image: "https://images.unsplash.com/photo-1558655146-d09347e92766?w=400&h=300&fit=crop",
+        image:
+          "https://images.unsplash.com/photo-1558655146-d09347e92766?w=400&h=300&fit=crop",
         category: "Branding",
       },
       {
         id: 4,
         title: "Banking App Redesign",
-        image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&h=300&fit=crop",
+        image:
+          "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&h=300&fit=crop",
         category: "Mobile Design",
       },
     ],
@@ -102,7 +115,8 @@ const FreelancerProfile = () => {
         company: "TechStart Inc.",
         rating: 5,
         text: "Sarah delivered exceptional work on our mobile app redesign. Her attention to detail and user-centered approach resulted in a 40% increase in user engagement.",
-        avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=60&h=60&fit=crop&crop=face",
+        avatar:
+          "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=60&h=60&fit=crop&crop=face",
       },
       {
         id: 2,
@@ -110,10 +124,11 @@ const FreelancerProfile = () => {
         company: "E-Shop Solutions",
         rating: 5,
         text: "Working with Sarah was a pleasure. She understood our vision perfectly and delivered designs that exceeded our expectations. Highly recommended!",
-        avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=60&h=60&fit=crop&crop=face",
+        avatar:
+          "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=60&h=60&fit=crop&crop=face",
       },
     ],
-  }
+  };
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -137,35 +152,60 @@ const FreelancerProfile = () => {
                   )}
                 </div>
                 <div className="flex-1">
-                  <h1 className="text-3xl lg:text-4xl racing font-bold text-gray-900 mb-2">{freelancer.name}</h1>
-                  <p className="text-xl openSans text-gray-600 mb-4">{freelancer.title}</p>
+                  <h1 className="text-3xl lg:text-4xl racing font-bold text-gray-900 mb-2">
+                    {freelancer.name}
+                  </h1>
+                  <p className="text-xl openSans text-gray-600 mb-4">
+                    {freelancer.title}
+                  </p>
                   <div className="flex items-center gap-6 mb-4">
                     <div className="flex items-center">
                       <div className="flex text-yellow-400 mr-2">
                         {[...Array(5)].map((_, i) => (
-                          <i key={i} className={`bx bx${i < Math.floor(freelancer.rating) ? "s" : ""}-star`}></i>
+                          <i
+                            key={i}
+                            className={`bx bx${i < Math.floor(freelancer.rating) ? "s" : ""}-star`}
+                          ></i>
                         ))}
                       </div>
-                      <span className="openSans font-semibold text-gray-900">{freelancer.rating}</span>
-                      <span className="openSans text-gray-500 ml-1">({freelancer.reviews} reviews)</span>
+                      <span className="openSans font-semibold text-gray-900">
+                        {freelancer.rating}
+                      </span>
+                      <span className="openSans text-gray-500 ml-1">
+                        ({freelancer.reviews} reviews)
+                      </span>
                     </div>
                     <div className="flex items-center text-gray-600">
                       <i className="bx bx-map mr-1"></i>
-                      <span className="openSans text-sm">{freelancer.location}</span>
+                      <span className="openSans text-sm">
+                        {freelancer.location}
+                      </span>
                     </div>
                   </div>
                   <div className="grid sm:grid-cols-3 gap-4">
                     <div>
-                      <p className="racing font-bold text-2xl text-gray-900">{freelancer.completedJobs}</p>
-                      <p className="openSans text-sm text-gray-600">Jobs Completed</p>
+                      <p className="racing font-bold text-2xl text-gray-900">
+                        {freelancer.completedJobs}
+                      </p>
+                      <p className="openSans text-sm text-gray-600">
+                        Jobs Completed
+                      </p>
                     </div>
                     <div>
-                      <p className="racing font-bold text-2xl text-gray-900">{freelancer.successRate}%</p>
-                      <p className="openSans text-sm text-gray-600">Success Rate</p>
+                      <p className="racing font-bold text-2xl text-gray-900">
+                        {freelancer.successRate}%
+                      </p>
+                      <p className="openSans text-sm text-gray-600">
+                        Success Rate
+                      </p>
                     </div>
                     <div>
-                      <p className="racing font-bold text-2xl text-gray-900">{freelancer.responseTime}</p>
-                      <p className="openSans text-sm text-gray-600">Avg. Response</p>
+                      <p className="racing font-bold text-2xl text-gray-900">
+                        {freelancer.responseTime}
+                      </p>
+                      <p className="openSans text-sm text-gray-600">
+                        Avg. Response
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -176,7 +216,9 @@ const FreelancerProfile = () => {
             <div className="lg:col-span-1">
               <div className="bg-white border border-gray-200 rounded-2xl p-6 sticky top-6">
                 <div className="text-center mb-6">
-                  <p className="racing font-bold text-3xl text-gray-900">${freelancer.hourlyRate}/hr</p>
+                  <p className="racing font-bold text-3xl text-gray-900">
+                    ${freelancer.hourlyRate}/hr
+                  </p>
                   <p className="openSans text-gray-600">Starting rate</p>
                 </div>
                 <div className="space-y-4">
@@ -198,7 +240,9 @@ const FreelancerProfile = () => {
                 <div className="mt-6 pt-6 border-t border-gray-200">
                   <div className="flex items-center justify-between text-sm openSans text-gray-600">
                     <span>Member since</span>
-                    <span className="font-semibold">{freelancer.memberSince}</span>
+                    <span className="font-semibold">
+                      {freelancer.memberSince}
+                    </span>
                   </div>
                 </div>
               </div>
@@ -216,8 +260,12 @@ const FreelancerProfile = () => {
               ref={(el) => (sectionsRef.current[0] = el)}
               className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100"
             >
-              <h2 className="text-2xl racing font-bold text-gray-900 mb-6">About Sarah</h2>
-              <p className="openSans text-gray-700 leading-relaxed">{freelancer.bio}</p>
+              <h2 className="text-2xl racing font-bold text-gray-900 mb-6">
+                About Sarah
+              </h2>
+              <p className="openSans text-gray-700 leading-relaxed">
+                {freelancer.bio}
+              </p>
             </div>
 
             {/* Skills */}
@@ -225,7 +273,9 @@ const FreelancerProfile = () => {
               ref={(el) => (sectionsRef.current[1] = el)}
               className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100"
             >
-              <h2 className="text-2xl racing font-bold text-gray-900 mb-6">Skills & Expertise</h2>
+              <h2 className="text-2xl racing font-bold text-gray-900 mb-6">
+                Skills & Expertise
+              </h2>
               <div className="flex flex-wrap gap-3">
                 {freelancer.skills.map((skill, index) => (
                   <motion.span
@@ -246,7 +296,9 @@ const FreelancerProfile = () => {
               ref={(el) => (sectionsRef.current[2] = el)}
               className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100"
             >
-              <h2 className="text-2xl racing font-bold text-gray-900 mb-6">Portfolio</h2>
+              <h2 className="text-2xl racing font-bold text-gray-900 mb-6">
+                Portfolio
+              </h2>
               <div className="grid sm:grid-cols-2 gap-6">
                 {freelancer.portfolio.map((item, index) => (
                   <motion.div
@@ -267,7 +319,9 @@ const FreelancerProfile = () => {
                     <h3 className="racing font-bold text-lg text-gray-900 group-hover:text-[#a7ff59] transition-colors">
                       {item.title}
                     </h3>
-                    <p className="openSans text-gray-600 text-sm">{item.category}</p>
+                    <p className="openSans text-gray-600 text-sm">
+                      {item.category}
+                    </p>
                   </motion.div>
                 ))}
               </div>
@@ -278,7 +332,9 @@ const FreelancerProfile = () => {
               ref={(el) => (sectionsRef.current[3] = el)}
               className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100"
             >
-              <h2 className="text-2xl racing font-bold text-gray-900 mb-6">Client Reviews</h2>
+              <h2 className="text-2xl racing font-bold text-gray-900 mb-6">
+                Client Reviews
+              </h2>
               <div className="space-y-6">
                 {freelancer.testimonials.map((testimonial, index) => (
                   <motion.div
@@ -297,8 +353,12 @@ const FreelancerProfile = () => {
                       <div className="flex-1">
                         <div className="flex items-center justify-between mb-2">
                           <div>
-                            <h4 className="racing font-bold text-gray-900">{testimonial.client}</h4>
-                            <p className="openSans text-sm text-gray-600">{testimonial.company}</p>
+                            <h4 className="racing font-bold text-gray-900">
+                              {testimonial.client}
+                            </h4>
+                            <p className="openSans text-sm text-gray-600">
+                              {testimonial.company}
+                            </p>
                           </div>
                           <div className="flex text-yellow-400">
                             {[...Array(testimonial.rating)].map((_, i) => (
@@ -306,7 +366,9 @@ const FreelancerProfile = () => {
                             ))}
                           </div>
                         </div>
-                        <p className="openSans text-gray-700 leading-relaxed">{testimonial.text}</p>
+                        <p className="openSans text-gray-700 leading-relaxed">
+                          {testimonial.text}
+                        </p>
                       </div>
                     </div>
                   </motion.div>
@@ -320,34 +382,62 @@ const FreelancerProfile = () => {
             <div className="sticky top-6 space-y-6">
               {/* Quick Stats */}
               <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100">
-                <h3 className="racing font-bold text-lg text-gray-900 mb-4">Quick Stats</h3>
+                <h3 className="racing font-bold text-lg text-gray-900 mb-4">
+                  Quick Stats
+                </h3>
                 <div className="space-y-4">
                   <div className="flex justify-between">
-                    <span className="openSans text-gray-600">Response Time</span>
-                    <span className="openSans font-semibold text-gray-900">{freelancer.responseTime}</span>
+                    <span className="openSans text-gray-600">
+                      Response Time
+                    </span>
+                    <span className="openSans font-semibold text-gray-900">
+                      {freelancer.responseTime}
+                    </span>
                   </div>
                   <div className="flex justify-between">
                     <span className="openSans text-gray-600">Success Rate</span>
-                    <span className="openSans font-semibold text-gray-900">{freelancer.successRate}%</span>
+                    <span className="openSans font-semibold text-gray-900">
+                      {freelancer.successRate}%
+                    </span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="openSans text-gray-600">Repeat Clients</span>
-                    <span className="openSans font-semibold text-gray-900">85%</span>
+                    <span className="openSans text-gray-600">
+                      Repeat Clients
+                    </span>
+                    <span className="openSans font-semibold text-gray-900">
+                      85%
+                    </span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="openSans text-gray-600">On-time Delivery</span>
-                    <span className="openSans font-semibold text-gray-900">96%</span>
+                    <span className="openSans text-gray-600">
+                      On-time Delivery
+                    </span>
+                    <span className="openSans font-semibold text-gray-900">
+                      96%
+                    </span>
                   </div>
                 </div>
               </div>
 
               {/* Similar Freelancers */}
               <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100">
-                <h3 className="racing font-bold text-lg text-gray-900 mb-4">Similar Freelancers</h3>
+                <h3 className="racing font-bold text-lg text-gray-900 mb-4">
+                  Similar Freelancers
+                </h3>
                 <div className="space-y-4">
                   {[
-                    { name: "Emily Johnson", title: "UI/UX Designer", rate: 75, rating: 4.8 },
-                    { name: "David Park", title: "Product Designer", rate: 90, rating: 4.9 },
+                    {
+                      name: "Emily Johnson",
+                      title: "UI/UX Designer",
+                      rate: 75,
+                      rating: 4.8,
+                    },
+                    {
+                      name: "David Park",
+                      title: "Product Designer",
+                      rate: 90,
+                      rating: 4.9,
+                    },
                   ].map((freelancer, index) => (
                     <div
                       key={index}
@@ -362,13 +452,21 @@ const FreelancerProfile = () => {
                         </span>
                       </div>
                       <div className="flex-1">
-                        <h4 className="racing font-bold text-sm text-gray-900">{freelancer.name}</h4>
-                        <p className="openSans text-xs text-gray-600">{freelancer.title}</p>
+                        <h4 className="racing font-bold text-sm text-gray-900">
+                          {freelancer.name}
+                        </h4>
+                        <p className="openSans text-xs text-gray-600">
+                          {freelancer.title}
+                        </p>
                         <div className="flex items-center gap-2">
-                          <span className="openSans text-xs font-semibold">${freelancer.rate}/hr</span>
+                          <span className="openSans text-xs font-semibold">
+                            ${freelancer.rate}/hr
+                          </span>
                           <div className="flex text-yellow-400">
                             <i className="bx bxs-star text-xs"></i>
-                            <span className="openSans text-xs ml-1">{freelancer.rating}</span>
+                            <span className="openSans text-xs ml-1">
+                              {freelancer.rating}
+                            </span>
                           </div>
                         </div>
                       </div>
@@ -381,7 +479,7 @@ const FreelancerProfile = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default FreelancerProfile
+export default FreelancerProfile;

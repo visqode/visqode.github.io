@@ -1,6 +1,6 @@
-"use client"
-import { motion } from "framer-motion"
-import SplitText from "./Features/SplitText"
+"use client";
+import { motion } from "framer-motion";
+import SplitText from "./Features/SplitText";
 
 const PageHero = ({
   title,
@@ -57,7 +57,7 @@ const PageHero = ({
         )}
       </motion.div>
     </section>
-  )
-}
+  );
+};
 
-export default PageHero
+export default PageHero;
