@@ -533,6 +533,10 @@ img, video {
   margin: .5rem;
 }
 
+.m-3 {
+  margin: .75rem;
+}
+
 .-mx-1 {
   margin-left: -.25rem;
   margin-right: -.25rem;
@@ -2062,6 +2066,10 @@ img, video {
 
 .p-4 {
   padding: 1rem;
+}
+
+.p-5 {
+  padding: 1.25rem;
 }
 
 .p-6 {

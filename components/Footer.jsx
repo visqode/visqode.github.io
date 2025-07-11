@@ -1,8 +1,15 @@
-"use client"
-import { motion } from "framer-motion"
+"use client";
+import { motion } from "framer-motion";
+import Link from "next/link";
 
 const Footer = () => {
-  const socialIcons = ["facebook", "twitter", "linkedin", "instagram", "youtube"]
+  const socialIcons = [
+    "facebook",
+    "twitter",
+    "linkedin",
+    "instagram",
+    "youtube",
+  ];
 
   return (
     <div className="flex items-center m-2 md:m-5 justify-center">
@@ -18,7 +25,8 @@ const Footer = () => {
               READY TO WORK WITH US?
             </h1>
             <p className="text-base md:text-lg lg:text-xl text-[#B0B0B0] openSans">
-              PARTNER WITH OUR DESIGN AGENCY FOR YOUR BUSINESS WITH AMAZING RESULTS.
+              PARTNER WITH OUR DESIGN AGENCY FOR YOUR BUSINESS WITH AMAZING
+              RESULTS.
             </p>
           </div>
 
@@ -38,9 +46,12 @@ const Footer = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-10">
           <div className="text-center sm:text-left">
-            <h2 className="text-lg font-bold text-[#E5E5E5] mb-3 racing">VisQode</h2>
+            <h2 className="text-lg font-bold text-[#E5E5E5] mb-3 racing">
+              VisQode
+            </h2>
             <p className="text-sm text-[#B0B0B0] leading-relaxed mb-4 openSans">
-              We know how important customer experience is for a business and therefore, we strive.
+              We know how important customer experience is for a business and
+              therefore, we strive.
             </p>
             <div className="flex justify-center sm:justify-start space-x-2">
               {socialIcons.map((icon) => (
@@ -49,25 +60,36 @@ const Footer = () => {
                   whileHover={{ scale: 1.2 }}
                   className="bg-[#333333] rounded-full w-9 h-9 flex items-center justify-center cursor-pointer"
                 >
-                  <i className={`bxl bx-${icon}`} style={{ color: "white", fontSize: "1rem" }}></i>
+                  <i
+                    className={`bxl bx-${icon}`}
+                    style={{ color: "white", fontSize: "1rem" }}
+                  ></i>
                 </motion.div>
               ))}
             </div>
           </div>
 
           <div className="text-center sm:text-left">
-            <h2 className="text-lg font-bold text-[#E5E5E5] mb-3 racing">Data Science</h2>
+            <h2 className="text-lg font-bold text-[#E5E5E5] mb-3 racing">
+              Data Science
+            </h2>
             <ul className="text-sm text-[#B0B0B0] space-y-2 openSans">
               <li>Business Use-Case</li>
               <li>Data Roles</li>
               <li>Blog</li>
               <li>Machine Learning</li>
-              <li>Privacy Policy</li>
+              <li>
+                <Link href="/privacy" className="block">
+                  Privacy Policy
+                </Link>
+              </li>
             </ul>
           </div>
 
           <div className="text-center sm:text-left">
-            <h2 className="text-lg font-bold text-[#E5E5E5] mb-3 racing">About</h2>
+            <h2 className="text-lg font-bold text-[#E5E5E5] mb-3 racing">
+              About
+            </h2>
             <ul className="text-sm text-[#B0B0B0] space-y-2 openSans">
               <li>Contact Us</li>
               <li>Support Us</li>
@@ -77,7 +99,9 @@ const Footer = () => {
           </div>
 
           <div className="text-center sm:text-left">
-            <h2 className="text-lg font-bold text-[#E5E5E5] mb-3 racing">Programs</h2>
+            <h2 className="text-lg font-bold text-[#E5E5E5] mb-3 racing">
+              Programs
+            </h2>
             <ul className="text-sm text-[#B0B0B0] space-y-2 openSans">
               <li>Learning Modules</li>
               <li>Partnership</li>
@@ -93,7 +117,7 @@ const Footer = () => {
         </div>
       </motion.div>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

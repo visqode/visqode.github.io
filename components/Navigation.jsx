@@ -1,41 +1,41 @@
-"use client"
-import { useState, useEffect, useRef } from "react"
-import { gsap } from "gsap"
-import Link from "next/link"
+"use client";
+import { useState, useEffect, useRef } from "react";
+import { gsap } from "gsap";
+import Link from "next/link";
 
 const Navigation = () => {
-  const [isOpen, setIsOpen] = useState(false)
-  const mobileMenuRef = useRef(null)
+  const [isOpen, setIsOpen] = useState(false);
+  const mobileMenuRef = useRef(null);
 
   useEffect(() => {
     if (mobileMenuRef.current) {
       gsap.set(mobileMenuRef.current, {
         x: "100%",
         display: isOpen ? "flex" : "none",
-      })
+      });
       if (isOpen) {
         gsap.to(mobileMenuRef.current, {
           x: "0%",
           display: "flex",
           duration: 0.5,
           ease: "power3.out",
-        })
+        });
       } else {
         gsap.to(mobileMenuRef.current, {
           x: "100%",
           duration: 0.5,
           ease: "power3.in",
           onComplete: () => {
-            gsap.set(mobileMenuRef.current, { display: "none" })
+            gsap.set(mobileMenuRef.current, { display: "none" });
           },
-        })
+        });
       }
     }
-  }, [isOpen])
+  }, [isOpen]);
 
   const toggleMenu = () => {
-    setIsOpen(!isOpen)
-  }
+    setIsOpen(!isOpen);
+  };
 
   return (
     <nav className="flex items-center justify-between p-4 bg-transparent border-b border-b-gray-500/30 openSans font-extrabold">
@@ -44,7 +44,10 @@ const Navigation = () => {
       </div>
 
       <div className="hidden md:flex space-x-6 lg:space-x-8">
-        <Link href="/" className="text-white hover:scale-105 hover:transition-all duration-200 text-sm lg:text-base">
+        <Link
+          href="/"
+          className="text-white hover:scale-105 hover:transition-all duration-200 text-sm lg:text-base"
+        >
           Home
         </Link>
         <Link
@@ -84,7 +87,9 @@ const Navigation = () => {
 
       <div className="md:hidden">
         <button onClick={toggleMenu} aria-label="Toggle menu" className="p-2">
-          <i className={`bx ${isOpen ? "bx-x" : "bx-menu"} text-2xl text-white`}></i>
+          <i
+            className={`bx ${isOpen ? "bx-x" : "bx-menu"} text-2xl text-white`}
+          ></i>
         </button>
       </div>
 
@@ -93,19 +98,39 @@ const Navigation = () => {
         className="fixed top-0 right-0 h-full w-full bg-white flex flex-col items-center justify-center space-y-8 md:hidden z-50"
         style={{ display: "none" }}
       >
-        <button onClick={toggleMenu} className="absolute top-4 right-4 text-2xl p-2" aria-label="Close menu">
+        <button
+          onClick={toggleMenu}
+          className="absolute top-4 right-4 text-2xl p-2"
+          aria-label="Close menu"
+        >
           <i className="bx bx-x"></i>
         </button>
-        <Link href="/" className="text-2xl text-gray-700 hover:text-black py-2" onClick={toggleMenu}>
+        <Link
+          href="/"
+          className="text-2xl text-gray-700 hover:text-black py-2"
+          onClick={toggleMenu}
+        >
           Home
         </Link>
-        <Link href="/about" className="text-2xl text-gray-700 hover:text-black py-2" onClick={toggleMenu}>
+        <Link
+          href="/about"
+          className="text-2xl text-gray-700 hover:text-black py-2"
+          onClick={toggleMenu}
+        >
           About
         </Link>
-        <Link href="/services" className="text-2xl text-gray-700 hover:text-black py-2" onClick={toggleMenu}>
+        <Link
+          href="/services"
+          className="text-2xl text-gray-700 hover:text-black py-2"
+          onClick={toggleMenu}
+        >
           Services
         </Link>
-        <Link href="/consulting" className="text-2xl text-gray-700 hover:text-black py-2" onClick={toggleMenu}>
+        <Link
+          href="/consulting"
+          className="text-2xl text-gray-700 hover:text-black py-2"
+          onClick={toggleMenu}
+        >
           Consulting
         </Link>
         <Link
@@ -124,7 +149,7 @@ const Navigation = () => {
         </Link>
       </div>
     </nav>
-  )
-}
+  );
+};
 
-export default Navigation
+export default Navigation;
