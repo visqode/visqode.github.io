@@ -14,7 +14,7 @@ const AboutSection = () => {
           viewport={{ once: true, margin: "-50px" }}
           transition={{ duration: 0.6, ease: [0.33, 0, 0, 1] }}
         >
-          <div className="text-4xl md:text-6xl racing font-bold mb-8 md:mb-16 text-center lg:text-left">
+          <div className="text-4xl md:text-6xl rajdhani font-[900] mb-8 md:mb-16 text-center lg:text-left">
             About Us
           </div>
           <ScrollReveal

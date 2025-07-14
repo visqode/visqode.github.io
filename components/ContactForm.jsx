@@ -121,7 +121,7 @@ const ContactForm = () => {
             end: "bottom 20%",
             toggleActions: "play none none reverse",
           },
-        },
+        }
       );
     }
 
@@ -328,7 +328,7 @@ const ContactForm = () => {
           <h2 className="text-4xl lg:text-5xl xl:text-6xl racing font-bold text-gray-900 mb-6">
             Start Your Project
           </h2>
-          <p className="text-xl lg:text-2xl text-gray-600 max-w-3xl mx-auto openSans leading-relaxed">
+          <p className="text-xl font-[500]  lg:text-2xl text-gray-600 max-w-3xl mx-auto openSans leading-relaxed">
             Ready to transform your digital presence? Tell us about your project
             and let's create something amazing together.
           </p>
@@ -357,7 +357,7 @@ const ContactForm = () => {
                     <p className="racing font-bold">Phone</p>
                     <a
                       href="tel:+15551234567"
-                      className="openSans text-gray-600 hover:text-[#a7ff59] transition-colors"
+                      className="openSans font-[600]  text-gray-600 hover:text-[#a7ff59] transition-colors"
                     >
                       +1 (555) 123-4567
                     </a>
@@ -372,7 +372,7 @@ const ContactForm = () => {
                     <p className="racing font-bold">Email</p>
                     <a
                       href="mailto:visqode@gmail.com"
-                      className="openSans text-gray-600 hover:text-[#a7ff59] transition-colors"
+                      className="openSans text-gray-600 font-[600]  hover:text-[#a7ff59] transition-colors"
                     >
                       visqode@gmail.com
                     </a>
@@ -385,7 +385,9 @@ const ContactForm = () => {
                   </div>
                   <div>
                     <p className="racing font-bold">Response Time</p>
-                    <p className="openSans text-gray-600">Within 24 hours</p>
+                    <p className="openSans text-gray-600 font-[600]">
+                      Within 24 hours
+                    </p>
                   </div>
                 </div>
 
@@ -397,7 +399,7 @@ const ContactForm = () => {
                     <p className="racing font-bold">Urgent Matters</p>
                     <a
                       href="mailto:ibwmahin@gmail.com"
-                      className="openSans text-gray-600 hover:text-red-500 transition-colors"
+                      className="openSans font-[600]  text-gray-600 hover:text-red-500 transition-colors"
                     >
                       ibwmahin@gmail.com
                     </a>
@@ -475,7 +477,7 @@ const ContactForm = () => {
                     value={formData.fullName}
                     onChange={handleInputChange}
                     required
-                    className="w-full px-4 py-4 border-2 border-gray-200 rounded-xl focus:border-[#a7ff59] focus:outline-none transition-all duration-300 openSans"
+                    className="w-full font-[600]  px-4 py-4 border-2 border-gray-200 rounded-xl focus:border-[#a7ff59] focus:outline-none transition-all duration-300 openSans"
                     placeholder="Your full name"
                   />
                 </div>
@@ -489,7 +491,7 @@ const ContactForm = () => {
                     name="businessName"
                     value={formData.businessName}
                     onChange={handleInputChange}
-                    className="w-full px-4 py-4 border-2 border-gray-200 rounded-xl focus:border-[#a7ff59] focus:outline-none transition-all duration-300 openSans"
+                    className="w-full font-[600]  px-4 py-4 border-2 border-gray-200 rounded-xl focus:border-[#a7ff59] focus:outline-none transition-all duration-300 openSans"
                     placeholder="Your business name (optional)"
                   />
                 </div>
@@ -505,7 +507,7 @@ const ContactForm = () => {
                   value={formData.email}
                   onChange={handleInputChange}
                   required
-                  className="w-full px-4 py-4 border-2 border-gray-200 rounded-xl focus:border-[#a7ff59] focus:outline-none transition-all duration-300 openSans"
+                  className="w-full font-[600]  px-4 py-4 border-2 border-gray-200 rounded-xl focus:border-[#a7ff59] focus:outline-none transition-all duration-300 openSans"
                   placeholder="your@email.com"
                 />
               </div>
@@ -520,7 +522,7 @@ const ContactForm = () => {
                     <motion.label
                       key={service.id}
                       whileHover={{ scale: 1.02 }}
-                      className={`flex items-start p-4 rounded-xl border-2 cursor-pointer transition-all duration-300 ${
+                      className={`flex font-[600]  items-start p-4 rounded-xl border-2 cursor-pointer transition-all duration-300 ${
                         formData.services.includes(service.id)
                           ? "border-[#a7ff59] bg-[#a7ff59]/10"
                           : "border-gray-200 hover:border-gray-300"
@@ -533,7 +535,7 @@ const ContactForm = () => {
                         className="sr-only"
                       />
                       <div
-                        className={`w-5 h-5 rounded border-2 mr-3 flex items-center justify-center flex-shrink-0 mt-0.5 ${
+                        className={`w-5 h-5 font-[600]  rounded border-2 mr-3 flex items-center justify-center flex-shrink-0 mt-0.5 ${
                           formData.services.includes(service.id)
                             ? "border-[#a7ff59] bg-[#a7ff59]"
                             : "border-gray-300"
@@ -556,11 +558,11 @@ const ContactForm = () => {
                                 : "text-gray-600"
                             }`}
                           ></i>
-                          <span className="openSans font-medium">
+                          <span className="openSans font-[700] ">
                             {service.name}
                           </span>
                         </div>
-                        <p className="text-xs text-gray-500 openSans">
+                        <p className="text-sm text-gray-500 openSans">
                           {service.description}
                         </p>
                       </div>
@@ -609,10 +611,10 @@ const ContactForm = () => {
                         )}
                       </div>
                       <div className="flex-1">
-                        <span className="openSans font-medium block">
+                        <span className="openSans font-[600]  block">
                           {budget.label}
                         </span>
-                        <span className="text-xs text-gray-500 openSans">
+                        <span className="text-sm font-[600]  text-gray-500 openSans">
                           {budget.description}
                         </span>
                       </div>
@@ -632,10 +634,10 @@ const ContactForm = () => {
                   onChange={handleInputChange}
                   required
                   rows={6}
-                  className="w-full px-4 py-4 border-2 border-gray-200 rounded-xl focus:border-[#a7ff59] focus:outline-none transition-all duration-300 openSans resize-none"
+                  className="w-full text-lg font-[500]  px-4 py-4 border-2 border-gray-200 rounded-xl focus:border-[#a7ff59] focus:outline-none transition-all duration-300 openSans resize-none"
                   placeholder="Tell us about your project goals, target audience, timeline, and any specific requirements..."
                 />
-                <p className="text-sm text-gray-500 openSans mt-2">
+                <p className="text-[17px] font-[600]  text-gray-500 openSans mt-2">
                   Minimum 10 characters • {formData.description.length}/500
                 </p>
               </div>
@@ -670,7 +672,7 @@ const ContactForm = () => {
               </motion.button>
 
               {/* Privacy Notice */}
-              <p className="text-sm text-gray-500 openSans text-center">
+              <p className="text-sm font-[600]  text-gray-500 openSans text-center">
                 By submitting this form, you agree to our{" "}
                 <a href="#" className="text-[#a7ff59] hover:underline">
                   Privacy Policy

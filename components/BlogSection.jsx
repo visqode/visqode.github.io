@@ -35,7 +35,7 @@ const BlogSection = () => {
               toggleActions: "play none none reverse",
             },
             delay: index * 0.2,
-          },
+          }
         );
       }
     });
@@ -82,7 +82,7 @@ const BlogSection = () => {
       readTime: "6 min read",
       category: "UI/UX Design",
       image:
-        "https://images.unsplash.com/photo-1581291518857-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://buildfire.com/wp-content/uploads/2024/09/Whats-the-Difference-Between-UX-Design-vs.-UI-Design_@3x-1-scaled-3.jpg",
       tags: ["UI/UX", "Conversion", "Design"],
     },
     {
@@ -114,7 +114,7 @@ const BlogSection = () => {
           <h2 className="text-4xl lg:text-5xl xl:text-6xl racing font-bold text-gray-900 mb-6">
             Insights, Tips & Tutorials
           </h2>
-          <p className="text-xl lg:text-2xl text-gray-600 max-w-3xl mx-auto openSans leading-relaxed">
+          <p className="text-xl lg:text-2xl font-[500] text-gray-600 max-w-3xl mx-auto openSans leading-relaxed">
             Stay updated with the latest trends, best practices, and expert
             insights from our team.
           </p>
@@ -152,11 +152,11 @@ const BlogSection = () => {
 
               {/* Content */}
               <div className="p-6 lg:p-8">
-                <h3 className="text-xl lg:text-2xl racing font-bold text-gray-900 mb-3 group-hover:text-[#a7ff59] transition-colors duration-300 line-clamp-2">
+                <h3 className="text-xl lg:text-3xl racing font-bold text-gray-900 mb-3 group-hover:text-[#a7ff59] transition-colors duration-300 line-clamp-2">
                   {post.title}
                 </h3>
 
-                <p className="text-gray-600 openSans leading-relaxed mb-6 text-sm lg:text-base line-clamp-2">
+                <p className="text-gray-600 openSans leading-relaxed mb-6 text-sm lg:text-[20px] font-[500] line-clamp-2">
                   {post.excerpt}
                 </p>
 
@@ -165,7 +165,7 @@ const BlogSection = () => {
                   {post.tags.map((tag, tagIndex) => (
                     <span
                       key={tagIndex}
-                      className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs openSans font-medium"
+                      className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-[15px] openSans font-[600]"
                     >
                       {tag}
                     </span>
@@ -184,10 +184,10 @@ const BlogSection = () => {
                       </span>
                     </div>
                     <div>
-                      <p className="text-gray-900 font-semibold text-sm openSans">
+                      <p className="text-gray-900 font-semibold text-[15px] openSans">
                         {post.author}
                       </p>
-                      <p className="text-gray-500 text-xs openSans">
+                      <p className="text-gray-500 font-[600] text-xs openSans">
                         {post.date}
                       </p>
                     </div>

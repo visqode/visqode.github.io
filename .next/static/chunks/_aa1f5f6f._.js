@@ -62,7 +62,7 @@ const Navigation = ()=>{
         className: "flex items-center justify-between p-4 bg-transparent border-b border-b-gray-500/30 openSans font-extrabold",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "text-xl md:text-2xl font-bold text-white",
+                className: "text-xl md:text-2xl font-bold rajdhani text-white",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                     href: "/",
                     children: "VisQode"
@@ -77,11 +77,11 @@ const Navigation = ()=>{
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "hidden md:flex space-x-6 lg:space-x-8",
+                className: "hidden md:flex space-x-6 rajdhani lg:space-x-12",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                         href: "/",
-                        className: "text-white hover:scale-105 hover:transition-all duration-200 text-sm lg:text-base",
+                        className: "text-white hover:scale-105 hover:transition-all duration-200 text-sm lg:text-[18px]",
                         children: "Home"
                     }, void 0, false, {
                         fileName: "[project]/components/Navigation.jsx",
@@ -90,7 +90,7 @@ const Navigation = ()=>{
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                         href: "/about",
-                        className: "text-white hover:scale-105 hover:transition-all duration-200 text-sm lg:text-base",
+                        className: "text-white hover:scale-105 hover:transition-all duration-200 text-sm lg:text-[18px]",
                         children: "About"
                     }, void 0, false, {
                         fileName: "[project]/components/Navigation.jsx",
@@ -99,7 +99,7 @@ const Navigation = ()=>{
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                         href: "/services",
-                        className: "text-white hover:scale-105 hover:transition-all duration-200 text-sm lg:text-base",
+                        className: "text-white hover:scale-105 hover:transition-all duration-200 text-sm lg:text-[18px]",
                         children: "Services"
                     }, void 0, false, {
                         fileName: "[project]/components/Navigation.jsx",
@@ -108,7 +108,7 @@ const Navigation = ()=>{
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                         href: "/consulting",
-                        className: "text-white hover:scale-105 hover:transition-all duration-200 text-sm lg:text-base",
+                        className: "text-white hover:scale-105 hover:transition-all duration-200 text-sm lg:text-[18px]",
                         children: "Consulting"
                     }, void 0, false, {
                         fileName: "[project]/components/Navigation.jsx",
@@ -293,11 +293,26 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 const Footer = ()=>{
     const socialIcons = [
-        "facebook",
-        "twitter",
-        "linkedin",
-        "instagram",
-        "youtube"
+        {
+            name: "facebook",
+            icon: "ri-facebook-fill"
+        },
+        {
+            name: "twitter",
+            icon: "ri-twitter-fill"
+        },
+        {
+            name: "linkedin",
+            icon: "ri-linkedin-fill"
+        },
+        {
+            name: "instagram",
+            icon: "ri-instagram-line"
+        },
+        {
+            name: "youtube",
+            icon: "ri-youtube-fill"
+        }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "flex items-center m-2 md:m-5 justify-center",
@@ -331,7 +346,7 @@ const Footer = ()=>{
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-base md:text-lg lg:text-xl text-[#B0B0B0] openSans",
+                                    className: "text-base font-[500]  md:text-lg lg:text-xl text-[#B0B0B0] openSans",
                                     children: "PARTNER WITH OUR DESIGN AGENCY FOR YOUR BUSINESS WITH AMAZING RESULTS."
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer.jsx",
@@ -354,7 +369,7 @@ const Footer = ()=>{
                             },
                             className: "cursor-pointer flex-shrink-0",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "bg-[#39FF14] rounded-full w-24 h-24 md:w-32 md:h-32 flex flex-col items-center justify-center text-black font-bold shadow-[0_0_20px_rgba(57,255,20,0.5)] racing text-center text-sm md:text-base",
+                                className: "bg-[#39FF14] rounded-[15px] w-24 h-24 md:w-32 md:h-13 flex flex-col items-center justify-center text-black font-bold shadow-[0_0_20px_rgba(57,255,20,0.5)] racing text-center text-sm md:text-[15px]",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         children: "GET STARTED"
@@ -364,7 +379,7 @@ const Footer = ()=>{
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
-                                        className: "bx bx-arrow-back mt-1 text-lg md:text-xl"
+                                        className: "ri-arrow-right-line mt-1 text-lg md:text-xl"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Footer.jsx",
                                         lineNumber: 40,
@@ -401,7 +416,7 @@ const Footer = ()=>{
                             className: "text-center sm:text-left",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "text-lg font-bold text-[#E5E5E5] mb-3 racing",
+                                    className: "text-[22px] font-bold text-[#E5E5E5] mb-3 racing",
                                     children: "VisQode"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer.jsx",
@@ -409,7 +424,7 @@ const Footer = ()=>{
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-sm text-[#B0B0B0] leading-relaxed mb-4 openSans",
+                                    className: "text-[17px] font-[600] text-[#B0B0B0] leading-relaxed mb-4 openSans",
                                     children: "We know how important customer experience is for a business and therefore, we strive."
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer.jsx",
@@ -418,13 +433,13 @@ const Footer = ()=>{
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "flex justify-center sm:justify-start space-x-2",
-                                    children: socialIcons.map((icon)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                                    children: socialIcons.map(({ name, icon })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
                                             whileHover: {
                                                 scale: 1.2
                                             },
                                             className: "bg-[#333333] rounded-full w-9 h-9 flex items-center justify-center cursor-pointer",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
-                                                className: `bxl bx-${icon}`,
+                                                className: `${icon}`,
                                                 style: {
                                                     color: "white",
                                                     fontSize: "1rem"
@@ -434,7 +449,7 @@ const Footer = ()=>{
                                                 lineNumber: 63,
                                                 columnNumber: 19
                                             }, this)
-                                        }, icon, false, {
+                                        }, name, false, {
                                             fileName: "[project]/components/Footer.jsx",
                                             lineNumber: 58,
                                             columnNumber: 17
@@ -454,7 +469,7 @@ const Footer = ()=>{
                             className: "text-center sm:text-left",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "text-lg font-bold text-[#E5E5E5] mb-3 racing",
+                                    className: "text-[22px] font-bold text-[#E5E5E5] mb-3 racing",
                                     children: "Data Science"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer.jsx",
@@ -462,7 +477,7 @@ const Footer = ()=>{
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                    className: "text-sm text-[#B0B0B0] space-y-2 openSans",
+                                    className: "text-[16px] text-[#B0B0B0] font-[500] space-y-2 openSans",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Business Use-Case"
@@ -523,7 +538,7 @@ const Footer = ()=>{
                             className: "text-center sm:text-left",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "text-lg font-bold text-[#E5E5E5] mb-3 racing",
+                                    className: "text-[22px] font-bold text-[#E5E5E5] mb-3 racing",
                                     children: "About"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer.jsx",
@@ -531,7 +546,7 @@ const Footer = ()=>{
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                    className: "text-sm text-[#B0B0B0] space-y-2 openSans",
+                                    className: "text-[16px] font-[500] text-[#B0B0B0] space-y-2 openSans",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Contact Us"
@@ -577,7 +592,7 @@ const Footer = ()=>{
                             className: "text-center sm:text-left",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "text-lg font-bold text-[#E5E5E5] mb-3 racing",
+                                    className: "text-[22px] font-bold text-[#E5E5E5] mb-3 racing",
                                     children: "Programs"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer.jsx",
@@ -585,7 +600,7 @@ const Footer = ()=>{
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                    className: "text-sm text-[#B0B0B0] space-y-2 openSans",
+                                    className: "text-[16px] font-[500]  text-[#B0B0B0] space-y-2 openSans",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Learning Modules"
@@ -634,7 +649,7 @@ const Footer = ()=>{
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex flex-col md:flex-row justify-between items-center mt-8 md:mt-10 text-[#B0B0B0] text-sm gap-3 openSans",
+                    className: "flex text-[15px] font-[600]  flex-col md:flex-row justify-between items-center mt-8 md:mt-10 text-[#B0B0B0] text-sm gap-3 openSans",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                             children: "VisQode, INC."
@@ -794,7 +809,7 @@ const SplitText = ({ text, className = "", delay = 100, duration = 0.6, ease = "
         children: text
     }, void 0, false, {
         fileName: "[project]/components/Features/SplitText.jsx",
-        lineNumber: 85,
+        lineNumber: 96,
         columnNumber: 5
     }, this);
 };
@@ -1092,12 +1107,12 @@ const ScrollReveal = ({ children, scrollContainerRef, enableBlur = true, baseOpa
             children: splitText
         }, void 0, false, {
             fileName: "[project]/components/Features/ScrollReveal.jsx",
-            lineNumber: 136,
+            lineNumber: 147,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/Features/ScrollReveal.jsx",
-        lineNumber: 128,
+        lineNumber: 139,
         columnNumber: 5
     }, this);
 };
@@ -1178,12 +1193,12 @@ function About() {
                 className: "bg-black text-white",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Navigation$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/app/about/page.jsx",
-                    lineNumber: 42,
+                    lineNumber: 58,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/about/page.jsx",
-                lineNumber: 41,
+                lineNumber: 57,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$PageHero$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1193,7 +1208,7 @@ function About() {
                 backgroundImage: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80"
             }, void 0, false, {
                 fileName: "[project]/app/about/page.jsx",
-                lineNumber: 45,
+                lineNumber: 61,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -1225,23 +1240,23 @@ function About() {
                                         className: "rounded-2xl md:rounded-3xl shadow-lg w-full h-auto"
                                     }, void 0, false, {
                                         fileName: "[project]/app/about/page.jsx",
-                                        lineNumber: 62,
+                                        lineNumber: 78,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/about/page.jsx",
-                                    lineNumber: 56,
+                                    lineNumber: 72,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "space-y-6",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                            className: "text-3xl md:text-4xl racing font-bold",
+                                            className: "text-3xl md:text-4xl rajdhani font-bold",
                                             children: "What is VisQode?"
                                         }, void 0, false, {
                                             fileName: "[project]/app/about/page.jsx",
-                                            lineNumber: 70,
+                                            lineNumber: 86,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Features$2f$ScrollReveal$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1253,7 +1268,7 @@ function About() {
                                             children: "VisQode is a full-service digital agency focused on building brands, websites, and long-term digital strategies. We partner with individuals, startups, and enterprises to bring their vision to life — from concept to launch."
                                         }, void 0, false, {
                                             fileName: "[project]/app/about/page.jsx",
-                                            lineNumber: 71,
+                                            lineNumber: 89,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Features$2f$ScrollReveal$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1265,19 +1280,19 @@ function About() {
                                             children: "We handle the creative, the technical, and the strategic so you can focus on your vision. Our comprehensive approach ensures every aspect of your digital presence works together seamlessly."
                                         }, void 0, false, {
                                             fileName: "[project]/app/about/page.jsx",
-                                            lineNumber: 82,
+                                            lineNumber: 101,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/about/page.jsx",
-                                    lineNumber: 69,
+                                    lineNumber: 85,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/about/page.jsx",
-                            lineNumber: 55,
+                            lineNumber: 71,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1305,7 +1320,7 @@ function About() {
                                             children: stat.number
                                         }, void 0, false, {
                                             fileName: "[project]/app/about/page.jsx",
-                                            lineNumber: 106,
+                                            lineNumber: 126,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1313,7 +1328,7 @@ function About() {
                                             children: stat.label
                                         }, void 0, false, {
                                             fileName: "[project]/app/about/page.jsx",
-                                            lineNumber: 107,
+                                            lineNumber: 129,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1321,18 +1336,18 @@ function About() {
                                             children: stat.desc
                                         }, void 0, false, {
                                             fileName: "[project]/app/about/page.jsx",
-                                            lineNumber: 108,
+                                            lineNumber: 130,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, index, true, {
                                     fileName: "[project]/app/about/page.jsx",
-                                    lineNumber: 98,
+                                    lineNumber: 118,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/app/about/page.jsx",
-                            lineNumber: 96,
+                            lineNumber: 116,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1343,7 +1358,7 @@ function About() {
                                     children: "Our Core Values"
                                 }, void 0, false, {
                                     fileName: "[project]/app/about/page.jsx",
-                                    lineNumber: 115,
+                                    lineNumber: 139,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Features$2f$ScrollReveal$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1355,13 +1370,13 @@ function About() {
                                     children: "These principles guide everything we do and shape how we work with our clients."
                                 }, void 0, false, {
                                     fileName: "[project]/app/about/page.jsx",
-                                    lineNumber: 116,
+                                    lineNumber: 142,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/about/page.jsx",
-                            lineNumber: 114,
+                            lineNumber: 138,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1390,12 +1405,12 @@ function About() {
                                                 className: `bx ${value.icon} text-2xl text-black`
                                             }, void 0, false, {
                                                 fileName: "[project]/app/about/page.jsx",
-                                                lineNumber: 138,
+                                                lineNumber: 165,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/about/page.jsx",
-                                            lineNumber: 137,
+                                            lineNumber: 164,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1403,7 +1418,7 @@ function About() {
                                             children: value.title
                                         }, void 0, false, {
                                             fileName: "[project]/app/about/page.jsx",
-                                            lineNumber: 140,
+                                            lineNumber: 167,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1411,40 +1426,40 @@ function About() {
                                             children: value.description
                                         }, void 0, false, {
                                             fileName: "[project]/app/about/page.jsx",
-                                            lineNumber: 141,
+                                            lineNumber: 168,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, index, true, {
                                     fileName: "[project]/app/about/page.jsx",
-                                    lineNumber: 129,
+                                    lineNumber: 156,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/app/about/page.jsx",
-                            lineNumber: 127,
+                            lineNumber: 154,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/about/page.jsx",
-                    lineNumber: 54,
+                    lineNumber: 70,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/about/page.jsx",
-                lineNumber: 52,
+                lineNumber: 68,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Footer$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/about/page.jsx",
-                lineNumber: 148,
+                lineNumber: 177,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/about/page.jsx",
-        lineNumber: 40,
+        lineNumber: 56,
         columnNumber: 5
     }, this);
 }

@@ -1,3 +1,4 @@
+@import "https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap";
 /* [project]/app/globals.css [app-client] (css) */
 *, :before, :after, ::backdrop {
   --tw-border-spacing-x: 0;
@@ -245,6 +246,10 @@ img, video {
   display: none;
 }
 
+* {
+  font-family: Rajdhani, sans-serif;
+}
+
 .container {
   width: 100%;
   margin-left: auto;
@@ -489,6 +494,10 @@ img, video {
   z-index: 20;
 }
 
+.z-30 {
+  z-index: 30;
+}
+
 .z-40 {
   z-index: 40;
 }
@@ -531,10 +540,6 @@ img, video {
 
 .m-2 {
   margin: .5rem;
-}
-
-.m-3 {
-  margin: .75rem;
 }
 
 .-mx-1 {
@@ -744,6 +749,10 @@ img, video {
 
 .inline-block {
   display: inline-block;
+}
+
+.inline {
+  display: inline;
 }
 
 .flex {
@@ -1037,6 +1046,10 @@ img, video {
 
 .w-\[95\%\] {
   width: 95%;
+}
+
+.w-\[97\%\] {
+  width: 97%;
 }
 
 .w-auto {
@@ -1525,6 +1538,14 @@ img, video {
   border-radius: 1.5rem;
 }
 
+.rounded-\[10px\] {
+  border-radius: 10px;
+}
+
+.rounded-\[15px\] {
+  border-radius: 15px;
+}
+
 .rounded-\[2px\] {
   border-radius: 2px;
 }
@@ -1724,6 +1745,11 @@ img, video {
   background-color: var(--color-bg);
 }
 
+.bg-\[whitesmoke\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 245 245 / var(--tw-bg-opacity, 1));
+}
+
 .bg-accent {
   background-color: hsl(var(--accent));
 }
@@ -1735,6 +1761,10 @@ img, video {
 
 .bg-black\/20 {
   background-color: #0003;
+}
+
+.bg-black\/40 {
+  background-color: #0006;
 }
 
 .bg-black\/50 {
@@ -2068,10 +2098,6 @@ img, video {
   padding: 1rem;
 }
 
-.p-5 {
-  padding: 1.25rem;
-}
-
 .p-6 {
   padding: 1.5rem;
 }
@@ -2194,6 +2220,11 @@ img, video {
   padding-bottom: .5rem;
 }
 
+.py-\[14px\] {
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
 .pb-16 {
   padding-bottom: 4rem;
 }
@@ -2302,6 +2333,38 @@ img, video {
   font-size: .8rem;
 }
 
+.text-\[15px\] {
+  font-size: 15px;
+}
+
+.text-\[16px\] {
+  font-size: 16px;
+}
+
+.text-\[17px\] {
+  font-size: 17px;
+}
+
+.text-\[18px\] {
+  font-size: 18px;
+}
+
+.text-\[20px\] {
+  font-size: 20px;
+}
+
+.text-\[22px\] {
+  font-size: 22px;
+}
+
+.text-\[25px\] {
+  font-size: 25px;
+}
+
+.text-\[40px\] {
+  font-size: 40px;
+}
+
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -2327,7 +2390,23 @@ img, video {
   line-height: 1rem;
 }
 
-.font-black {
+.font-\[500\] {
+  font-weight: 500;
+}
+
+.font-\[550\] {
+  font-weight: 550;
+}
+
+.font-\[600\] {
+  font-weight: 600;
+}
+
+.font-\[700\] {
+  font-weight: 700;
+}
+
+.font-\[900\], .font-black {
   font-weight: 900;
 }
 
@@ -2422,6 +2501,11 @@ img, video {
 
 .text-black\/80 {
   color: #000c;
+}
+
+.text-blue-500 {
+  --tw-text-opacity: 1;
+  color: rgb(59 130 246 / var(--tw-text-opacity, 1));
 }
 
 .text-blue-600 {
@@ -2565,11 +2649,6 @@ img, video {
 .text-yellow-800 {
   --tw-text-opacity: 1;
   color: rgb(133 77 14 / var(--tw-text-opacity, 1));
-}
-
-.text-blue-500 {
-  --tw-text-opacity: 1;
-  color: rgb(59 130 246 / var(--tw-text-opacity, 1));
 }
 
 .underline {
@@ -2911,20 +2990,8 @@ html {
   scroll-behavior: smooth;
 }
 
-.font-inter {
-  font-family: Inter, sans-serif;
-}
-
-.font-playfair {
-  font-family: Playfair Display, serif;
-}
-
-.racing {
-  font-family: Racing Sans One, sans-serif;
-}
-
-.openSans {
-  font-family: Open Sans, sans-serif;
+.rajdhani {
+  font-family: Rajdhani, sans-serif;
 }
 
 @keyframes fadeInUp {
@@ -3076,6 +3143,11 @@ button, a, .interactive {
 .custom-scroll-text {
   white-space: nowrap;
   overflow: hidden;
+}
+
+.fade-mask {
+  -webkit-mask-image: linear-gradient(#0000 0%, #000 10% 90%, #0000 100%);
+  mask-image: linear-gradient(#0000 0%, #000 10% 90%, #0000 100%);
 }
 
 .file\:border-0::file-selector-button {
@@ -4234,10 +4306,6 @@ button, a, .interactive {
     height: 5rem;
   }
 
-  .md\:h-32 {
-    height: 8rem;
-  }
-
   .md\:h-80 {
     height: 20rem;
   }
@@ -4342,6 +4410,18 @@ button, a, .interactive {
   .md\:text-7xl {
     font-size: 4.5rem;
     line-height: 1;
+  }
+
+  .md\:text-\[15px\] {
+    font-size: 15px;
+  }
+
+  .md\:text-\[18px\] {
+    font-size: 18px;
+  }
+
+  .md\:text-\[20px\] {
+    font-size: 20px;
   }
 
   .md\:text-base {
@@ -4579,16 +4659,16 @@ button, a, .interactive {
     gap: 2rem;
   }
 
+  .lg\:space-x-12 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(3rem * var(--tw-space-x-reverse));
+    margin-left: calc(3rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
   .lg\:space-x-4 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(1rem * var(--tw-space-x-reverse));
     margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
-  .lg\:space-x-8 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(2rem * var(--tw-space-x-reverse));
-    margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .lg\:space-y-12 > :not([hidden]) ~ :not([hidden]) {
@@ -4677,6 +4757,14 @@ button, a, .interactive {
     line-height: 1;
   }
 
+  .lg\:text-\[18px\] {
+    font-size: 18px;
+  }
+
+  .lg\:text-\[20px\] {
+    font-size: 20px;
+  }
+
   .lg\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
@@ -4706,11 +4794,6 @@ button, a, .interactive {
 @media (prefers-color-scheme: dark) {
   .dark\:border-destructive {
     border-color: hsl(var(--destructive));
-  }
-
-  .dark\:text-gray-200 {
-    --tw-text-opacity: 1;
-    color: rgb(229 231 235 / var(--tw-text-opacity, 1));
   }
 
   .dark\:text-gray-400 {

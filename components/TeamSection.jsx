@@ -86,7 +86,9 @@ const TeamSection = () => {
                   <h3 className="text-xl font-bold text-gray-900 mb-2 racing">
                     {member.name}
                   </h3>
-                  <p className="text-gray-600 openSans">{member.role}</p>
+                  <p className="text-gray-600 font-[600] openSans">
+                    {member.role}
+                  </p>
                 </div>
 
                 {/* Hover overlay */}
@@ -95,21 +97,21 @@ const TeamSection = () => {
                     <h3 className="text-xl font-bold mb-2 racing">
                       {member.name}
                     </h3>
-                    <p className="mb-4 openSans">{member.role}</p>
+                    <p className="mb-4 font-[500] openSans">{member.role}</p>
                     <div className="flex justify-center space-x-4">
                       <motion.a
                         whileHover={{ scale: 1.1 }}
                         href="#"
                         className="w-10 h-10 bg-black/20 rounded-full flex items-center justify-center hover:bg-black/30 transition-colors"
                       >
-                        <i className="bxl bx-linkedin text-white"></i>
+                        <i class="ri-linkedin-fill text-white"></i>
                       </motion.a>
                       <motion.a
                         whileHover={{ scale: 1.1 }}
                         href="#"
                         className="w-10 h-10 bg-black/20 rounded-full flex items-center justify-center hover:bg-black/30 transition-colors"
                       >
-                        <i className="bxl bx-twitter text-white"></i>
+                        <i class="ri-twitter-x-fill text-white"></i>
                       </motion.a>
                     </div>
                   </div>

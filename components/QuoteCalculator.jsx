@@ -79,7 +79,7 @@ const QuoteCalculator = () => {
             end: "bottom 20%",
             toggleActions: "play none none reverse",
           },
-        },
+        }
       );
     }
 
@@ -92,7 +92,7 @@ const QuoteCalculator = () => {
     setSelectedServices((prev) =>
       prev.includes(serviceId)
         ? prev.filter((id) => id !== serviceId)
-        : [...prev, serviceId],
+        : [...prev, serviceId]
     );
   };
 
@@ -109,7 +109,7 @@ const QuoteCalculator = () => {
     const supportMultiplier = ongoingSupport ? 1.3 : 1;
 
     const finalEstimate = Math.round(
-      basePrice * budgetMultiplier * timelineMultiplier * supportMultiplier,
+      basePrice * budgetMultiplier * timelineMultiplier * supportMultiplier
     );
     setEstimatedQuote(finalEstimate);
     setShowEstimate(true);
@@ -120,7 +120,7 @@ const QuoteCalculator = () => {
         gsap.fromTo(
           resultRef.current,
           { opacity: 0, scale: 0.8, y: 30 },
-          { opacity: 1, scale: 1, y: 0, duration: 0.6, ease: "back.out(1.7)" },
+          { opacity: 1, scale: 1, y: 0, duration: 0.6, ease: "back.out(1.7)" }
         );
       }
     }, 100);
@@ -155,7 +155,7 @@ const QuoteCalculator = () => {
           <h2 className="text-4xl lg:text-5xl xl:text-6xl racing font-bold text-gray-900 mb-6">
             Get an Instant Project Estimate
           </h2>
-          <p className="text-xl lg:text-2xl text-gray-600 max-w-3xl mx-auto openSans leading-relaxed">
+          <p className="text-xl font-[500] lg:text-2xl text-gray-600 max-w-3xl mx-auto openSans leading-relaxed">
             Answer a few quick questions and get a personalized quote for your
             project in seconds.
           </p>
@@ -189,7 +189,7 @@ const QuoteCalculator = () => {
                 </div>
               ))}
             </div>
-            <div className="flex justify-between text-sm openSans text-gray-600">
+            <div className="flex font-[600]  justify-between text-[18px] openSans text-gray-600">
               <span>Services</span>
               <span>Details</span>
               <span>Calculate</span>
@@ -239,10 +239,10 @@ const QuoteCalculator = () => {
                             }`}
                           ></i>
                           <div className="ml-4">
-                            <h4 className="racing font-bold text-gray-900">
+                            <h4 className="racing font-bold text-[18px] text-gray-900">
                               {service.name}
                             </h4>
-                            <p className="text-sm text-gray-600 openSans">
+                            <p className="text-sm font-[500]  text-gray-600 openSans">
                               From ${service.price.toLocaleString()}
                             </p>
                           </div>
@@ -286,7 +286,7 @@ const QuoteCalculator = () => {
                           <motion.label
                             key={budget.value}
                             whileHover={{ scale: 1.02 }}
-                            className={`flex items-center p-4 rounded-xl border-2 cursor-pointer transition-all duration-300 ${
+                            className={`flex items-center  p-4 rounded-xl border-2 cursor-pointer transition-all duration-300 ${
                               budgetRange === budget.value
                                 ? "border-[#a7ff59] bg-[#a7ff59]/10"
                                 : "border-gray-200 hover:border-gray-300"
@@ -317,7 +317,7 @@ const QuoteCalculator = () => {
                                 </motion.div>
                               )}
                             </div>
-                            <span className="openSans font-medium">
+                            <span className="openSans font-[600] ">
                               {budget.label}
                             </span>
                           </motion.label>
@@ -366,7 +366,7 @@ const QuoteCalculator = () => {
                                 </motion.div>
                               )}
                             </div>
-                            <span className="openSans font-medium">
+                            <span className="openSans font-[600] ">
                               {time.label}
                             </span>
                           </motion.label>
@@ -409,7 +409,7 @@ const QuoteCalculator = () => {
                       <span className="racing font-bold text-lg">
                         Need ongoing support?
                       </span>
-                      <p className="text-gray-600 openSans text-sm">
+                      <p className="text-gray-600 font-[600]  openSans text-sm">
                         Includes maintenance, updates, and priority support
                       </p>
                     </div>
@@ -433,10 +433,10 @@ const QuoteCalculator = () => {
 
                   {/* Summary */}
                   <div className="bg-gray-50 rounded-2xl p-6 mb-8 text-left">
-                    <h4 className="racing font-bold text-lg mb-4">
+                    <h4 className="racing font-bold text-[25px] mb-4">
                       Project Summary:
                     </h4>
-                    <div className="space-y-2 openSans">
+                    <div className="space-y-2 text-[20px] openSans">
                       <p>
                         <strong>Services:</strong> {selectedServices.length}{" "}
                         selected
@@ -479,7 +479,7 @@ const QuoteCalculator = () => {
                       <div className="text-5xl lg:text-6xl racing font-bold mb-4">
                         ${estimatedQuote.toLocaleString()}
                       </div>
-                      <p className="openSans text-lg mb-6">
+                      <p className="openSans font-[600]  text-lg mb-6">
                         This is a preliminary estimate. Final pricing may vary
                         based on specific requirements.
                       </p>

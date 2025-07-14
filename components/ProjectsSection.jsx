@@ -75,15 +75,21 @@ const ProjectsSection = () => {
               className="group cursor-pointer"
             >
               <div className="relative overflow-hidden rounded-2xl shadow-lg">
+                {/* Project Image */}
                 <img
                   src={project.image || "/placeholder.svg"}
                   alt={project.title}
                   className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+
+                {/* Black Overlay */}
+                <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10" />
+
+                {/* Gradient Overlay */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20" />
 
                 {/* Project Info Overlay */}
-                <div className="absolute bottom-0 left-0 right-0 p-6 text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                <div className="absolute bottom-0 left-0 right-0 p-6 text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-300 z-30">
                   <span className="text-[#a7ff59] text-sm font-medium">
                     {project.category}
                   </span>
@@ -95,12 +101,25 @@ const ProjectsSection = () => {
                   </p>
                 </div>
 
-                {/* Arrow Icon */}
+                {/* Arrow Icon using inline SVG */}
                 <motion.div
                   whileHover={{ scale: 1.1 }}
-                  className="absolute top-4 right-4 w-10 h-10 bg-[#a7ff59] rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                  className="absolute top-4 right-4 w-10 h-10 bg-[#a7ff59] rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-30"
                 >
-                  <i className="bx bx-arrow-up-right text-black"></i>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="w-6 h-6 text-black"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M17 7H7m10 0l-6 6m6-6v10"
+                    />
+                  </svg>
                 </motion.div>
               </div>
             </motion.div>

@@ -37,7 +37,7 @@ const CaseStudiesSection = () => {
               toggleActions: "play none none reverse",
             },
             delay: index * 0.15,
-          },
+          }
         );
       }
     });
@@ -84,7 +84,7 @@ const CaseStudiesSection = () => {
       description:
         "Healthcare mobile application with patient management system and telemedicine features.",
       image:
-        "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://cdn6.aptoide.com/imgs/d/2/f/d2f382de170471f167194467ca533e10_fgraphic.jpg",
       tags: ["Mobile App", "Healthcare", "UI/UX"],
       category: "Mobile",
     },
@@ -124,7 +124,7 @@ const CaseStudiesSection = () => {
           <h2 className="text-4xl lg:text-5xl xl:text-6xl racing font-bold text-gray-900 mb-6">
             Our Work Speaks for Itself
           </h2>
-          <p className="text-xl lg:text-2xl text-gray-600 max-w-3xl mx-auto openSans leading-relaxed">
+          <p className="text-xl lg:text-2xl font-[500] text-gray-600 max-w-3xl mx-auto openSans leading-relaxed">
             Discover how we've helped businesses transform their digital
             presence and achieve remarkable growth.
           </p>
@@ -161,7 +161,7 @@ const CaseStudiesSection = () => {
                   {study.title}
                 </h3>
 
-                <p className="text-gray-600 openSans leading-relaxed mb-6 text-sm lg:text-base">
+                <p className="text-gray-600 openSans font-[550] leading-relaxed mb-6 text-sm lg:text-base">
                   {study.description}
                 </p>
 
@@ -170,7 +170,7 @@ const CaseStudiesSection = () => {
                   {study.tags.map((tag, tagIndex) => (
                     <span
                       key={tagIndex}
-                      className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs openSans font-medium hover:bg-[#a7ff59] hover:text-black transition-colors duration-300"
+                      className="px-3 font-[600] py-1 bg-gray-100 text-gray-700 rounded-full text-[15px] openSans hover:bg-[#a7ff59] hover:text-black transition-colors duration-300"
                     >
                       {tag}
                     </span>

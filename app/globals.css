@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -34,7 +36,7 @@ html {
   scroll-behavior: smooth;
 }
 
-.font-inter {
+/* .font-inter {
   font-family: "Inter", sans-serif;
 }
 
@@ -44,11 +46,15 @@ html {
 
 .racing {
   font-family: "Racing Sans One", sans-serif;
+} */
+
+.rajdhani {
+  font-family: "Rajdhani", sans-serif;
 }
 
-.openSans {
+/* .openSans {
   font-family: "Open Sans", sans-serif;
-}
+} */
 
 /* Custom animations */
 @keyframes fadeInUp {
@@ -220,4 +226,27 @@ a,
 .custom-scroll-text {
   white-space: nowrap;
   overflow: hidden;
+}
+
+@layer base {
+  * {
+    @apply font-rajdhani;
+  }
+}
+
+.fade-mask {
+  mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    black 10%,
+    black 90%,
+    transparent 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    black 10%,
+    black 90%,
+    transparent 100%
+  );
 }

@@ -20,7 +20,7 @@ const TestimonialsCarousel = () => {
       role: "CEO",
       company: "TechFlow Solutions",
       avatar:
-        "https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80",
+        "https://img.freepik.com/free-photo/brunette-business-woman-with-wavy-long-hair-blue-eyes-stands-holding-notebook-hands_197531-343.jpg?semt=ais_hybrid&w=740",
       quote:
         "VisQode transformed our entire digital presence. Their attention to detail and innovative approach exceeded all our expectations. The team delivered a stunning website that perfectly captures our brand essence.",
       rating: 5,
@@ -104,7 +104,7 @@ const TestimonialsCarousel = () => {
             end: "bottom 20%",
             toggleActions: "play none none reverse",
           },
-        },
+        }
       );
     }
 
@@ -119,7 +119,7 @@ const TestimonialsCarousel = () => {
 
   const prevTestimonial = () => {
     setCurrentIndex(
-      (prev) => (prev - 1 + testimonials.length) % testimonials.length,
+      (prev) => (prev - 1 + testimonials.length) % testimonials.length
     );
   };
 
@@ -160,7 +160,7 @@ const TestimonialsCarousel = () => {
           <h2 className="text-4xl lg:text-5xl xl:text-6xl racing font-bold text-gray-900 mb-6">
             What Our Clients Say
           </h2>
-          <p className="text-xl lg:text-2xl text-gray-600 max-w-3xl mx-auto openSans leading-relaxed">
+          <p className="text-xl font-[600] lg:text-2xl text-gray-600 max-w-3xl mx-auto openSans leading-relaxed">
             Don't just take our word for it. Here's what our clients have to say
             about working with us.
           </p>
@@ -195,7 +195,7 @@ const TestimonialsCarousel = () => {
               </div>
 
               {/* Quote */}
-              <blockquote className="text-xl lg:text-2xl text-gray-800 text-center mb-8 openSans leading-relaxed italic">
+              <blockquote className="text-xl lg:text-1xl text-gray-800 text-center mb-8 openSans leading-relaxed font-[500]">
                 "{testimonials[currentIndex].quote}"
               </blockquote>
 
@@ -215,7 +215,7 @@ const TestimonialsCarousel = () => {
                     {testimonials[currentIndex].role} at{" "}
                     {testimonials[currentIndex].company}
                   </p>
-                  <p className="text-gray-600 openSans text-sm mt-1">
+                  <p className="text-gray-600 openSans font-[600] text-sm mt-1">
                     {testimonials[currentIndex].project}
                   </p>
                 </div>
@@ -268,7 +268,7 @@ const TestimonialsCarousel = () => {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="mt-16 lg:mt-20"
         >
-          <p className="text-center text-gray-500 openSans mb-8">
+          <p className="text-center text-[20px] font-[600] text-gray-500 openSans mb-8">
             Trusted by industry leaders
           </p>
           <div className="flex flex-wrap justify-center items-center gap-8 lg:gap-12 opacity-60">

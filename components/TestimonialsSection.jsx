@@ -10,7 +10,7 @@ const TestimonialsSection = () => {
         "VisQode transformed our digital presence completely. Their attention to detail and innovative approach exceeded our expectations.",
       rating: 5,
       avatar:
-        "https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80",
+        "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80",
     },
     {
       name: "Michael Chen",
@@ -46,7 +46,7 @@ const TestimonialsSection = () => {
           <h2 className="text-4xl lg:text-5xl racing font-bold text-gray-900 mb-6">
             What Our Clients Say
           </h2>
-          <p className="text-gray-600 text-lg max-w-2xl mx-auto openSans">
+          <p className="text-gray-600 font-[600] text-lg max-w-2xl mx-auto openSans">
             Don't just take our word for it. Here's what our clients have to say
             about working with us.
           </p>
@@ -72,22 +72,26 @@ const TestimonialsSection = () => {
               </div>
 
               {/* Content */}
-              <p className="text-gray-700 text-lg leading-relaxed mb-6 openSans">
+              <p className="text-gray-700 font-[500] text-lg leading-relaxed mb-6 openSans">
                 "{testimonial.content}"
               </p>
 
               {/* Author */}
               <div className="flex items-center">
                 <img
-                  src={testimonial.avatar || "/placeholder.svg"}
+                  src={testimonial.avatar}
                   alt={testimonial.name}
+                  onError={(e) => {
+                    e.currentTarget.src = "/placeholder.svg";
+                  }}
                   className="w-12 h-12 rounded-full object-cover mr-4"
                 />
+
                 <div>
                   <h4 className="font-semibold text-gray-900 racing">
                     {testimonial.name}
                   </h4>
-                  <p className="text-gray-600 text-sm openSans">
+                  <p className="text-gray-600 font-[500] text-sm openSans">
                     {testimonial.role}
                   </p>
                 </div>

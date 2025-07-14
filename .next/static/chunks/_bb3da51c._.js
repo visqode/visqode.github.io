@@ -737,7 +737,7 @@ const Navigation = ()=>{
         className: "flex items-center justify-between p-4 bg-transparent border-b border-b-gray-500/30 openSans font-extrabold",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "text-xl md:text-2xl font-bold text-white",
+                className: "text-xl md:text-2xl font-bold rajdhani text-white",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                     href: "/",
                     children: "VisQode"
@@ -752,11 +752,11 @@ const Navigation = ()=>{
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "hidden md:flex space-x-6 lg:space-x-8",
+                className: "hidden md:flex space-x-6 rajdhani lg:space-x-12",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                         href: "/",
-                        className: "text-white hover:scale-105 hover:transition-all duration-200 text-sm lg:text-base",
+                        className: "text-white hover:scale-105 hover:transition-all duration-200 text-sm lg:text-[18px]",
                         children: "Home"
                     }, void 0, false, {
                         fileName: "[project]/components/Navigation.jsx",
@@ -765,7 +765,7 @@ const Navigation = ()=>{
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                         href: "/about",
-                        className: "text-white hover:scale-105 hover:transition-all duration-200 text-sm lg:text-base",
+                        className: "text-white hover:scale-105 hover:transition-all duration-200 text-sm lg:text-[18px]",
                         children: "About"
                     }, void 0, false, {
                         fileName: "[project]/components/Navigation.jsx",
@@ -774,7 +774,7 @@ const Navigation = ()=>{
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                         href: "/services",
-                        className: "text-white hover:scale-105 hover:transition-all duration-200 text-sm lg:text-base",
+                        className: "text-white hover:scale-105 hover:transition-all duration-200 text-sm lg:text-[18px]",
                         children: "Services"
                     }, void 0, false, {
                         fileName: "[project]/components/Navigation.jsx",
@@ -783,7 +783,7 @@ const Navigation = ()=>{
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                         href: "/consulting",
-                        className: "text-white hover:scale-105 hover:transition-all duration-200 text-sm lg:text-base",
+                        className: "text-white hover:scale-105 hover:transition-all duration-200 text-sm lg:text-[18px]",
                         children: "Consulting"
                     }, void 0, false, {
                         fileName: "[project]/components/Navigation.jsx",

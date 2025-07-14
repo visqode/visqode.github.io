@@ -39,32 +39,32 @@ const Navigation = () => {
 
   return (
     <nav className="flex items-center justify-between p-4 bg-transparent border-b border-b-gray-500/30 openSans font-extrabold">
-      <div className="text-xl md:text-2xl font-bold text-white">
+      <div className="text-xl md:text-2xl font-bold rajdhani text-white">
         <Link href="/">VisQode</Link>
       </div>
 
-      <div className="hidden md:flex space-x-6 lg:space-x-8">
+      <div className="hidden md:flex space-x-6 rajdhani lg:space-x-12">
         <Link
           href="/"
-          className="text-white hover:scale-105 hover:transition-all duration-200 text-sm lg:text-base"
+          className="text-white hover:scale-105 hover:transition-all duration-200 text-sm lg:text-[18px]"
         >
           Home
         </Link>
         <Link
           href="/about"
-          className="text-white hover:scale-105 hover:transition-all duration-200 text-sm lg:text-base"
+          className="text-white hover:scale-105 hover:transition-all duration-200 text-sm lg:text-[18px]"
         >
           About
         </Link>
         <Link
           href="/services"
-          className="text-white hover:scale-105 hover:transition-all duration-200 text-sm lg:text-base"
+          className="text-white hover:scale-105 hover:transition-all duration-200 text-sm lg:text-[18px]"
         >
           Services
         </Link>
         <Link
           href="/consulting"
-          className="text-white hover:scale-105 hover:transition-all duration-200 text-sm lg:text-base"
+          className="text-white hover:scale-105 hover:transition-all duration-200 text-sm lg:text-[18px]"
         >
           Consulting
         </Link>

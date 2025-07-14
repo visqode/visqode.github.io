@@ -4,11 +4,11 @@ import Link from "next/link";
 
 const Footer = () => {
   const socialIcons = [
-    "facebook",
-    "twitter",
-    "linkedin",
-    "instagram",
-    "youtube",
+    { name: "facebook", icon: "ri-facebook-fill" },
+    { name: "twitter", icon: "ri-twitter-fill" },
+    { name: "linkedin", icon: "ri-linkedin-fill" },
+    { name: "instagram", icon: "ri-instagram-line" },
+    { name: "youtube", icon: "ri-youtube-fill" },
   ];
 
   return (
@@ -24,7 +24,7 @@ const Footer = () => {
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-[#E5E5E5] racing mb-4">
               READY TO WORK WITH US?
             </h1>
-            <p className="text-base md:text-lg lg:text-xl text-[#B0B0B0] openSans">
+            <p className="text-base font-[500]  md:text-lg lg:text-xl text-[#B0B0B0] openSans">
               PARTNER WITH OUR DESIGN AGENCY FOR YOUR BUSINESS WITH AMAZING
               RESULTS.
             </p>
@@ -35,9 +35,9 @@ const Footer = () => {
             whileTap={{ scale: 0.95 }}
             className="cursor-pointer flex-shrink-0"
           >
-            <div className="bg-[#39FF14] rounded-full w-24 h-24 md:w-32 md:h-32 flex flex-col items-center justify-center text-black font-bold shadow-[0_0_20px_rgba(57,255,20,0.5)] racing text-center text-sm md:text-base">
+            <div className="bg-[#39FF14] rounded-[15px] w-24 h-24 md:w-32 md:h-13 flex flex-col items-center justify-center text-black font-bold shadow-[0_0_20px_rgba(57,255,20,0.5)] racing text-center text-sm md:text-[15px]">
               <span>GET STARTED</span>
-              <i className="bx bx-arrow-back mt-1 text-lg md:text-xl"></i>
+              <i className="ri-arrow-right-line mt-1 text-lg md:text-xl"></i>
             </div>
           </motion.div>
         </div>
@@ -46,22 +46,22 @@ const Footer = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-10">
           <div className="text-center sm:text-left">
-            <h2 className="text-lg font-bold text-[#E5E5E5] mb-3 racing">
+            <h2 className="text-[22px] font-bold text-[#E5E5E5] mb-3 racing">
               VisQode
             </h2>
-            <p className="text-sm text-[#B0B0B0] leading-relaxed mb-4 openSans">
+            <p className="text-[17px] font-[600] text-[#B0B0B0] leading-relaxed mb-4 openSans">
               We know how important customer experience is for a business and
               therefore, we strive.
             </p>
             <div className="flex justify-center sm:justify-start space-x-2">
-              {socialIcons.map((icon) => (
+              {socialIcons.map(({ name, icon }) => (
                 <motion.div
-                  key={icon}
+                  key={name}
                   whileHover={{ scale: 1.2 }}
                   className="bg-[#333333] rounded-full w-9 h-9 flex items-center justify-center cursor-pointer"
                 >
                   <i
-                    className={`bxl bx-${icon}`}
+                    className={`${icon}`}
                     style={{ color: "white", fontSize: "1rem" }}
                   ></i>
                 </motion.div>
@@ -70,10 +70,10 @@ const Footer = () => {
           </div>
 
           <div className="text-center sm:text-left">
-            <h2 className="text-lg font-bold text-[#E5E5E5] mb-3 racing">
+            <h2 className="text-[22px] font-bold text-[#E5E5E5] mb-3 racing">
               Data Science
             </h2>
-            <ul className="text-sm text-[#B0B0B0] space-y-2 openSans">
+            <ul className="text-[16px] text-[#B0B0B0] font-[500] space-y-2 openSans">
               <li>Business Use-Case</li>
               <li>Data Roles</li>
               <li>Blog</li>
@@ -87,10 +87,10 @@ const Footer = () => {
           </div>
 
           <div className="text-center sm:text-left">
-            <h2 className="text-lg font-bold text-[#E5E5E5] mb-3 racing">
+            <h2 className="text-[22px] font-bold text-[#E5E5E5] mb-3 racing">
               About
             </h2>
-            <ul className="text-sm text-[#B0B0B0] space-y-2 openSans">
+            <ul className="text-[16px] font-[500] text-[#B0B0B0] space-y-2 openSans">
               <li>Contact Us</li>
               <li>Support Us</li>
               <li>Community</li>
@@ -99,10 +99,10 @@ const Footer = () => {
           </div>
 
           <div className="text-center sm:text-left">
-            <h2 className="text-lg font-bold text-[#E5E5E5] mb-3 racing">
+            <h2 className="text-[22px] font-bold text-[#E5E5E5] mb-3 racing">
               Programs
             </h2>
-            <ul className="text-sm text-[#B0B0B0] space-y-2 openSans">
+            <ul className="text-[16px] font-[500]  text-[#B0B0B0] space-y-2 openSans">
               <li>Learning Modules</li>
               <li>Partnership</li>
               <li>Events</li>
@@ -111,7 +111,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row justify-between items-center mt-8 md:mt-10 text-[#B0B0B0] text-sm gap-3 openSans">
+        <div className="flex text-[15px] font-[600]  flex-col md:flex-row justify-between items-center mt-8 md:mt-10 text-[#B0B0B0] text-sm gap-3 openSans">
           <span>VisQode, INC.</span>
           <span>COPYRIGHT © 2023 VisQode</span>
         </div>

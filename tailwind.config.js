@@ -46,6 +46,7 @@ module.exports = {
       fontFamily: {
         racing: ["Racing Sans One", "cursive"],
         openSans: ["Open Sans", "sans-serif"],
+        rajdhani: ["Rajdhani", "sans-serif"],
       },
       borderRadius: {
         lg: "var(--radius)",

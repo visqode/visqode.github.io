@@ -31,7 +31,7 @@ const NewsletterSection = () => {
             end: "bottom 20%",
             toggleActions: "play none none reverse",
           },
-        },
+        }
       );
     }
 
@@ -124,7 +124,7 @@ const NewsletterSection = () => {
             <h2 className="text-4xl lg:text-5xl xl:text-6xl racing font-bold text-white mb-6">
               Stay Ahead with VisQode
             </h2>
-            <p className="text-xl lg:text-2xl text-gray-300 max-w-3xl mx-auto openSans leading-relaxed mb-8">
+            <p className="text-xl font-[500] lg:text-2xl text-gray-300 max-w-3xl mx-auto openSans leading-relaxed mb-8">
               Get branding tips, resources & early access to features. Join
               5,000+ professionals who trust our insights.
             </p>
@@ -151,7 +151,7 @@ const NewsletterSection = () => {
                 <div className="w-12 h-12 bg-[#a7ff59] rounded-full flex items-center justify-center mb-4">
                   <i className={`bx ${benefit.icon} text-black text-xl`}></i>
                 </div>
-                <p className="text-white openSans text-sm font-medium">
+                <p className="text-white openSans text-[18px] font-[600] ">
                   {benefit.text}
                 </p>
               </motion.div>
@@ -182,7 +182,7 @@ const NewsletterSection = () => {
                     onChange={(e) => setEmail(e.target.value)}
                     placeholder="Enter your email address"
                     required
-                    className="flex-1 px-6 py-4 bg-transparent text-white placeholder-gray-300 border-none outline-none openSans text-lg"
+                    className="flex-1 font-[500] px-6 py-4 bg-transparent text-white placeholder-gray-300 border-none outline-none openSans text-lg"
                   />
                   <motion.button
                     type="submit"
@@ -242,11 +242,11 @@ const NewsletterSection = () => {
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.6 }}
-              className="text-gray-400 openSans text-sm mt-6"
+              className="font-[600] text-gray-400 openSans text-[16px] mt-6"
             >
               No spam, ever. Unsubscribe anytime. By subscribing, you agree to
               our{" "}
-              <a href="#" className="text-[#a7ff59] hover:underline">
+              <a href="#" className="font-[600] text-[#a7ff59] hover:underline">
                 Privacy Policy
               </a>
               .
@@ -263,15 +263,21 @@ const NewsletterSection = () => {
           >
             <div className="flex items-center">
               <i className="bx bx-user text-[#a7ff59] text-xl mr-2"></i>
-              <span className="openSans text-sm">5,000+ subscribers</span>
+              <span className="openSans font-[600] text-[17px]">
+                5,000+ subscribers
+              </span>
             </div>
             <div className="flex items-center">
               <i className="bx bx-star text-[#a7ff59] text-xl mr-2"></i>
-              <span className="openSans text-sm">4.9/5 average rating</span>
+              <span className="openSans font-[600] text-[17px]">
+                4.9/5 average rating
+              </span>
             </div>
             <div className="flex items-center">
               <i className="bx bx-shield-check text-[#a7ff59] text-xl mr-2"></i>
-              <span className="openSans text-sm">GDPR compliant</span>
+              <span className="openSans font-[600] text-[17px]">
+                GDPR compliant
+              </span>
             </div>
           </motion.div>
         </div>

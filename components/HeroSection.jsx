@@ -18,7 +18,7 @@ const HeroSection = () => {
       <div className="flex justify-center items-center flex-col flex-1 text-center cursor-default px-4">
         <div className="max-w-[95%] md:max-w-[80%] mx-auto text-center text-white text-balance flex justify-center items-center flex-col">
           <SplitText
-            className="text-5xl sm:text-6xl md:text-7xl lg:text-9xl text-center py-2 md:py-3 racing font-bold"
+            className="text-5xl sm:text-6xl md:text-7xl lg:text-9xl text-center py-2 md:py-3 rajdhani font-bold"
             text="We Build & Scale"
             delay={100}
             duration={0.3}
@@ -30,7 +30,7 @@ const HeroSection = () => {
             textAlign="center"
           />
           <SplitText
-            className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl text-center py-2 md:py-3 racing font-bold"
+            className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl text-center py-2 md:py-3 rajdhani font-bold"
             text="Digital Products"
             delay={100}
             duration={0.3}
@@ -46,7 +46,7 @@ const HeroSection = () => {
               text="Founding successful companies by combining ideas with business expertise, capital and technical execution."
               disabled={false}
               speed={3}
-              className="text-sm md:text-lg leading-relaxed"
+              className="text-sm md:text-[20px] font-[600] leading-relaxed"
             />
           </div>
         </div>
@@ -54,13 +54,13 @@ const HeroSection = () => {
         <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4 mt-8 w-full max-w-md">
           <Link
             href="/signin"
-            className="w-full sm:w-auto px-6 md:px-7 hover:px-8 md:hover:px-10 transition-all duration-300 py-3 text-white border border-white rounded-full text-center"
+            className="w-full font-[700] sm:w-auto px-6 md:px-7 hover:px-8 md:hover:px-10 transition-all duration-300 py-3 text-white border border-white rounded-full text-center"
           >
             Sign In
           </Link>
           <Link
             href="/signup"
-            className="w-full sm:w-auto px-6 md:px-7 hover:px-8 md:hover:px-10 transition-all duration-300 py-3 text-black bg-[#a7ff59] rounded-full hover:bg-[#8fee3f] text-center"
+            className="w-full font-[700] sm:w-auto px-6 md:px-7 hover:px-8 md:hover:px-10 transition-all duration-300 py-3 text-black bg-[#a7ff59] rounded-full hover:bg-[#8fee3f] text-center"
           >
             Sign Up
           </Link>

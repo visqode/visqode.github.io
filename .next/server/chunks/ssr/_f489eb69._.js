@@ -56,7 +56,7 @@ const Navigation = ()=>{
         className: "flex items-center justify-between p-4 bg-transparent border-b border-b-gray-500/30 openSans font-extrabold",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "text-xl md:text-2xl font-bold text-white",
+                className: "text-xl md:text-2xl font-bold rajdhani text-white",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                     href: "/",
                     children: "VisQode"
@@ -71,11 +71,11 @@ const Navigation = ()=>{
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "hidden md:flex space-x-6 lg:space-x-8",
+                className: "hidden md:flex space-x-6 rajdhani lg:space-x-12",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                         href: "/",
-                        className: "text-white hover:scale-105 hover:transition-all duration-200 text-sm lg:text-base",
+                        className: "text-white hover:scale-105 hover:transition-all duration-200 text-sm lg:text-[18px]",
                         children: "Home"
                     }, void 0, false, {
                         fileName: "[project]/components/Navigation.jsx",
@@ -84,7 +84,7 @@ const Navigation = ()=>{
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                         href: "/about",
-                        className: "text-white hover:scale-105 hover:transition-all duration-200 text-sm lg:text-base",
+                        className: "text-white hover:scale-105 hover:transition-all duration-200 text-sm lg:text-[18px]",
                         children: "About"
                     }, void 0, false, {
                         fileName: "[project]/components/Navigation.jsx",
@@ -93,7 +93,7 @@ const Navigation = ()=>{
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                         href: "/services",
-                        className: "text-white hover:scale-105 hover:transition-all duration-200 text-sm lg:text-base",
+                        className: "text-white hover:scale-105 hover:transition-all duration-200 text-sm lg:text-[18px]",
                         children: "Services"
                     }, void 0, false, {
                         fileName: "[project]/components/Navigation.jsx",
@@ -102,7 +102,7 @@ const Navigation = ()=>{
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                         href: "/consulting",
-                        className: "text-white hover:scale-105 hover:transition-all duration-200 text-sm lg:text-base",
+                        className: "text-white hover:scale-105 hover:transition-all duration-200 text-sm lg:text-[18px]",
                         children: "Consulting"
                     }, void 0, false, {
                         fileName: "[project]/components/Navigation.jsx",
@@ -583,7 +583,7 @@ const HeroSection = ()=>{
                         className: "max-w-[95%] md:max-w-[80%] mx-auto text-center text-white text-balance flex justify-center items-center flex-col",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Features$2f$SplitText$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                className: "text-5xl sm:text-6xl md:text-7xl lg:text-9xl text-center py-2 md:py-3 racing font-bold",
+                                className: "text-5xl sm:text-6xl md:text-7xl lg:text-9xl text-center py-2 md:py-3 rajdhani font-bold",
                                 text: "We Build & Scale",
                                 delay: 100,
                                 duration: 0.3,
@@ -605,7 +605,7 @@ const HeroSection = ()=>{
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Features$2f$SplitText$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                className: "text-4xl sm:text-5xl md:text-6xl lg:text-8xl text-center py-2 md:py-3 racing font-bold",
+                                className: "text-4xl sm:text-5xl md:text-6xl lg:text-8xl text-center py-2 md:py-3 rajdhani font-bold",
                                 text: "Digital Products",
                                 delay: 100,
                                 duration: 0.3,
@@ -632,7 +632,7 @@ const HeroSection = ()=>{
                                     text: "Founding successful companies by combining ideas with business expertise, capital and technical execution.",
                                     disabled: false,
                                     speed: 3,
-                                    className: "text-sm md:text-lg leading-relaxed"
+                                    className: "text-sm md:text-[20px] font-[600] leading-relaxed"
                                 }, void 0, false, {
                                     fileName: "[project]/components/HeroSection.jsx",
                                     lineNumber: 45,
@@ -654,7 +654,7 @@ const HeroSection = ()=>{
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                 href: "/signin",
-                                className: "w-full sm:w-auto px-6 md:px-7 hover:px-8 md:hover:px-10 transition-all duration-300 py-3 text-white border border-white rounded-full text-center",
+                                className: "w-full font-[700] sm:w-auto px-6 md:px-7 hover:px-8 md:hover:px-10 transition-all duration-300 py-3 text-white border border-white rounded-full text-center",
                                 children: "Sign In"
                             }, void 0, false, {
                                 fileName: "[project]/components/HeroSection.jsx",
@@ -663,7 +663,7 @@ const HeroSection = ()=>{
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                 href: "/signup",
-                                className: "w-full sm:w-auto px-6 md:px-7 hover:px-8 md:hover:px-10 transition-all duration-300 py-3 text-black bg-[#a7ff59] rounded-full hover:bg-[#8fee3f] text-center",
+                                className: "w-full font-[700] sm:w-auto px-6 md:px-7 hover:px-8 md:hover:px-10 transition-all duration-300 py-3 text-black bg-[#a7ff59] rounded-full hover:bg-[#8fee3f] text-center",
                                 children: "Sign Up"
                             }, void 0, false, {
                                 fileName: "[project]/components/HeroSection.jsx",
@@ -877,12 +877,19 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Features$2f$Sc
 const ScrollText = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         className: "mt-15",
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Features$2f$ScrollVelocity$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-            texts: [
-                " , Web Dev, Graphic Design",
-                ",Brand Building, Video Editing"
-            ],
-            className: "custom-scroll-text openSans italic py-[.5rem] text-5xl"
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "w-[97%] fade-mask bg-[whitesmoke] mx-auto overflow-hidden rounded-[10px]",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Features$2f$ScrollVelocity$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                texts: [
+                    "   ,  Web Dev - Graphic Design",
+                    "   ,  Brand Building    -    Video Editing"
+                ],
+                className: "custom-scroll-text rajdhani py-[14px] text-[40px]"
+            }, void 0, false, {
+                fileName: "[project]/components/ScrollText.jsx",
+                lineNumber: 8,
+                columnNumber: 9
+            }, this)
         }, void 0, false, {
             fileName: "[project]/components/ScrollText.jsx",
             lineNumber: 7,
@@ -1202,7 +1209,7 @@ const AboutSection = ()=>{
                     },
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "text-4xl md:text-6xl racing font-bold mb-8 md:mb-16 text-center lg:text-left",
+                            className: "text-4xl md:text-6xl rajdhani font-[900] mb-8 md:mb-16 text-center lg:text-left",
                             children: "About Us"
                         }, void 0, false, {
                             fileName: "[project]/components/AboutSection.jsx",
@@ -1547,7 +1554,7 @@ const OurService = ()=>{
                         className: "flex flex-col lg:flex-row justify-center items-start lg:items-end gap-4 lg:gap-20 w-full lg:w-auto",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "text-2xl md:text-3xl racing font-bold",
+                                className: "text-2xl md:text-4xl racing font-bold",
                                 children: "OUR SERVICES"
                             }, void 0, false, {
                                 fileName: "[project]/components/OurService.jsx",
@@ -1562,7 +1569,7 @@ const OurService = ()=>{
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "text-sm md:text-base text-gray-600 max-w-md",
+                                className: "text-sm font-[600] md:text-[18px] text-gray-600 max-w-md",
                                 children: "This part of our service that can give you satisfaction"
                             }, void 0, false, {
                                 fileName: "[project]/components/OurService.jsx",
@@ -1579,7 +1586,7 @@ const OurService = ()=>{
                         href: "/services",
                         className: "w-full lg:w-auto",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                            className: "w-full lg:w-auto px-6 md:px-7 hover:px-8 md:hover:px-10 transition-all duration-300 py-3 text-black bg-[#a7ff59] rounded-full hover:bg-[#8fee3f] text-center",
+                            className: "w-full lg:w-auto px-6 font-[600] md:px-7 hover:px-8 md:hover:px-10 transition-all duration-300 py-3 text-black bg-[#a7ff59] rounded-full hover:bg-[#8fee3f] text-center",
                             children: "View more"
                         }, void 0, false, {
                             fileName: "[project]/components/OurService.jsx",
@@ -1770,25 +1777,32 @@ const ProjectsSection = ()=>{
                                         className: "w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ProjectsSection.jsx",
-                                        lineNumber: 78,
+                                        lineNumber: 79,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                                        className: "absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ProjectsSection.jsx",
-                                        lineNumber: 83,
+                                        lineNumber: 86,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "absolute bottom-0 left-0 right-0 p-6 text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-300",
+                                        className: "absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/ProjectsSection.jsx",
+                                        lineNumber: 89,
+                                        columnNumber: 17
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "absolute bottom-0 left-0 right-0 p-6 text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-300 z-30",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "text-[#a7ff59] text-sm font-medium",
                                                 children: project.category
                                             }, void 0, false, {
                                                 fileName: "[project]/components/ProjectsSection.jsx",
-                                                lineNumber: 87,
+                                                lineNumber: 93,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1796,7 +1810,7 @@ const ProjectsSection = ()=>{
                                                 children: project.title
                                             }, void 0, false, {
                                                 fileName: "[project]/components/ProjectsSection.jsx",
-                                                lineNumber: 90,
+                                                lineNumber: 96,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1804,30 +1818,44 @@ const ProjectsSection = ()=>{
                                                 children: project.description
                                             }, void 0, false, {
                                                 fileName: "[project]/components/ProjectsSection.jsx",
-                                                lineNumber: 93,
+                                                lineNumber: 99,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/ProjectsSection.jsx",
-                                        lineNumber: 86,
+                                        lineNumber: 92,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
                                         whileHover: {
                                             scale: 1.1
                                         },
-                                        className: "absolute top-4 right-4 w-10 h-10 bg-[#a7ff59] rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
-                                            className: "bx bx-arrow-up-right text-black"
+                                        className: "absolute top-4 right-4 w-10 h-10 bg-[#a7ff59] rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-30",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                            xmlns: "http://www.w3.org/2000/svg",
+                                            className: "w-6 h-6 text-black",
+                                            fill: "none",
+                                            viewBox: "0 0 24 24",
+                                            stroke: "currentColor",
+                                            strokeWidth: 2,
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                                strokeLinecap: "round",
+                                                strokeLinejoin: "round",
+                                                d: "M17 7H7m10 0l-6 6m6-6v10"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/ProjectsSection.jsx",
+                                                lineNumber: 117,
+                                                columnNumber: 21
+                                            }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/ProjectsSection.jsx",
-                                            lineNumber: 103,
+                                            lineNumber: 109,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/ProjectsSection.jsx",
-                                        lineNumber: 99,
+                                        lineNumber: 105,
                                         columnNumber: 17
                                     }, this)
                                 ]
@@ -2026,7 +2054,7 @@ const TeamSection = ()=>{
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "text-gray-600 openSans",
+                                                className: "text-gray-600 font-[600] openSans",
                                                 children: member.role
                                             }, void 0, false, {
                                                 fileName: "[project]/components/TeamSection.jsx",
@@ -2049,15 +2077,15 @@ const TeamSection = ()=>{
                                                     children: member.name
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/TeamSection.jsx",
-                                                    lineNumber: 95,
+                                                    lineNumber: 97,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "mb-4 openSans",
+                                                    className: "mb-4 font-[500] openSans",
                                                     children: member.role
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/TeamSection.jsx",
-                                                    lineNumber: 98,
+                                                    lineNumber: 100,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2070,15 +2098,15 @@ const TeamSection = ()=>{
                                                             href: "#",
                                                             className: "w-10 h-10 bg-black/20 rounded-full flex items-center justify-center hover:bg-black/30 transition-colors",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
-                                                                className: "bxl bx-linkedin text-white"
+                                                                class: "ri-linkedin-fill text-white"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/TeamSection.jsx",
-                                                                lineNumber: 105,
+                                                                lineNumber: 107,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/TeamSection.jsx",
-                                                            lineNumber: 100,
+                                                            lineNumber: 102,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].a, {
@@ -2088,32 +2116,32 @@ const TeamSection = ()=>{
                                                             href: "#",
                                                             className: "w-10 h-10 bg-black/20 rounded-full flex items-center justify-center hover:bg-black/30 transition-colors",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
-                                                                className: "bxl bx-twitter text-white"
+                                                                class: "ri-twitter-x-fill text-white"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/TeamSection.jsx",
-                                                                lineNumber: 112,
+                                                                lineNumber: 114,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/TeamSection.jsx",
-                                                            lineNumber: 107,
+                                                            lineNumber: 109,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/TeamSection.jsx",
-                                                    lineNumber: 99,
+                                                    lineNumber: 101,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/TeamSection.jsx",
-                                            lineNumber: 94,
+                                            lineNumber: 96,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/TeamSection.jsx",
-                                        lineNumber: 93,
+                                        lineNumber: 95,
                                         columnNumber: 17
                                     }, this)
                                 ]
@@ -2166,7 +2194,7 @@ const TestimonialsSection = ()=>{
             role: "CEO, TechStart",
             content: "VisQode transformed our digital presence completely. Their attention to detail and innovative approach exceeded our expectations.",
             rating: 5,
-            avatar: "https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80"
+            avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80"
         },
         {
             name: "Michael Chen",
@@ -2214,7 +2242,7 @@ const TestimonialsSection = ()=>{
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-gray-600 text-lg max-w-2xl mx-auto openSans",
+                            className: "text-gray-600 font-[600] text-lg max-w-2xl mx-auto openSans",
                             children: "Don't just take our word for it. Here's what our clients have to say about working with us."
                         }, void 0, false, {
                             fileName: "[project]/components/TestimonialsSection.jsx",
@@ -2267,7 +2295,7 @@ const TestimonialsSection = ()=>{
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-gray-700 text-lg leading-relaxed mb-6 openSans",
+                                    className: "text-gray-700 font-[500] text-lg leading-relaxed mb-6 openSans",
                                     children: [
                                         '"',
                                         testimonial.content,
@@ -2282,8 +2310,11 @@ const TestimonialsSection = ()=>{
                                     className: "flex items-center",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                            src: testimonial.avatar || "/placeholder.svg",
+                                            src: testimonial.avatar,
                                             alt: testimonial.name,
+                                            onError: (e)=>{
+                                                e.currentTarget.src = "/placeholder.svg";
+                                            },
                                             className: "w-12 h-12 rounded-full object-cover mr-4"
                                         }, void 0, false, {
                                             fileName: "[project]/components/TestimonialsSection.jsx",
@@ -2297,21 +2328,21 @@ const TestimonialsSection = ()=>{
                                                     children: testimonial.name
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/TestimonialsSection.jsx",
-                                                    lineNumber: 87,
+                                                    lineNumber: 91,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "text-gray-600 text-sm openSans",
+                                                    className: "text-gray-600 font-[500] text-sm openSans",
                                                     children: testimonial.role
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/TestimonialsSection.jsx",
-                                                    lineNumber: 90,
+                                                    lineNumber: 94,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/TestimonialsSection.jsx",
-                                            lineNumber: 86,
+                                            lineNumber: 90,
                                             columnNumber: 17
                                         }, this)
                                     ]
@@ -2439,7 +2470,7 @@ const CaseStudiesSection = ()=>{
             id: 4,
             title: "MedCare Mobile App",
             description: "Healthcare mobile application with patient management system and telemedicine features.",
-            image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+            image: "https://cdn6.aptoide.com/imgs/d/2/f/d2f382de170471f167194467ca533e10_fgraphic.jpg",
             tags: [
                 "Mobile App",
                 "Healthcare",
@@ -2504,7 +2535,7 @@ const CaseStudiesSection = ()=>{
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-xl lg:text-2xl text-gray-600 max-w-3xl mx-auto openSans leading-relaxed",
+                            className: "text-xl lg:text-2xl font-[500] text-gray-600 max-w-3xl mx-auto openSans leading-relaxed",
                             children: "Discover how we've helped businesses transform their digital presence and achieve remarkable growth."
                         }, void 0, false, {
                             fileName: "[project]/components/CaseStudiesSection.jsx",
@@ -2575,7 +2606,7 @@ const CaseStudiesSection = ()=>{
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-gray-600 openSans leading-relaxed mb-6 text-sm lg:text-base",
+                                            className: "text-gray-600 openSans font-[550] leading-relaxed mb-6 text-sm lg:text-base",
                                             children: study.description
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudiesSection.jsx",
@@ -2585,7 +2616,7 @@ const CaseStudiesSection = ()=>{
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "flex flex-wrap gap-2 mb-6",
                                             children: study.tags.map((tag, tagIndex)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs openSans font-medium hover:bg-[#a7ff59] hover:text-black transition-colors duration-300",
+                                                    className: "px-3 font-[600] py-1 bg-gray-100 text-gray-700 rounded-full text-[15px] openSans hover:bg-[#a7ff59] hover:text-black transition-colors duration-300",
                                                     children: tag
                                                 }, tagIndex, false, {
                                                     fileName: "[project]/components/CaseStudiesSection.jsx",
@@ -2777,7 +2808,7 @@ const BlogSection = ()=>{
             date: "Dec 10, 2023",
             readTime: "6 min read",
             category: "UI/UX Design",
-            image: "https://images.unsplash.com/photo-1581291518857-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+            image: "https://buildfire.com/wp-content/uploads/2024/09/Whats-the-Difference-Between-UX-Design-vs.-UI-Design_@3x-1-scaled-3.jpg",
             tags: [
                 "UI/UX",
                 "Conversion",
@@ -2832,7 +2863,7 @@ const BlogSection = ()=>{
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-xl lg:text-2xl text-gray-600 max-w-3xl mx-auto openSans leading-relaxed",
+                            className: "text-xl lg:text-2xl font-[500] text-gray-600 max-w-3xl mx-auto openSans leading-relaxed",
                             children: "Stay updated with the latest trends, best practices, and expert insights from our team."
                         }, void 0, false, {
                             fileName: "[project]/components/BlogSection.jsx",
@@ -2903,7 +2934,7 @@ const BlogSection = ()=>{
                                     className: "p-6 lg:p-8",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            className: "text-xl lg:text-2xl racing font-bold text-gray-900 mb-3 group-hover:text-[#a7ff59] transition-colors duration-300 line-clamp-2",
+                                            className: "text-xl lg:text-3xl racing font-bold text-gray-900 mb-3 group-hover:text-[#a7ff59] transition-colors duration-300 line-clamp-2",
                                             children: post.title
                                         }, void 0, false, {
                                             fileName: "[project]/components/BlogSection.jsx",
@@ -2911,7 +2942,7 @@ const BlogSection = ()=>{
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-gray-600 openSans leading-relaxed mb-6 text-sm lg:text-base line-clamp-2",
+                                            className: "text-gray-600 openSans leading-relaxed mb-6 text-sm lg:text-[20px] font-[500] line-clamp-2",
                                             children: post.excerpt
                                         }, void 0, false, {
                                             fileName: "[project]/components/BlogSection.jsx",
@@ -2921,7 +2952,7 @@ const BlogSection = ()=>{
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "flex flex-wrap gap-2 mb-6",
                                             children: post.tags.map((tag, tagIndex)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs openSans font-medium",
+                                                    className: "px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-[15px] openSans font-[600]",
                                                     children: tag
                                                 }, tagIndex, false, {
                                                     fileName: "[project]/components/BlogSection.jsx",
@@ -2956,7 +2987,7 @@ const BlogSection = ()=>{
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                className: "text-gray-900 font-semibold text-sm openSans",
+                                                                className: "text-gray-900 font-semibold text-[15px] openSans",
                                                                 children: post.author
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/BlogSection.jsx",
@@ -2964,7 +2995,7 @@ const BlogSection = ()=>{
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                className: "text-gray-500 text-xs openSans",
+                                                                className: "text-gray-500 font-[600] text-xs openSans",
                                                                 children: post.date
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/BlogSection.jsx",
@@ -3111,7 +3142,7 @@ const TestimonialsCarousel = ()=>{
             name: "Sarah Johnson",
             role: "CEO",
             company: "TechFlow Solutions",
-            avatar: "https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80",
+            avatar: "https://img.freepik.com/free-photo/brunette-business-woman-with-wavy-long-hair-blue-eyes-stands-holding-notebook-hands_197531-343.jpg?semt=ais_hybrid&w=740",
             quote: "VisQode transformed our entire digital presence. Their attention to detail and innovative approach exceeded all our expectations. The team delivered a stunning website that perfectly captures our brand essence.",
             rating: 5,
             project: "Complete Brand & Web Redesign"
@@ -3264,7 +3295,7 @@ const TestimonialsCarousel = ()=>{
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-xl lg:text-2xl text-gray-600 max-w-3xl mx-auto openSans leading-relaxed",
+                                className: "text-xl font-[600] lg:text-2xl text-gray-600 max-w-3xl mx-auto openSans leading-relaxed",
                                 children: "Don't just take our word for it. Here's what our clients have to say about working with us."
                             }, void 0, false, {
                                 fileName: "[project]/components/TestimonialsCarousel.jsx",
@@ -3332,7 +3363,7 @@ const TestimonialsCarousel = ()=>{
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("blockquote", {
-                                            className: "text-xl lg:text-2xl text-gray-800 text-center mb-8 openSans leading-relaxed italic",
+                                            className: "text-xl lg:text-1xl text-gray-800 text-center mb-8 openSans leading-relaxed font-[500]",
                                             children: [
                                                 '"',
                                                 testimonials[currentIndex].quote,
@@ -3383,7 +3414,7 @@ const TestimonialsCarousel = ()=>{
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "text-gray-600 openSans text-sm mt-1",
+                                                            className: "text-gray-600 openSans font-[600] text-sm mt-1",
                                                             children: testimonials[currentIndex].project
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/TestimonialsCarousel.jsx",
@@ -3501,7 +3532,7 @@ const TestimonialsCarousel = ()=>{
                         className: "mt-16 lg:mt-20",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-center text-gray-500 openSans mb-8",
+                                className: "text-center text-[20px] font-[600] text-gray-500 openSans mb-8",
                                 children: "Trusted by industry leaders"
                             }, void 0, false, {
                                 fileName: "[project]/components/TestimonialsCarousel.jsx",
@@ -3724,7 +3755,7 @@ const NewsletterSection = ()=>{
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-xl lg:text-2xl text-gray-300 max-w-3xl mx-auto openSans leading-relaxed mb-8",
+                                    className: "text-xl font-[500] lg:text-2xl text-gray-300 max-w-3xl mx-auto openSans leading-relaxed mb-8",
                                     children: "Get branding tips, resources & early access to features. Join 5,000+ professionals who trust our insights."
                                 }, void 0, false, {
                                     fileName: "[project]/components/NewsletterSection.jsx",
@@ -3790,7 +3821,7 @@ const NewsletterSection = ()=>{
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-white openSans text-sm font-medium",
+                                            className: "text-white openSans text-[18px] font-[600] ",
                                             children: benefit.text
                                         }, void 0, false, {
                                             fileName: "[project]/components/NewsletterSection.jsx",
@@ -3847,7 +3878,7 @@ const NewsletterSection = ()=>{
                                                 onChange: (e)=>setEmail(e.target.value),
                                                 placeholder: "Enter your email address",
                                                 required: true,
-                                                className: "flex-1 px-6 py-4 bg-transparent text-white placeholder-gray-300 border-none outline-none openSans text-lg"
+                                                className: "flex-1 font-[500] px-6 py-4 bg-transparent text-white placeholder-gray-300 border-none outline-none openSans text-lg"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/NewsletterSection.jsx",
                                                 lineNumber: 179,
@@ -3980,13 +4011,13 @@ const NewsletterSection = ()=>{
                                         duration: 0.6,
                                         delay: 0.6
                                     },
-                                    className: "text-gray-400 openSans text-sm mt-6",
+                                    className: "font-[600] text-gray-400 openSans text-[16px] mt-6",
                                     children: [
                                         "No spam, ever. Unsubscribe anytime. By subscribing, you agree to our",
                                         " ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                             href: "#",
-                                            className: "text-[#a7ff59] hover:underline",
+                                            className: "font-[600] text-[#a7ff59] hover:underline",
                                             children: "Privacy Policy"
                                         }, void 0, false, {
                                             fileName: "[project]/components/NewsletterSection.jsx",
@@ -4035,7 +4066,7 @@ const NewsletterSection = ()=>{
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "openSans text-sm",
+                                            className: "openSans font-[600] text-[17px]",
                                             children: "5,000+ subscribers"
                                         }, void 0, false, {
                                             fileName: "[project]/components/NewsletterSection.jsx",
@@ -4055,21 +4086,21 @@ const NewsletterSection = ()=>{
                                             className: "bx bx-star text-[#a7ff59] text-xl mr-2"
                                         }, void 0, false, {
                                             fileName: "[project]/components/NewsletterSection.jsx",
-                                            lineNumber: 269,
+                                            lineNumber: 271,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "openSans text-sm",
+                                            className: "openSans font-[600] text-[17px]",
                                             children: "4.9/5 average rating"
                                         }, void 0, false, {
                                             fileName: "[project]/components/NewsletterSection.jsx",
-                                            lineNumber: 270,
+                                            lineNumber: 272,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/NewsletterSection.jsx",
-                                    lineNumber: 268,
+                                    lineNumber: 270,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4079,21 +4110,21 @@ const NewsletterSection = ()=>{
                                             className: "bx bx-shield-check text-[#a7ff59] text-xl mr-2"
                                         }, void 0, false, {
                                             fileName: "[project]/components/NewsletterSection.jsx",
-                                            lineNumber: 273,
+                                            lineNumber: 277,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "openSans text-sm",
+                                            className: "openSans font-[600] text-[17px]",
                                             children: "GDPR compliant"
                                         }, void 0, false, {
                                             fileName: "[project]/components/NewsletterSection.jsx",
-                                            lineNumber: 274,
+                                            lineNumber: 278,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/NewsletterSection.jsx",
-                                    lineNumber: 272,
+                                    lineNumber: 276,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -4378,7 +4409,7 @@ const QuoteCalculator = ()=>{
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-xl lg:text-2xl text-gray-600 max-w-3xl mx-auto openSans leading-relaxed",
+                            className: "text-xl font-[500] lg:text-2xl text-gray-600 max-w-3xl mx-auto openSans leading-relaxed",
                             children: "Answer a few quick questions and get a personalized quote for your project in seconds."
                         }, void 0, false, {
                             fileName: "[project]/components/QuoteCalculator.jsx",
@@ -4440,7 +4471,7 @@ const QuoteCalculator = ()=>{
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex justify-between text-sm openSans text-gray-600",
+                                    className: "flex font-[600]  justify-between text-[18px] openSans text-gray-600",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             children: "Services"
@@ -4544,7 +4575,7 @@ const QuoteCalculator = ()=>{
                                                                             className: "ml-4",
                                                                             children: [
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                                                                    className: "racing font-bold text-gray-900",
+                                                                                    className: "racing font-bold text-[18px] text-gray-900",
                                                                                     children: service.name
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/components/QuoteCalculator.jsx",
@@ -4552,7 +4583,7 @@ const QuoteCalculator = ()=>{
                                                                                     columnNumber: 29
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                                    className: "text-sm text-gray-600 openSans",
+                                                                                    className: "text-sm font-[500]  text-gray-600 openSans",
                                                                                     children: [
                                                                                         "From $",
                                                                                         service.price.toLocaleString()
@@ -4655,7 +4686,7 @@ const QuoteCalculator = ()=>{
                                                                             whileHover: {
                                                                                 scale: 1.02
                                                                             },
-                                                                            className: `flex items-center p-4 rounded-xl border-2 cursor-pointer transition-all duration-300 ${budgetRange === budget.value ? "border-[#a7ff59] bg-[#a7ff59]/10" : "border-gray-200 hover:border-gray-300"}`,
+                                                                            className: `flex items-center  p-4 rounded-xl border-2 cursor-pointer transition-all duration-300 ${budgetRange === budget.value ? "border-[#a7ff59] bg-[#a7ff59]/10" : "border-gray-200 hover:border-gray-300"}`,
                                                                             children: [
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                                                     type: "radio",
@@ -4697,7 +4728,7 @@ const QuoteCalculator = ()=>{
                                                                                     columnNumber: 29
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                                    className: "openSans font-medium",
+                                                                                    className: "openSans font-[600] ",
                                                                                     children: budget.label
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/components/QuoteCalculator.jsx",
@@ -4779,7 +4810,7 @@ const QuoteCalculator = ()=>{
                                                                                     columnNumber: 29
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                                    className: "openSans font-medium",
+                                                                                    className: "openSans font-[600] ",
                                                                                     children: time.label
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/components/QuoteCalculator.jsx",
@@ -4856,7 +4887,7 @@ const QuoteCalculator = ()=>{
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                    className: "text-gray-600 openSans text-sm",
+                                                                    className: "text-gray-600 font-[600]  openSans text-sm",
                                                                     children: "Includes maintenance, updates, and priority support"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/QuoteCalculator.jsx",
@@ -4911,7 +4942,7 @@ const QuoteCalculator = ()=>{
                                                     className: "bg-gray-50 rounded-2xl p-6 mb-8 text-left",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                                            className: "racing font-bold text-lg mb-4",
+                                                            className: "racing font-bold text-[25px] mb-4",
                                                             children: "Project Summary:"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/QuoteCalculator.jsx",
@@ -4919,7 +4950,7 @@ const QuoteCalculator = ()=>{
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "space-y-2 openSans",
+                                                            className: "space-y-2 text-[20px] openSans",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                     children: [
@@ -5050,7 +5081,7 @@ const QuoteCalculator = ()=>{
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "openSans text-lg mb-6",
+                                                            className: "openSans font-[600]  text-lg mb-6",
                                                             children: "This is a preliminary estimate. Final pricing may vary based on specific requirements."
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/QuoteCalculator.jsx",
@@ -5868,7 +5899,7 @@ const ContactForm = ()=>{
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-xl lg:text-2xl text-gray-600 max-w-3xl mx-auto openSans leading-relaxed",
+                            className: "text-xl font-[500]  lg:text-2xl text-gray-600 max-w-3xl mx-auto openSans leading-relaxed",
                             children: "Ready to transform your digital presence? Tell us about your project and let's create something amazing together."
                         }, void 0, false, {
                             fileName: "[project]/components/ContactForm.jsx",
@@ -5943,7 +5974,7 @@ const ContactForm = ()=>{
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                                 href: "tel:+15551234567",
-                                                                className: "openSans text-gray-600 hover:text-[#a7ff59] transition-colors",
+                                                                className: "openSans font-[600]  text-gray-600 hover:text-[#a7ff59] transition-colors",
                                                                 children: "+1 (555) 123-4567"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/ContactForm.jsx",
@@ -5991,7 +6022,7 @@ const ContactForm = ()=>{
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                                 href: "mailto:visqode@gmail.com",
-                                                                className: "openSans text-gray-600 hover:text-[#a7ff59] transition-colors",
+                                                                className: "openSans text-gray-600 font-[600]  hover:text-[#a7ff59] transition-colors",
                                                                 children: "visqode@gmail.com"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/ContactForm.jsx",
@@ -6038,7 +6069,7 @@ const ContactForm = ()=>{
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                className: "openSans text-gray-600",
+                                                                className: "openSans text-gray-600 font-[600]",
                                                                 children: "Within 24 hours"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/ContactForm.jsx",
@@ -6066,12 +6097,12 @@ const ContactForm = ()=>{
                                                             className: "bx bx-error text-white text-xl"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/ContactForm.jsx",
-                                                            lineNumber: 394,
+                                                            lineNumber: 396,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/ContactForm.jsx",
-                                                        lineNumber: 393,
+                                                        lineNumber: 395,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6081,28 +6112,28 @@ const ContactForm = ()=>{
                                                                 children: "Urgent Matters"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/ContactForm.jsx",
-                                                                lineNumber: 397,
+                                                                lineNumber: 399,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                                 href: "mailto:ibwmahin@gmail.com",
-                                                                className: "openSans text-gray-600 hover:text-red-500 transition-colors",
+                                                                className: "openSans font-[600]  text-gray-600 hover:text-red-500 transition-colors",
                                                                 children: "ibwmahin@gmail.com"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/ContactForm.jsx",
-                                                                lineNumber: 398,
+                                                                lineNumber: 400,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/ContactForm.jsx",
-                                                        lineNumber: 396,
+                                                        lineNumber: 398,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/ContactForm.jsx",
-                                                lineNumber: 392,
+                                                lineNumber: 394,
                                                 columnNumber: 17
                                             }, this)
                                         ]
@@ -6125,14 +6156,14 @@ const ContactForm = ()=>{
                                                 className: "bx bx-phone mr-2"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/ContactForm.jsx",
-                                                lineNumber: 414,
+                                                lineNumber: 416,
                                                 columnNumber: 17
                                             }, this),
                                             "Call Us Now"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/ContactForm.jsx",
-                                        lineNumber: 408,
+                                        lineNumber: 410,
                                         columnNumber: 15
                                     }, this)
                                 ]
@@ -6181,7 +6212,7 @@ const ContactForm = ()=>{
                                                     className: "bx bx-error-circle text-red-500 text-xl mr-2"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                    lineNumber: 436,
+                                                    lineNumber: 438,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -6189,13 +6220,13 @@ const ContactForm = ()=>{
                                                     children: "Please fix the following errors:"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                    lineNumber: 437,
+                                                    lineNumber: 439,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/ContactForm.jsx",
-                                            lineNumber: 435,
+                                            lineNumber: 437,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -6204,18 +6235,18 @@ const ContactForm = ()=>{
                                                     children: error
                                                 }, index, false, {
                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                    lineNumber: 443,
+                                                    lineNumber: 445,
                                                     columnNumber: 21
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/components/ContactForm.jsx",
-                                            lineNumber: 441,
+                                            lineNumber: 443,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/ContactForm.jsx",
-                                    lineNumber: 430,
+                                    lineNumber: 432,
                                     columnNumber: 15
                                 }, this),
                                 submitStatus.message && !submitStatus.success && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -6235,7 +6266,7 @@ const ContactForm = ()=>{
                                                 className: "bx bx-error-circle text-red-500 text-xl mr-2"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/ContactForm.jsx",
-                                                lineNumber: 457,
+                                                lineNumber: 459,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6243,18 +6274,18 @@ const ContactForm = ()=>{
                                                 children: submitStatus.message
                                             }, void 0, false, {
                                                 fileName: "[project]/components/ContactForm.jsx",
-                                                lineNumber: 458,
+                                                lineNumber: 460,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/ContactForm.jsx",
-                                        lineNumber: 456,
+                                        lineNumber: 458,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/ContactForm.jsx",
-                                    lineNumber: 451,
+                                    lineNumber: 453,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -6271,7 +6302,7 @@ const ContactForm = ()=>{
                                                             children: "Full Name *"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/ContactForm.jsx",
-                                                            lineNumber: 469,
+                                                            lineNumber: 471,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -6280,17 +6311,17 @@ const ContactForm = ()=>{
                                                             value: formData.fullName,
                                                             onChange: handleInputChange,
                                                             required: true,
-                                                            className: "w-full px-4 py-4 border-2 border-gray-200 rounded-xl focus:border-[#a7ff59] focus:outline-none transition-all duration-300 openSans",
+                                                            className: "w-full font-[600]  px-4 py-4 border-2 border-gray-200 rounded-xl focus:border-[#a7ff59] focus:outline-none transition-all duration-300 openSans",
                                                             placeholder: "Your full name"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/ContactForm.jsx",
-                                                            lineNumber: 472,
+                                                            lineNumber: 474,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                    lineNumber: 468,
+                                                    lineNumber: 470,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6300,7 +6331,7 @@ const ContactForm = ()=>{
                                                             children: "Business/Brand Name"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/ContactForm.jsx",
-                                                            lineNumber: 484,
+                                                            lineNumber: 486,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -6308,23 +6339,23 @@ const ContactForm = ()=>{
                                                             name: "businessName",
                                                             value: formData.businessName,
                                                             onChange: handleInputChange,
-                                                            className: "w-full px-4 py-4 border-2 border-gray-200 rounded-xl focus:border-[#a7ff59] focus:outline-none transition-all duration-300 openSans",
+                                                            className: "w-full font-[600]  px-4 py-4 border-2 border-gray-200 rounded-xl focus:border-[#a7ff59] focus:outline-none transition-all duration-300 openSans",
                                                             placeholder: "Your business name (optional)"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/ContactForm.jsx",
-                                                            lineNumber: 487,
+                                                            lineNumber: 489,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                    lineNumber: 483,
+                                                    lineNumber: 485,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/ContactForm.jsx",
-                                            lineNumber: 467,
+                                            lineNumber: 469,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6334,7 +6365,7 @@ const ContactForm = ()=>{
                                                     children: "Email Address *"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                    lineNumber: 499,
+                                                    lineNumber: 501,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -6343,17 +6374,17 @@ const ContactForm = ()=>{
                                                     value: formData.email,
                                                     onChange: handleInputChange,
                                                     required: true,
-                                                    className: "w-full px-4 py-4 border-2 border-gray-200 rounded-xl focus:border-[#a7ff59] focus:outline-none transition-all duration-300 openSans",
+                                                    className: "w-full font-[600]  px-4 py-4 border-2 border-gray-200 rounded-xl focus:border-[#a7ff59] focus:outline-none transition-all duration-300 openSans",
                                                     placeholder: "your@email.com"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                    lineNumber: 502,
+                                                    lineNumber: 504,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/ContactForm.jsx",
-                                            lineNumber: 498,
+                                            lineNumber: 500,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6363,7 +6394,7 @@ const ContactForm = ()=>{
                                                     children: "What services are you interested in? *"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                    lineNumber: 515,
+                                                    lineNumber: 517,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6372,7 +6403,7 @@ const ContactForm = ()=>{
                                                             whileHover: {
                                                                 scale: 1.02
                                                             },
-                                                            className: `flex items-start p-4 rounded-xl border-2 cursor-pointer transition-all duration-300 ${formData.services.includes(service.id) ? "border-[#a7ff59] bg-[#a7ff59]/10" : "border-gray-200 hover:border-gray-300"}`,
+                                                            className: `flex font-[600]  items-start p-4 rounded-xl border-2 cursor-pointer transition-all duration-300 ${formData.services.includes(service.id) ? "border-[#a7ff59] bg-[#a7ff59]/10" : "border-gray-200 hover:border-gray-300"}`,
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                                     type: "checkbox",
@@ -6381,11 +6412,11 @@ const ContactForm = ()=>{
                                                                     className: "sr-only"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                                    lineNumber: 529,
+                                                                    lineNumber: 531,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                    className: `w-5 h-5 rounded border-2 mr-3 flex items-center justify-center flex-shrink-0 mt-0.5 ${formData.services.includes(service.id) ? "border-[#a7ff59] bg-[#a7ff59]" : "border-gray-300"}`,
+                                                                    className: `w-5 h-5 font-[600]  rounded border-2 mr-3 flex items-center justify-center flex-shrink-0 mt-0.5 ${formData.services.includes(service.id) ? "border-[#a7ff59] bg-[#a7ff59]" : "border-gray-300"}`,
                                                                     children: formData.services.includes(service.id) && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].i, {
                                                                         initial: {
                                                                             scale: 0
@@ -6396,12 +6427,12 @@ const ContactForm = ()=>{
                                                                         className: "bx bx-check text-black text-sm"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/ContactForm.jsx",
-                                                                        lineNumber: 543,
+                                                                        lineNumber: 545,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                                    lineNumber: 535,
+                                                                    lineNumber: 537,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6414,52 +6445,52 @@ const ContactForm = ()=>{
                                                                                     className: `bx ${service.icon} text-lg mr-2 ${formData.services.includes(service.id) ? "text-[#a7ff59]" : "text-gray-600"}`
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                                                    lineNumber: 552,
+                                                                                    lineNumber: 554,
                                                                                     columnNumber: 27
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                                    className: "openSans font-medium",
+                                                                                    className: "openSans font-[700] ",
                                                                                     children: service.name
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                                                    lineNumber: 559,
+                                                                                    lineNumber: 561,
                                                                                     columnNumber: 27
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/components/ContactForm.jsx",
-                                                                            lineNumber: 551,
+                                                                            lineNumber: 553,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                            className: "text-xs text-gray-500 openSans",
+                                                                            className: "text-sm text-gray-500 openSans",
                                                                             children: service.description
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/ContactForm.jsx",
-                                                                            lineNumber: 563,
+                                                                            lineNumber: 565,
                                                                             columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                                    lineNumber: 550,
+                                                                    lineNumber: 552,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, service.id, true, {
                                                             fileName: "[project]/components/ContactForm.jsx",
-                                                            lineNumber: 520,
+                                                            lineNumber: 522,
                                                             columnNumber: 21
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                    lineNumber: 518,
+                                                    lineNumber: 520,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/ContactForm.jsx",
-                                            lineNumber: 514,
+                                            lineNumber: 516,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6469,7 +6500,7 @@ const ContactForm = ()=>{
                                                     children: "Budget Range *"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                    lineNumber: 574,
+                                                    lineNumber: 576,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6489,7 +6520,7 @@ const ContactForm = ()=>{
                                                                     className: "sr-only"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                                    lineNumber: 588,
+                                                                    lineNumber: 590,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6504,54 +6535,54 @@ const ContactForm = ()=>{
                                                                         className: "w-2 h-2 bg-black rounded-full"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/ContactForm.jsx",
-                                                                        lineNumber: 604,
+                                                                        lineNumber: 606,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                                    lineNumber: 596,
+                                                                    lineNumber: 598,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                     className: "flex-1",
                                                                     children: [
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                            className: "openSans font-medium block",
+                                                                            className: "openSans font-[600]  block",
                                                                             children: budget.label
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/ContactForm.jsx",
-                                                                            lineNumber: 612,
+                                                                            lineNumber: 614,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                            className: "text-xs text-gray-500 openSans",
+                                                                            className: "text-sm font-[600]  text-gray-500 openSans",
                                                                             children: budget.description
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/ContactForm.jsx",
-                                                                            lineNumber: 615,
+                                                                            lineNumber: 617,
                                                                             columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                                    lineNumber: 611,
+                                                                    lineNumber: 613,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, budget.value, true, {
                                                             fileName: "[project]/components/ContactForm.jsx",
-                                                            lineNumber: 579,
+                                                            lineNumber: 581,
                                                             columnNumber: 21
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                    lineNumber: 577,
+                                                    lineNumber: 579,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/ContactForm.jsx",
-                                            lineNumber: 573,
+                                            lineNumber: 575,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6561,7 +6592,7 @@ const ContactForm = ()=>{
                                                     children: "Project Description *"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                    lineNumber: 626,
+                                                    lineNumber: 628,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
@@ -6570,15 +6601,15 @@ const ContactForm = ()=>{
                                                     onChange: handleInputChange,
                                                     required: true,
                                                     rows: 6,
-                                                    className: "w-full px-4 py-4 border-2 border-gray-200 rounded-xl focus:border-[#a7ff59] focus:outline-none transition-all duration-300 openSans resize-none",
+                                                    className: "w-full text-lg font-[500]  px-4 py-4 border-2 border-gray-200 rounded-xl focus:border-[#a7ff59] focus:outline-none transition-all duration-300 openSans resize-none",
                                                     placeholder: "Tell us about your project goals, target audience, timeline, and any specific requirements..."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                    lineNumber: 629,
+                                                    lineNumber: 631,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "text-sm text-gray-500 openSans mt-2",
+                                                    className: "text-[17px] font-[600]  text-gray-500 openSans mt-2",
                                                     children: [
                                                         "Minimum 10 characters • ",
                                                         formData.description.length,
@@ -6586,13 +6617,13 @@ const ContactForm = ()=>{
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                    lineNumber: 638,
+                                                    lineNumber: 640,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/ContactForm.jsx",
-                                            lineNumber: 625,
+                                            lineNumber: 627,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].button, {
@@ -6619,7 +6650,7 @@ const ContactForm = ()=>{
                                                         className: "w-6 h-6 border-2 border-black border-t-transparent rounded-full mr-3"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/ContactForm.jsx",
-                                                        lineNumber: 653,
+                                                        lineNumber: 655,
                                                         columnNumber: 21
                                                     }, this),
                                                     "Sending Message..."
@@ -6631,18 +6662,18 @@ const ContactForm = ()=>{
                                                         className: "bx bx-send ml-3 text-2xl"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/ContactForm.jsx",
-                                                        lineNumber: 667,
+                                                        lineNumber: 669,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true)
                                         }, void 0, false, {
                                             fileName: "[project]/components/ContactForm.jsx",
-                                            lineNumber: 644,
+                                            lineNumber: 646,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-sm text-gray-500 openSans text-center",
+                                            className: "text-sm font-[600]  text-gray-500 openSans text-center",
                                             children: [
                                                 "By submitting this form, you agree to our",
                                                 " ",
@@ -6652,26 +6683,26 @@ const ContactForm = ()=>{
                                                     children: "Privacy Policy"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ContactForm.jsx",
-                                                    lineNumber: 675,
+                                                    lineNumber: 677,
                                                     columnNumber: 17
                                                 }, this),
                                                 ". We'll never share your information with third parties."
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/ContactForm.jsx",
-                                            lineNumber: 673,
+                                            lineNumber: 675,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/ContactForm.jsx",
-                                    lineNumber: 465,
+                                    lineNumber: 467,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/ContactForm.jsx",
-                            lineNumber: 421,
+                            lineNumber: 423,
                             columnNumber: 11
                         }, this)
                     ]
@@ -7269,11 +7300,26 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 const Footer = ()=>{
     const socialIcons = [
-        "facebook",
-        "twitter",
-        "linkedin",
-        "instagram",
-        "youtube"
+        {
+            name: "facebook",
+            icon: "ri-facebook-fill"
+        },
+        {
+            name: "twitter",
+            icon: "ri-twitter-fill"
+        },
+        {
+            name: "linkedin",
+            icon: "ri-linkedin-fill"
+        },
+        {
+            name: "instagram",
+            icon: "ri-instagram-line"
+        },
+        {
+            name: "youtube",
+            icon: "ri-youtube-fill"
+        }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "flex items-center m-2 md:m-5 justify-center",
@@ -7307,7 +7353,7 @@ const Footer = ()=>{
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-base md:text-lg lg:text-xl text-[#B0B0B0] openSans",
+                                    className: "text-base font-[500]  md:text-lg lg:text-xl text-[#B0B0B0] openSans",
                                     children: "PARTNER WITH OUR DESIGN AGENCY FOR YOUR BUSINESS WITH AMAZING RESULTS."
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer.jsx",
@@ -7330,7 +7376,7 @@ const Footer = ()=>{
                             },
                             className: "cursor-pointer flex-shrink-0",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "bg-[#39FF14] rounded-full w-24 h-24 md:w-32 md:h-32 flex flex-col items-center justify-center text-black font-bold shadow-[0_0_20px_rgba(57,255,20,0.5)] racing text-center text-sm md:text-base",
+                                className: "bg-[#39FF14] rounded-[15px] w-24 h-24 md:w-32 md:h-13 flex flex-col items-center justify-center text-black font-bold shadow-[0_0_20px_rgba(57,255,20,0.5)] racing text-center text-sm md:text-[15px]",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         children: "GET STARTED"
@@ -7340,7 +7386,7 @@ const Footer = ()=>{
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
-                                        className: "bx bx-arrow-back mt-1 text-lg md:text-xl"
+                                        className: "ri-arrow-right-line mt-1 text-lg md:text-xl"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Footer.jsx",
                                         lineNumber: 40,
@@ -7377,7 +7423,7 @@ const Footer = ()=>{
                             className: "text-center sm:text-left",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "text-lg font-bold text-[#E5E5E5] mb-3 racing",
+                                    className: "text-[22px] font-bold text-[#E5E5E5] mb-3 racing",
                                     children: "VisQode"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer.jsx",
@@ -7385,7 +7431,7 @@ const Footer = ()=>{
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-sm text-[#B0B0B0] leading-relaxed mb-4 openSans",
+                                    className: "text-[17px] font-[600] text-[#B0B0B0] leading-relaxed mb-4 openSans",
                                     children: "We know how important customer experience is for a business and therefore, we strive."
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer.jsx",
@@ -7394,13 +7440,13 @@ const Footer = ()=>{
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "flex justify-center sm:justify-start space-x-2",
-                                    children: socialIcons.map((icon)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
+                                    children: socialIcons.map(({ name, icon })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
                                             whileHover: {
                                                 scale: 1.2
                                             },
                                             className: "bg-[#333333] rounded-full w-9 h-9 flex items-center justify-center cursor-pointer",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
-                                                className: `bxl bx-${icon}`,
+                                                className: `${icon}`,
                                                 style: {
                                                     color: "white",
                                                     fontSize: "1rem"
@@ -7410,7 +7456,7 @@ const Footer = ()=>{
                                                 lineNumber: 63,
                                                 columnNumber: 19
                                             }, this)
-                                        }, icon, false, {
+                                        }, name, false, {
                                             fileName: "[project]/components/Footer.jsx",
                                             lineNumber: 58,
                                             columnNumber: 17
@@ -7430,7 +7476,7 @@ const Footer = ()=>{
                             className: "text-center sm:text-left",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "text-lg font-bold text-[#E5E5E5] mb-3 racing",
+                                    className: "text-[22px] font-bold text-[#E5E5E5] mb-3 racing",
                                     children: "Data Science"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer.jsx",
@@ -7438,7 +7484,7 @@ const Footer = ()=>{
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                    className: "text-sm text-[#B0B0B0] space-y-2 openSans",
+                                    className: "text-[16px] text-[#B0B0B0] font-[500] space-y-2 openSans",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Business Use-Case"
@@ -7499,7 +7545,7 @@ const Footer = ()=>{
                             className: "text-center sm:text-left",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "text-lg font-bold text-[#E5E5E5] mb-3 racing",
+                                    className: "text-[22px] font-bold text-[#E5E5E5] mb-3 racing",
                                     children: "About"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer.jsx",
@@ -7507,7 +7553,7 @@ const Footer = ()=>{
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                    className: "text-sm text-[#B0B0B0] space-y-2 openSans",
+                                    className: "text-[16px] font-[500] text-[#B0B0B0] space-y-2 openSans",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Contact Us"
@@ -7553,7 +7599,7 @@ const Footer = ()=>{
                             className: "text-center sm:text-left",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "text-lg font-bold text-[#E5E5E5] mb-3 racing",
+                                    className: "text-[22px] font-bold text-[#E5E5E5] mb-3 racing",
                                     children: "Programs"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer.jsx",
@@ -7561,7 +7607,7 @@ const Footer = ()=>{
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                    className: "text-sm text-[#B0B0B0] space-y-2 openSans",
+                                    className: "text-[16px] font-[500]  text-[#B0B0B0] space-y-2 openSans",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Learning Modules"
@@ -7610,7 +7656,7 @@ const Footer = ()=>{
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex flex-col md:flex-row justify-between items-center mt-8 md:mt-10 text-[#B0B0B0] text-sm gap-3 openSans",
+                    className: "flex text-[15px] font-[600]  flex-col md:flex-row justify-between items-center mt-8 md:mt-10 text-[#B0B0B0] text-sm gap-3 openSans",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                             children: "VisQode, INC."

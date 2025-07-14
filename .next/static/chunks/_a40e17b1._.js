@@ -62,7 +62,7 @@ const Navigation = ()=>{
         className: "flex items-center justify-between p-4 bg-transparent border-b border-b-gray-500/30 openSans font-extrabold",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "text-xl md:text-2xl font-bold text-white",
+                className: "text-xl md:text-2xl font-bold rajdhani text-white",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                     href: "/",
                     children: "VisQode"
@@ -77,11 +77,11 @@ const Navigation = ()=>{
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "hidden md:flex space-x-6 lg:space-x-8",
+                className: "hidden md:flex space-x-6 rajdhani lg:space-x-12",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                         href: "/",
-                        className: "text-white hover:scale-105 hover:transition-all duration-200 text-sm lg:text-base",
+                        className: "text-white hover:scale-105 hover:transition-all duration-200 text-sm lg:text-[18px]",
                         children: "Home"
                     }, void 0, false, {
                         fileName: "[project]/components/Navigation.jsx",
@@ -90,7 +90,7 @@ const Navigation = ()=>{
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                         href: "/about",
-                        className: "text-white hover:scale-105 hover:transition-all duration-200 text-sm lg:text-base",
+                        className: "text-white hover:scale-105 hover:transition-all duration-200 text-sm lg:text-[18px]",
                         children: "About"
                     }, void 0, false, {
                         fileName: "[project]/components/Navigation.jsx",
@@ -99,7 +99,7 @@ const Navigation = ()=>{
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                         href: "/services",
-                        className: "text-white hover:scale-105 hover:transition-all duration-200 text-sm lg:text-base",
+                        className: "text-white hover:scale-105 hover:transition-all duration-200 text-sm lg:text-[18px]",
                         children: "Services"
                     }, void 0, false, {
                         fileName: "[project]/components/Navigation.jsx",
@@ -108,7 +108,7 @@ const Navigation = ()=>{
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                         href: "/consulting",
-                        className: "text-white hover:scale-105 hover:transition-all duration-200 text-sm lg:text-base",
+                        className: "text-white hover:scale-105 hover:transition-all duration-200 text-sm lg:text-[18px]",
                         children: "Consulting"
                     }, void 0, false, {
                         fileName: "[project]/components/Navigation.jsx",
@@ -293,11 +293,26 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 const Footer = ()=>{
     const socialIcons = [
-        "facebook",
-        "twitter",
-        "linkedin",
-        "instagram",
-        "youtube"
+        {
+            name: "facebook",
+            icon: "ri-facebook-fill"
+        },
+        {
+            name: "twitter",
+            icon: "ri-twitter-fill"
+        },
+        {
+            name: "linkedin",
+            icon: "ri-linkedin-fill"
+        },
+        {
+            name: "instagram",
+            icon: "ri-instagram-line"
+        },
+        {
+            name: "youtube",
+            icon: "ri-youtube-fill"
+        }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "flex items-center m-2 md:m-5 justify-center",
@@ -331,7 +346,7 @@ const Footer = ()=>{
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-base md:text-lg lg:text-xl text-[#B0B0B0] openSans",
+                                    className: "text-base font-[500]  md:text-lg lg:text-xl text-[#B0B0B0] openSans",
                                     children: "PARTNER WITH OUR DESIGN AGENCY FOR YOUR BUSINESS WITH AMAZING RESULTS."
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer.jsx",
@@ -354,7 +369,7 @@ const Footer = ()=>{
                             },
                             className: "cursor-pointer flex-shrink-0",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "bg-[#39FF14] rounded-full w-24 h-24 md:w-32 md:h-32 flex flex-col items-center justify-center text-black font-bold shadow-[0_0_20px_rgba(57,255,20,0.5)] racing text-center text-sm md:text-base",
+                                className: "bg-[#39FF14] rounded-[15px] w-24 h-24 md:w-32 md:h-13 flex flex-col items-center justify-center text-black font-bold shadow-[0_0_20px_rgba(57,255,20,0.5)] racing text-center text-sm md:text-[15px]",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         children: "GET STARTED"
@@ -364,7 +379,7 @@ const Footer = ()=>{
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
-                                        className: "bx bx-arrow-back mt-1 text-lg md:text-xl"
+                                        className: "ri-arrow-right-line mt-1 text-lg md:text-xl"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Footer.jsx",
                                         lineNumber: 40,
@@ -401,7 +416,7 @@ const Footer = ()=>{
                             className: "text-center sm:text-left",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "text-lg font-bold text-[#E5E5E5] mb-3 racing",
+                                    className: "text-[22px] font-bold text-[#E5E5E5] mb-3 racing",
                                     children: "VisQode"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer.jsx",
@@ -409,7 +424,7 @@ const Footer = ()=>{
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-sm text-[#B0B0B0] leading-relaxed mb-4 openSans",
+                                    className: "text-[17px] font-[600] text-[#B0B0B0] leading-relaxed mb-4 openSans",
                                     children: "We know how important customer experience is for a business and therefore, we strive."
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer.jsx",
@@ -418,13 +433,13 @@ const Footer = ()=>{
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "flex justify-center sm:justify-start space-x-2",
-                                    children: socialIcons.map((icon)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                                    children: socialIcons.map(({ name, icon })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
                                             whileHover: {
                                                 scale: 1.2
                                             },
                                             className: "bg-[#333333] rounded-full w-9 h-9 flex items-center justify-center cursor-pointer",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
-                                                className: `bxl bx-${icon}`,
+                                                className: `${icon}`,
                                                 style: {
                                                     color: "white",
                                                     fontSize: "1rem"
@@ -434,7 +449,7 @@ const Footer = ()=>{
                                                 lineNumber: 63,
                                                 columnNumber: 19
                                             }, this)
-                                        }, icon, false, {
+                                        }, name, false, {
                                             fileName: "[project]/components/Footer.jsx",
                                             lineNumber: 58,
                                             columnNumber: 17
@@ -454,7 +469,7 @@ const Footer = ()=>{
                             className: "text-center sm:text-left",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "text-lg font-bold text-[#E5E5E5] mb-3 racing",
+                                    className: "text-[22px] font-bold text-[#E5E5E5] mb-3 racing",
                                     children: "Data Science"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer.jsx",
@@ -462,7 +477,7 @@ const Footer = ()=>{
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                    className: "text-sm text-[#B0B0B0] space-y-2 openSans",
+                                    className: "text-[16px] text-[#B0B0B0] font-[500] space-y-2 openSans",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Business Use-Case"
@@ -523,7 +538,7 @@ const Footer = ()=>{
                             className: "text-center sm:text-left",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "text-lg font-bold text-[#E5E5E5] mb-3 racing",
+                                    className: "text-[22px] font-bold text-[#E5E5E5] mb-3 racing",
                                     children: "About"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer.jsx",
@@ -531,7 +546,7 @@ const Footer = ()=>{
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                    className: "text-sm text-[#B0B0B0] space-y-2 openSans",
+                                    className: "text-[16px] font-[500] text-[#B0B0B0] space-y-2 openSans",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Contact Us"
@@ -577,7 +592,7 @@ const Footer = ()=>{
                             className: "text-center sm:text-left",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "text-lg font-bold text-[#E5E5E5] mb-3 racing",
+                                    className: "text-[22px] font-bold text-[#E5E5E5] mb-3 racing",
                                     children: "Programs"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer.jsx",
@@ -585,7 +600,7 @@ const Footer = ()=>{
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                    className: "text-sm text-[#B0B0B0] space-y-2 openSans",
+                                    className: "text-[16px] font-[500]  text-[#B0B0B0] space-y-2 openSans",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Learning Modules"
@@ -634,7 +649,7 @@ const Footer = ()=>{
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex flex-col md:flex-row justify-between items-center mt-8 md:mt-10 text-[#B0B0B0] text-sm gap-3 openSans",
+                    className: "flex text-[15px] font-[600]  flex-col md:flex-row justify-between items-center mt-8 md:mt-10 text-[#B0B0B0] text-sm gap-3 openSans",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                             children: "VisQode, INC."
@@ -794,7 +809,7 @@ const SplitText = ({ text, className = "", delay = 100, duration = 0.6, ease = "
         children: text
     }, void 0, false, {
         fileName: "[project]/components/Features/SplitText.jsx",
-        lineNumber: 85,
+        lineNumber: 96,
         columnNumber: 5
     }, this);
 };
@@ -1092,12 +1107,12 @@ const ScrollReveal = ({ children, scrollContainerRef, enableBlur = true, baseOpa
             children: splitText
         }, void 0, false, {
             fileName: "[project]/components/Features/ScrollReveal.jsx",
-            lineNumber: 136,
+            lineNumber: 147,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/Features/ScrollReveal.jsx",
-        lineNumber: 128,
+        lineNumber: 139,
         columnNumber: 5
     }, this);
 };
@@ -1212,12 +1227,12 @@ function Services() {
                 className: "bg-black text-white",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Navigation$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/app/services/page.jsx",
-                    lineNumber: 95,
+                    lineNumber: 96,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/services/page.jsx",
-                lineNumber: 94,
+                lineNumber: 95,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$PageHero$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1227,7 +1242,7 @@ function Services() {
                 backgroundImage: "https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80"
             }, void 0, false, {
                 fileName: "[project]/app/services/page.jsx",
-                lineNumber: 98,
+                lineNumber: 99,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -1244,7 +1259,7 @@ function Services() {
                                         children: "What We Offer"
                                     }, void 0, false, {
                                         fileName: "[project]/app/services/page.jsx",
-                                        lineNumber: 109,
+                                        lineNumber: 110,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Features$2f$ScrollReveal$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1256,13 +1271,13 @@ function Services() {
                                         children: "Our current services designed to transform your digital presence and drive business growth."
                                     }, void 0, false, {
                                         fileName: "[project]/app/services/page.jsx",
-                                        lineNumber: 110,
+                                        lineNumber: 113,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/services/page.jsx",
-                                lineNumber: 108,
+                                lineNumber: 109,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1296,25 +1311,25 @@ function Services() {
                                                             className: "w-full h-64 md:h-80 lg:h-96 object-cover"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/services/page.jsx",
-                                                            lineNumber: 133,
+                                                            lineNumber: 137,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: `absolute inset-0 bg-gradient-to-t ${service.color} opacity-80`
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/services/page.jsx",
-                                                            lineNumber: 138,
+                                                            lineNumber: 142,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/services/page.jsx",
-                                                    lineNumber: 132,
+                                                    lineNumber: 136,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/services/page.jsx",
-                                                lineNumber: 131,
+                                                lineNumber: 135,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1328,7 +1343,7 @@ function Services() {
                                                                 children: service.id
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/services/page.jsx",
-                                                                lineNumber: 144,
+                                                                lineNumber: 150,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1336,13 +1351,13 @@ function Services() {
                                                                 children: service.title
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/services/page.jsx",
-                                                                lineNumber: 145,
+                                                                lineNumber: 153,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/services/page.jsx",
-                                                        lineNumber: 143,
+                                                        lineNumber: 149,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Features$2f$ScrollReveal$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1354,7 +1369,7 @@ function Services() {
                                                         children: service.description
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/services/page.jsx",
-                                                        lineNumber: 148,
+                                                        lineNumber: 158,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1366,7 +1381,7 @@ function Services() {
                                                                         className: "bx bx-check text-[#a7ff59] text-xl flex-shrink-0"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/services/page.jsx",
-                                                                        lineNumber: 161,
+                                                                        lineNumber: 174,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1374,18 +1389,18 @@ function Services() {
                                                                         children: feature
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/services/page.jsx",
-                                                                        lineNumber: 162,
+                                                                        lineNumber: 175,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, idx, true, {
                                                                 fileName: "[project]/app/services/page.jsx",
-                                                                lineNumber: 160,
+                                                                lineNumber: 170,
                                                                 columnNumber: 23
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/services/page.jsx",
-                                                        lineNumber: 158,
+                                                        lineNumber: 168,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1393,30 +1408,30 @@ function Services() {
                                                         children: "Learn More"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/services/page.jsx",
-                                                        lineNumber: 167,
+                                                        lineNumber: 180,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/services/page.jsx",
-                                                lineNumber: 142,
+                                                lineNumber: 148,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, service.id, true, {
                                         fileName: "[project]/app/services/page.jsx",
-                                        lineNumber: 123,
+                                        lineNumber: 127,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/app/services/page.jsx",
-                                lineNumber: 121,
+                                lineNumber: 125,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/services/page.jsx",
-                        lineNumber: 107,
+                        lineNumber: 108,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1430,7 +1445,7 @@ function Services() {
                                         children: "What's Coming Next"
                                     }, void 0, false, {
                                         fileName: "[project]/app/services/page.jsx",
-                                        lineNumber: 179,
+                                        lineNumber: 192,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Features$2f$ScrollReveal$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1442,13 +1457,13 @@ function Services() {
                                         children: "Exciting new features and services we're developing to expand our offerings."
                                     }, void 0, false, {
                                         fileName: "[project]/app/services/page.jsx",
-                                        lineNumber: 180,
+                                        lineNumber: 195,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/services/page.jsx",
-                                lineNumber: 178,
+                                lineNumber: 191,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1476,7 +1491,7 @@ function Services() {
                                                 children: service.status
                                             }, void 0, false, {
                                                 fileName: "[project]/app/services/page.jsx",
-                                                lineNumber: 201,
+                                                lineNumber: 217,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1488,12 +1503,12 @@ function Services() {
                                                             className: `bx ${service.icon} text-2xl text-black`
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/services/page.jsx",
-                                                            lineNumber: 207,
+                                                            lineNumber: 223,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/services/page.jsx",
-                                                        lineNumber: 206,
+                                                        lineNumber: 222,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1501,13 +1516,13 @@ function Services() {
                                                         children: service.title
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/services/page.jsx",
-                                                        lineNumber: 209,
+                                                        lineNumber: 225,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/services/page.jsx",
-                                                lineNumber: 205,
+                                                lineNumber: 221,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Features$2f$ScrollReveal$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1519,7 +1534,7 @@ function Services() {
                                                 children: service.description
                                             }, void 0, false, {
                                                 fileName: "[project]/app/services/page.jsx",
-                                                lineNumber: 212,
+                                                lineNumber: 230,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1531,7 +1546,7 @@ function Services() {
                                                                 className: "bx bx-check text-[#a7ff59] text-lg flex-shrink-0"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/services/page.jsx",
-                                                                lineNumber: 225,
+                                                                lineNumber: 243,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1539,52 +1554,52 @@ function Services() {
                                                                 children: feature
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/services/page.jsx",
-                                                                lineNumber: 226,
+                                                                lineNumber: 244,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, idx, true, {
                                                         fileName: "[project]/app/services/page.jsx",
-                                                        lineNumber: 224,
+                                                        lineNumber: 242,
                                                         columnNumber: 21
                                                     }, this))
                                             }, void 0, false, {
                                                 fileName: "[project]/app/services/page.jsx",
-                                                lineNumber: 222,
+                                                lineNumber: 240,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, index, true, {
                                         fileName: "[project]/app/services/page.jsx",
-                                        lineNumber: 193,
+                                        lineNumber: 209,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/app/services/page.jsx",
-                                lineNumber: 191,
+                                lineNumber: 207,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/services/page.jsx",
-                        lineNumber: 177,
+                        lineNumber: 190,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/services/page.jsx",
-                lineNumber: 105,
+                lineNumber: 106,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Footer$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/services/page.jsx",
-                lineNumber: 236,
+                lineNumber: 254,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/services/page.jsx",
-        lineNumber: 93,
+        lineNumber: 94,
         columnNumber: 5
     }, this);
 }
