@@ -1,112 +1,109 @@
 "use client";
 import { useEffect } from "react";
-import { motion, useAnimation, useMotionValue } from "framer-motion";
-
-const getRotationTransition = (duration, from, loop = true) => ({
-  from,
-  to: from + 360,
-  ease: "linear",
-  duration,
-  type: "tween",
-  repeat: loop ? Number.POSITIVE_INFINITY : 0,
-});
-
-const getTransition = (duration, from) => ({
-  rotate: getRotationTransition(duration, from),
-  scale: {
-    type: "spring",
-    damping: 20,
-    stiffness: 300,
-  },
-});
+import { motion, useAnimation } from "framer-motion";
 
 const CircularText = ({
-  text,
+  text = "VisQode",
   spinDuration = 20,
-  onHover = "speedUp",
+  onHover = "speedUp", // "pause", "slowDown", "speedUp", "goBonkers"
   className = "",
 }) => {
   const letters = Array.from(text);
   const controls = useAnimation();
-  const rotation = useMotionValue(0);
+
+  const startAnimation = (duration) => {
+    controls.start({
+      rotate: 360,
+      scale: 1,
+      transition: {
+        rotate: {
+          repeat: Infinity,
+          ease: "linear",
+          duration,
+        },
+        scale: {
+          type: "spring",
+          damping: 20,
+          stiffness: 300,
+        },
+      },
+    });
+  };
 
   useEffect(() => {
-    const start = rotation.get();
-    controls.start({
-      rotate: start + 360,
-      scale: 1,
-      transition: getTransition(spinDuration, start),
-    });
-  }, [spinDuration, text, onHover, controls, rotation]);
+    startAnimation(spinDuration);
+  }, [spinDuration]);
 
   const handleHoverStart = () => {
-    const start = rotation.get();
-    if (!onHover) return;
-
-    let transitionConfig;
-    let scaleVal = 1;
+    let duration = spinDuration;
+    let scale = 1;
 
     switch (onHover) {
+      case "pause":
+        controls.stop();
+        return;
       case "slowDown":
-        transitionConfig = getTransition(spinDuration * 2, start);
+        duration = spinDuration * 2;
         break;
       case "speedUp":
-        transitionConfig = getTransition(spinDuration / 4, start);
-        break;
-      case "pause":
-        transitionConfig = {
-          rotate: { type: "spring", damping: 20, stiffness: 300 },
-          scale: { type: "spring", damping: 20, stiffness: 300 },
-        };
-        scaleVal = 1;
+        duration = spinDuration / 4;
         break;
       case "goBonkers":
-        transitionConfig = getTransition(spinDuration / 20, start);
-        scaleVal = 0.8;
+        duration = spinDuration / 10;
+        scale = 0.8;
         break;
-      default:
-        transitionConfig = getTransition(spinDuration, start);
     }
 
     controls.start({
-      rotate: start + 360,
-      scale: scaleVal,
-      transition: transitionConfig,
+      rotate: 360,
+      scale,
+      transition: {
+        rotate: {
+          repeat: Infinity,
+          ease: "linear",
+          duration,
+        },
+        scale: {
+          type: "spring",
+          damping: 20,
+          stiffness: 300,
+        },
+      },
     });
   };
 
   const handleHoverEnd = () => {
-    const start = rotation.get();
-    controls.start({
-      rotate: start + 360,
-      scale: 1,
-      transition: getTransition(spinDuration, start),
-    });
+    startAnimation(spinDuration);
   };
 
   return (
     <motion.div
-      className={`m-0 mx-auto rounded-full w-16 h-16 md:w-20 md:h-20 relative text-white font-black text-center cursor-pointer origin-center ${className}`}
-      style={{ rotate: rotation }}
-      initial={{ rotate: 0 }}
+      className={`relative rounded-full w-16 h-16 md:w-20 md:h-20 text-white font-black cursor-pointer ${className}`}
       animate={controls}
+      initial={{ rotate: 0 }}
       onMouseEnter={handleHoverStart}
       onMouseLeave={handleHoverEnd}
+      style={{
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        transformOrigin: "center",
+      }}
     >
       {letters.map((letter, i) => {
-        const rotationDeg = (360 / letters.length) * i;
+        const angle = (360 / letters.length) * i;
         const radius = 30;
-        const x = Math.cos((rotationDeg * Math.PI) / 180) * radius;
-        const y = Math.sin((rotationDeg * Math.PI) / 180) * radius;
-        const transform = `translate(${x}px, ${y}px) rotate(${rotationDeg + 90}deg)`;
+
+        const x = +(Math.cos((angle * Math.PI) / 180) * radius).toFixed(2);
+        const y = +(Math.sin((angle * Math.PI) / 180) * radius).toFixed(2);
+        const rotation = +(angle + 90).toFixed(2);
 
         return (
           <span
             key={i}
-            className="absolute text-xs md:text-sm transition-all duration-500 ease-[cubic-bezier(0,0,0,1)]"
+            className="absolute text-xs md:text-sm transition-all duration-500"
             style={{
-              transform,
-              WebkitTransform: transform,
+              transform: `translate(${x}px, ${y}px) rotate(${rotation}deg)`,
               left: "50%",
               top: "50%",
               transformOrigin: "center",

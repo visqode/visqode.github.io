@@ -1,9 +1,11 @@
+// app/layout.js (or layout.tsx)
 import "./globals.css";
+import React from "react";
 
 export const metadata = {
   title: "VisQode - We Build & Scale Digital Products",
   description:
-    "Founding successful companies by combining ideas with business expertise, capital and Technical execution.",
+    "Founding successful companies by combining ideas with business expertise, capital, and technical execution.",
   generator: "v0.dev",
 };
 
@@ -21,10 +23,10 @@ export default function RootLayout({ children }) {
         />
         <link
           rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css"
           integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
-          crossorigin="anonymous"
-          referrerpolicy="no-referrer"
+          crossOrigin="anonymous"
+          referrerPolicy="no-referrer"
         />
       </head>
       <body>{children}</body>

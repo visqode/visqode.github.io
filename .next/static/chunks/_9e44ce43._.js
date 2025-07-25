@@ -455,119 +455,102 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$animation$2f$hooks$2f$use$2d$animation$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/animation/hooks/use-animation.mjs [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$motion$2d$value$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/value/use-motion-value.mjs [app-client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature();
 "use client";
 ;
 ;
-const getRotationTransition = (duration, from, loop = true)=>({
-        from,
-        to: from + 360,
-        ease: "linear",
-        duration,
-        type: "tween",
-        repeat: loop ? Number.POSITIVE_INFINITY : 0
-    });
-const getTransition = (duration, from)=>({
-        rotate: getRotationTransition(duration, from),
-        scale: {
-            type: "spring",
-            damping: 20,
-            stiffness: 300
-        }
-    });
-const CircularText = ({ text, spinDuration = 20, onHover = "speedUp", className = "" })=>{
+const CircularText = ({ text = "VisQode", spinDuration = 20, onHover = "speedUp", className = "" })=>{
     _s();
     const letters = Array.from(text);
     const controls = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$animation$2f$hooks$2f$use$2d$animation$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useAnimation"])();
-    const rotation = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$motion$2d$value$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMotionValue"])(0);
+    const startAnimation = (duration)=>{
+        controls.start({
+            rotate: 360,
+            scale: 1,
+            transition: {
+                rotate: {
+                    repeat: Infinity,
+                    ease: "linear",
+                    duration
+                },
+                scale: {
+                    type: "spring",
+                    damping: 20,
+                    stiffness: 300
+                }
+            }
+        });
+    };
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "CircularText.useEffect": ()=>{
-            const start = rotation.get();
-            controls.start({
-                rotate: start + 360,
-                scale: 1,
-                transition: getTransition(spinDuration, start)
-            });
+            startAnimation(spinDuration);
         }
     }["CircularText.useEffect"], [
-        spinDuration,
-        text,
-        onHover,
-        controls,
-        rotation
+        spinDuration
     ]);
     const handleHoverStart = ()=>{
-        const start = rotation.get();
-        if (!onHover) return;
-        let transitionConfig;
-        let scaleVal = 1;
+        let duration = spinDuration;
+        let scale = 1;
         switch(onHover){
+            case "pause":
+                controls.stop();
+                return;
             case "slowDown":
-                transitionConfig = getTransition(spinDuration * 2, start);
+                duration = spinDuration * 2;
                 break;
             case "speedUp":
-                transitionConfig = getTransition(spinDuration / 4, start);
-                break;
-            case "pause":
-                transitionConfig = {
-                    rotate: {
-                        type: "spring",
-                        damping: 20,
-                        stiffness: 300
-                    },
-                    scale: {
-                        type: "spring",
-                        damping: 20,
-                        stiffness: 300
-                    }
-                };
-                scaleVal = 1;
+                duration = spinDuration / 4;
                 break;
             case "goBonkers":
-                transitionConfig = getTransition(spinDuration / 20, start);
-                scaleVal = 0.8;
+                duration = spinDuration / 10;
+                scale = 0.8;
                 break;
-            default:
-                transitionConfig = getTransition(spinDuration, start);
         }
         controls.start({
-            rotate: start + 360,
-            scale: scaleVal,
-            transition: transitionConfig
+            rotate: 360,
+            scale,
+            transition: {
+                rotate: {
+                    repeat: Infinity,
+                    ease: "linear",
+                    duration
+                },
+                scale: {
+                    type: "spring",
+                    damping: 20,
+                    stiffness: 300
+                }
+            }
         });
     };
     const handleHoverEnd = ()=>{
-        const start = rotation.get();
-        controls.start({
-            rotate: start + 360,
-            scale: 1,
-            transition: getTransition(spinDuration, start)
-        });
+        startAnimation(spinDuration);
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
-        className: `m-0 mx-auto rounded-full w-16 h-16 md:w-20 md:h-20 relative text-white font-black text-center cursor-pointer origin-center ${className}`,
-        style: {
-            rotate: rotation
-        },
+        className: `relative rounded-full w-16 h-16 md:w-20 md:h-20 text-white font-black cursor-pointer ${className}`,
+        animate: controls,
         initial: {
             rotate: 0
         },
-        animate: controls,
         onMouseEnter: handleHoverStart,
         onMouseLeave: handleHoverEnd,
+        style: {
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            transformOrigin: "center"
+        },
         children: letters.map((letter, i)=>{
-            const rotationDeg = 360 / letters.length * i;
+            const angle = 360 / letters.length * i;
             const radius = 30;
-            const x = Math.cos(rotationDeg * Math.PI / 180) * radius;
-            const y = Math.sin(rotationDeg * Math.PI / 180) * radius;
-            const transform = `translate(${x}px, ${y}px) rotate(${rotationDeg + 90}deg)`;
+            const x = +(Math.cos(angle * Math.PI / 180) * radius).toFixed(2);
+            const y = +(Math.sin(angle * Math.PI / 180) * radius).toFixed(2);
+            const rotation = +(angle + 90).toFixed(2);
             return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                className: "absolute text-xs md:text-sm transition-all duration-500 ease-[cubic-bezier(0,0,0,1)]",
+                className: "absolute text-xs md:text-sm transition-all duration-500",
                 style: {
-                    transform,
-                    WebkitTransform: transform,
+                    transform: `translate(${x}px, ${y}px) rotate(${rotation}deg)`,
                     left: "50%",
                     top: "50%",
                     transformOrigin: "center"
@@ -575,20 +558,19 @@ const CircularText = ({ text, spinDuration = 20, onHover = "speedUp", className 
                 children: letter
             }, i, false, {
                 fileName: "[project]/components/Features/CircularText.jsx",
-                lineNumber: 104,
+                lineNumber: 102,
                 columnNumber: 11
             }, this);
         })
     }, void 0, false, {
         fileName: "[project]/components/Features/CircularText.jsx",
-        lineNumber: 88,
+        lineNumber: 80,
         columnNumber: 5
     }, this);
 };
-_s(CircularText, "xbJChhEMd1e1Dy7CWTuS6TcG5K0=", false, function() {
+_s(CircularText, "6pZ2lBElA3YLtcQOKE/nS/LmH94=", false, function() {
     return [
-        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$animation$2f$hooks$2f$use$2d$animation$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useAnimation"],
-        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$motion$2d$value$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMotionValue"]
+        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$animation$2f$hooks$2f$use$2d$animation$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useAnimation"]
     ];
 });
 _c = CircularText;
@@ -2110,7 +2092,7 @@ const TeamSection = ()=>{
                                 duration: 0.8
                             },
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "text-4xl lg:text-5xl racing font-bold text-gray-900",
+                                className: "text-4xl lg:text-5xl font-bold text-gray-900 font-racing",
                                 children: "OUR BEST DESIGNERS"
                             }, void 0, false, {
                                 fileName: "[project]/components/TeamSection.jsx",
@@ -2191,9 +2173,9 @@ const TeamSection = ()=>{
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "aspect-square overflow-hidden",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                            src: member.image || "/placeholder.svg",
+                                            src: member.image,
                                             alt: member.name,
-                                            className: "w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                                            className: "w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                                         }, void 0, false, {
                                             fileName: "[project]/components/TeamSection.jsx",
                                             lineNumber: 78,
@@ -2208,7 +2190,7 @@ const TeamSection = ()=>{
                                         className: "p-6 text-center",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                className: "text-xl font-bold text-gray-900 mb-2 racing",
+                                                className: "text-xl font-bold text-gray-900 mb-2 font-racing",
                                                 children: member.name
                                             }, void 0, false, {
                                                 fileName: "[project]/components/TeamSection.jsx",
@@ -2216,7 +2198,7 @@ const TeamSection = ()=>{
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "text-gray-600 font-[600] openSans",
+                                                className: "text-gray-600 font-semibold font-openSans",
                                                 children: member.role
                                             }, void 0, false, {
                                                 fileName: "[project]/components/TeamSection.jsx",
@@ -2235,7 +2217,7 @@ const TeamSection = ()=>{
                                             className: "text-center text-black",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                    className: "text-xl font-bold mb-2 racing",
+                                                    className: "text-xl font-bold mb-2 font-racing",
                                                     children: member.name
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/TeamSection.jsx",
@@ -2243,7 +2225,7 @@ const TeamSection = ()=>{
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "mb-4 font-[500] openSans",
+                                                    className: "mb-4 font-medium font-openSans",
                                                     children: member.role
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/TeamSection.jsx",
@@ -2260,15 +2242,15 @@ const TeamSection = ()=>{
                                                             href: "#",
                                                             className: "w-10 h-10 bg-black/20 rounded-full flex items-center justify-center hover:bg-black/30 transition-colors",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
-                                                                class: "ri-linkedin-fill text-white"
+                                                                className: "ri-linkedin-fill text-white"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/TeamSection.jsx",
-                                                                lineNumber: 107,
+                                                                lineNumber: 109,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/TeamSection.jsx",
-                                                            lineNumber: 102,
+                                                            lineNumber: 104,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
@@ -2278,21 +2260,21 @@ const TeamSection = ()=>{
                                                             href: "#",
                                                             className: "w-10 h-10 bg-black/20 rounded-full flex items-center justify-center hover:bg-black/30 transition-colors",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
-                                                                class: "ri-twitter-x-fill text-white"
+                                                                className: "ri-twitter-x-fill text-white"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/TeamSection.jsx",
-                                                                lineNumber: 114,
+                                                                lineNumber: 116,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/TeamSection.jsx",
-                                                            lineNumber: 109,
+                                                            lineNumber: 111,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/TeamSection.jsx",
-                                                    lineNumber: 101,
+                                                    lineNumber: 103,
                                                     columnNumber: 21
                                                 }, this)
                                             ]

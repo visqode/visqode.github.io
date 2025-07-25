@@ -2309,6 +2309,14 @@ img, video {
   font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
+.font-openSans {
+  font-family: Open Sans, sans-serif;
+}
+
+.font-racing {
+  font-family: Racing Sans One, cursive;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;

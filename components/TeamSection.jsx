@@ -32,7 +32,7 @@ const TeamSection = () => {
   return (
     <section className="py-20 lg:py-32 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Section Header */}
+        {/* Header */}
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center mb-16 lg:mb-20">
           <motion.div
             initial={{ opacity: 0, x: -30 }}
@@ -40,7 +40,7 @@ const TeamSection = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="text-4xl lg:text-5xl racing font-bold text-gray-900">
+            <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 font-racing">
               OUR BEST DESIGNERS
             </h2>
           </motion.div>
@@ -76,42 +76,44 @@ const TeamSection = () => {
               <div className="relative overflow-hidden rounded-2xl bg-white shadow-lg">
                 <div className="aspect-square overflow-hidden">
                   <img
-                    src={member.image || "/placeholder.svg"}
+                    src={member.image}
                     alt={member.name}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                   />
                 </div>
 
                 <div className="p-6 text-center">
-                  <h3 className="text-xl font-bold text-gray-900 mb-2 racing">
+                  <h3 className="text-xl font-bold text-gray-900 mb-2 font-racing">
                     {member.name}
                   </h3>
-                  <p className="text-gray-600 font-[600] openSans">
+                  <p className="text-gray-600 font-semibold font-openSans">
                     {member.role}
                   </p>
                 </div>
 
-                {/* Hover overlay */}
+                {/* Hover Overlay */}
                 <div className="absolute inset-0 bg-[#a7ff59]/90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                   <div className="text-center text-black">
-                    <h3 className="text-xl font-bold mb-2 racing">
+                    <h3 className="text-xl font-bold mb-2 font-racing">
                       {member.name}
                     </h3>
-                    <p className="mb-4 font-[500] openSans">{member.role}</p>
+                    <p className="mb-4 font-medium font-openSans">
+                      {member.role}
+                    </p>
                     <div className="flex justify-center space-x-4">
                       <motion.a
                         whileHover={{ scale: 1.1 }}
                         href="#"
                         className="w-10 h-10 bg-black/20 rounded-full flex items-center justify-center hover:bg-black/30 transition-colors"
                       >
-                        <i class="ri-linkedin-fill text-white"></i>
+                        <i className="ri-linkedin-fill text-white" />
                       </motion.a>
                       <motion.a
                         whileHover={{ scale: 1.1 }}
                         href="#"
                         className="w-10 h-10 bg-black/20 rounded-full flex items-center justify-center hover:bg-black/30 transition-colors"
                       >
-                        <i class="ri-twitter-x-fill text-white"></i>
+                        <i className="ri-twitter-x-fill text-white" />
                       </motion.a>
                     </div>
                   </div>
