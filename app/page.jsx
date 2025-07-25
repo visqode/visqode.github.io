@@ -12,16 +12,18 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <>
-      <HeroSection />
-      <ScrollText />
-      <AboutSection />
-      <OurService />
-      <ProjectsSection />
-      <TeamSection />
-      <TestimonialsSection />
-      <ValueTrustLayer />
-      <LeadCaptureLayer />
-      <Footer />
+      <div className="overflow-x-hidden">
+        <HeroSection />
+        <ScrollText />
+        <AboutSection />
+        <OurService />
+        <ProjectsSection />
+        <TeamSection />
+        <TestimonialsSection />
+        <ValueTrustLayer />
+        <LeadCaptureLayer />
+        <Footer />
+      </div>
     </>
   );
 }

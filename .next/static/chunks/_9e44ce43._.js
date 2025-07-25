@@ -7215,7 +7215,7 @@ const ChatWidget = ()=>{
         } catch (err) {
             setIsTyping(false);
             setIsConnected(false);
-            addMessage("I'm experiencing technical issues. Please try again shortly or email hello@visqode.com.", "bot");
+            addMessage("I'm experiencing technical issues. Please try again shortly or email visqode@gmail.com.", "bot");
         }
     };
     // quick‑reply click
@@ -7236,7 +7236,7 @@ const ChatWidget = ()=>{
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].button, {
                 onClick: toggleChat,
-                className: "fixed bottom-10 right-10 z-50 w-16 h-16 bg-[#a7ff59] rounded-full shadow-lg flex items-center justify-center text-black hover:bg-[#8fee3f] transition",
+                className: "fixed bottom-5 right-6 z-50 w-16 h-16 bg-[#a7ff59] rounded-full shadow-lg flex items-center justify-center text-black hover:bg-[#8fee3f] transition",
                 whileHover: {
                     scale: 1.1
                 },
@@ -7632,25 +7632,25 @@ const Footer = ()=>{
                             className: "max-w-xl text-center lg:text-left",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                    className: "text-3xl md:text-4xl lg:text-5xl font-extrabold text-[#E5E5E5] racing mb-4",
+                                    className: "text-3xl md:text-4xl lg:text-5xl font-extrabold text-[#E5E5E5] font-racing mb-4",
                                     children: "READY TO WORK WITH US?"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer.jsx",
-                                    lineNumber: 24,
+                                    lineNumber: 25,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-base font-[500]  md:text-lg lg:text-xl text-[#B0B0B0] openSans",
-                                    children: "PARTNER WITH OUR DESIGN AGENCY FOR YOUR BUSINESS WITH AMAZING RESULTS."
+                                    className: "text-base md:text-lg lg:text-xl font-medium text-[#B0B0B0] font-openSans",
+                                    children: "Partner with our design agency for your business with amazing results."
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer.jsx",
-                                    lineNumber: 27,
+                                    lineNumber: 28,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Footer.jsx",
-                            lineNumber: 23,
+                            lineNumber: 24,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -7663,44 +7663,44 @@ const Footer = ()=>{
                             },
                             className: "cursor-pointer flex-shrink-0",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "bg-[#39FF14] rounded-[15px] w-24 h-24 md:w-32 md:h-13 flex flex-col items-center justify-center text-black font-bold shadow-[0_0_20px_rgba(57,255,20,0.5)] racing text-center text-sm md:text-[15px]",
+                                className: "bg-[#39FF14] rounded-[15px] w-24 h-24 md:w-32 md:h-[52px] flex flex-col items-center justify-center text-black font-bold shadow-[0_0_20px_rgba(57,255,20,0.5)] font-racing text-center text-sm md:text-[15px]",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         children: "GET STARTED"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Footer.jsx",
-                                        lineNumber: 39,
+                                        lineNumber: 40,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
                                         className: "ri-arrow-right-line mt-1 text-lg md:text-xl"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Footer.jsx",
-                                        lineNumber: 40,
+                                        lineNumber: 41,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Footer.jsx",
-                                lineNumber: 38,
+                                lineNumber: 39,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/Footer.jsx",
-                            lineNumber: 33,
+                            lineNumber: 34,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Footer.jsx",
-                    lineNumber: 22,
+                    lineNumber: 23,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("hr", {
                     className: "border-t border-gray-700 my-8 md:my-10"
                 }, void 0, false, {
                     fileName: "[project]/components/Footer.jsx",
-                    lineNumber: 45,
+                    lineNumber: 46,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7710,19 +7710,19 @@ const Footer = ()=>{
                             className: "text-center sm:text-left",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "text-[22px] font-bold text-[#E5E5E5] mb-3 racing",
+                                    className: "text-[22px] font-bold text-[#E5E5E5] mb-3 font-racing",
                                     children: "VisQode"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer.jsx",
-                                    lineNumber: 49,
+                                    lineNumber: 52,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-[17px] font-[600] text-[#B0B0B0] leading-relaxed mb-4 openSans",
+                                    className: "text-[17px] font-semibold text-[#B0B0B0] leading-relaxed mb-4 font-openSans",
                                     children: "We know how important customer experience is for a business and therefore, we strive."
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer.jsx",
-                                    lineNumber: 52,
+                                    lineNumber: 55,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7732,237 +7732,238 @@ const Footer = ()=>{
                                                 scale: 1.2
                                             },
                                             className: "bg-[#333333] rounded-full w-9 h-9 flex items-center justify-center cursor-pointer",
+                                            "aria-label": name,
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
-                                                className: `${icon}`,
-                                                style: {
-                                                    color: "white",
-                                                    fontSize: "1rem"
-                                                }
+                                                className: `${icon} text-white text-base`
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Footer.jsx",
-                                                lineNumber: 63,
+                                                lineNumber: 67,
                                                 columnNumber: 19
                                             }, this)
                                         }, name, false, {
                                             fileName: "[project]/components/Footer.jsx",
-                                            lineNumber: 58,
+                                            lineNumber: 61,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer.jsx",
-                                    lineNumber: 56,
+                                    lineNumber: 59,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Footer.jsx",
-                            lineNumber: 48,
+                            lineNumber: 51,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "text-center sm:text-left",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "text-[22px] font-bold text-[#E5E5E5] mb-3 racing",
+                                    className: "text-[22px] font-bold text-[#E5E5E5] mb-3 font-racing",
                                     children: "Data Science"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer.jsx",
-                                    lineNumber: 73,
+                                    lineNumber: 75,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                    className: "text-[16px] text-[#B0B0B0] font-[500] space-y-2 openSans",
+                                    className: "text-[16px] text-[#B0B0B0] font-medium space-y-2 font-openSans",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Business Use-Case"
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/Footer.jsx",
-                                            lineNumber: 77,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                            children: "Data Roles"
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/Footer.jsx",
-                                            lineNumber: 78,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                            children: "Blog"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer.jsx",
                                             lineNumber: 79,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                            children: "Machine Learning"
+                                            children: "Data Roles"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer.jsx",
                                             lineNumber: 80,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: "Blog"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/Footer.jsx",
+                                            lineNumber: 81,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: "Machine Learning"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/Footer.jsx",
+                                            lineNumber: 82,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                 href: "/privacy",
-                                                className: "block",
+                                                className: "hover:underline focus:outline-none",
                                                 children: "Privacy Policy"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Footer.jsx",
-                                                lineNumber: 82,
+                                                lineNumber: 84,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer.jsx",
-                                            lineNumber: 81,
+                                            lineNumber: 83,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Footer.jsx",
-                                    lineNumber: 76,
+                                    lineNumber: 78,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Footer.jsx",
-                            lineNumber: 72,
+                            lineNumber: 74,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "text-center sm:text-left",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "text-[22px] font-bold text-[#E5E5E5] mb-3 racing",
+                                    className: "text-[22px] font-bold text-[#E5E5E5] mb-3 font-racing",
                                     children: "About"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer.jsx",
-                                    lineNumber: 90,
+                                    lineNumber: 96,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                    className: "text-[16px] font-[500] text-[#B0B0B0] space-y-2 openSans",
+                                    className: "text-[16px] text-[#B0B0B0] font-medium space-y-2 font-openSans",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Contact Us"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer.jsx",
-                                            lineNumber: 94,
+                                            lineNumber: 100,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Support Us"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer.jsx",
-                                            lineNumber: 95,
+                                            lineNumber: 101,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Community"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer.jsx",
-                                            lineNumber: 96,
+                                            lineNumber: 102,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "FAQ"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer.jsx",
-                                            lineNumber: 97,
+                                            lineNumber: 103,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Footer.jsx",
-                                    lineNumber: 93,
+                                    lineNumber: 99,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Footer.jsx",
-                            lineNumber: 89,
+                            lineNumber: 95,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "text-center sm:text-left",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "text-[22px] font-bold text-[#E5E5E5] mb-3 racing",
+                                    className: "text-[22px] font-bold text-[#E5E5E5] mb-3 font-racing",
                                     children: "Programs"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer.jsx",
-                                    lineNumber: 102,
+                                    lineNumber: 109,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                    className: "text-[16px] font-[500]  text-[#B0B0B0] space-y-2 openSans",
+                                    className: "text-[16px] text-[#B0B0B0] font-medium space-y-2 font-openSans",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Learning Modules"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer.jsx",
-                                            lineNumber: 106,
+                                            lineNumber: 113,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Partnership"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer.jsx",
-                                            lineNumber: 107,
+                                            lineNumber: 114,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Events"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer.jsx",
-                                            lineNumber: 108,
+                                            lineNumber: 115,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Data Analyst"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer.jsx",
-                                            lineNumber: 109,
+                                            lineNumber: 116,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Footer.jsx",
-                                    lineNumber: 105,
+                                    lineNumber: 112,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Footer.jsx",
-                            lineNumber: 101,
+                            lineNumber: 108,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Footer.jsx",
-                    lineNumber: 47,
+                    lineNumber: 49,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex text-[15px] font-[600]  flex-col md:flex-row justify-between items-center mt-8 md:mt-10 text-[#B0B0B0] text-sm gap-3 openSans",
+                    className: "flex flex-col md:flex-row justify-between items-center mt-8 md:mt-10 text-[#B0B0B0] text-sm gap-3 font-semibold font-openSans",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                             children: "VisQode, INC."
                         }, void 0, false, {
                             fileName: "[project]/components/Footer.jsx",
-                            lineNumber: 115,
+                            lineNumber: 123,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            children: "COPYRIGHT © 2023 VisQode"
-                        }, void 0, false, {
+                            children: [
+                                "COPYRIGHT © ",
+                                new Date().getFullYear(),
+                                " VisQode"
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/components/Footer.jsx",
-                            lineNumber: 116,
+                            lineNumber: 124,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Footer.jsx",
-                    lineNumber: 114,
+                    lineNumber: 122,
                     columnNumber: 9
                 }, this)
             ]

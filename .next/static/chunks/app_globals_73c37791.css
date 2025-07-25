@@ -374,16 +374,16 @@ img, video {
   bottom: 0;
 }
 
-.bottom-10 {
-  bottom: 2.5rem;
-}
-
 .bottom-24 {
   bottom: 6rem;
 }
 
 .bottom-4 {
   bottom: 1rem;
+}
+
+.bottom-5 {
+  bottom: 1.25rem;
 }
 
 .left-0 {
@@ -416,10 +416,6 @@ img, video {
 
 .right-1 {
   right: .25rem;
-}
-
-.right-10 {
-  right: 2.5rem;
 }
 
 .right-2 {
@@ -532,10 +528,6 @@ img, video {
 
 .col-span-5 {
   grid-column: span 5 / span 5;
-}
-
-.m-0 {
-  margin: 0;
 }
 
 .m-2 {
@@ -1182,10 +1174,6 @@ img, video {
 
 .border-collapse {
   border-collapse: collapse;
-}
-
-.origin-center {
-  transform-origin: center;
 }
 
 .-translate-x-1\/2 {
@@ -2305,16 +2293,16 @@ img, video {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
 }
 
-.font-sans {
-  font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-}
-
 .font-openSans {
   font-family: Open Sans, sans-serif;
 }
 
 .font-racing {
   font-family: Racing Sans One, cursive;
+}
+
+.font-sans {
+  font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
 .text-2xl {
@@ -4316,6 +4304,10 @@ button, a, .interactive {
 
   .md\:h-80 {
     height: 20rem;
+  }
+
+  .md\:h-\[52px\] {
+    height: 52px;
   }
 
   .md\:w-20 {

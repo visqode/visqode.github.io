@@ -93,7 +93,7 @@ const ChatWidget = () => {
       setIsTyping(false);
       setIsConnected(false);
       addMessage(
-        "I'm experiencing technical issues. Please try again shortly or email hello@visqode.com.",
+        "I'm experiencing technical issues. Please try again shortly or email visqode@gmail.com.",
         "bot",
       );
     }
@@ -116,7 +116,7 @@ const ChatWidget = () => {
       {/* toggle button */}
       <motion.button
         onClick={toggleChat}
-        className="fixed bottom-10 right-10 z-50 w-16 h-16 bg-[#a7ff59] rounded-full shadow-lg flex items-center justify-center text-black hover:bg-[#8fee3f] transition"
+        className="fixed bottom-5 right-6 z-50 w-16 h-16 bg-[#a7ff59] rounded-full shadow-lg flex items-center justify-center text-black hover:bg-[#8fee3f] transition"
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
       >

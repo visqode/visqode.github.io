@@ -19,14 +19,15 @@ const Footer = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
       >
+        {/* CTA Section */}
         <div className="flex flex-col lg:flex-row justify-between items-center gap-8 lg:gap-6">
           <div className="max-w-xl text-center lg:text-left">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-[#E5E5E5] racing mb-4">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-[#E5E5E5] font-racing mb-4">
               READY TO WORK WITH US?
             </h1>
-            <p className="text-base font-[500]  md:text-lg lg:text-xl text-[#B0B0B0] openSans">
-              PARTNER WITH OUR DESIGN AGENCY FOR YOUR BUSINESS WITH AMAZING
-              RESULTS.
+            <p className="text-base md:text-lg lg:text-xl font-medium text-[#B0B0B0] font-openSans">
+              Partner with our design agency for your business with amazing
+              results.
             </p>
           </div>
 
@@ -35,21 +36,23 @@ const Footer = () => {
             whileTap={{ scale: 0.95 }}
             className="cursor-pointer flex-shrink-0"
           >
-            <div className="bg-[#39FF14] rounded-[15px] w-24 h-24 md:w-32 md:h-13 flex flex-col items-center justify-center text-black font-bold shadow-[0_0_20px_rgba(57,255,20,0.5)] racing text-center text-sm md:text-[15px]">
+            <div className="bg-[#39FF14] rounded-[15px] w-24 h-24 md:w-32 md:h-[52px] flex flex-col items-center justify-center text-black font-bold shadow-[0_0_20px_rgba(57,255,20,0.5)] font-racing text-center text-sm md:text-[15px]">
               <span>GET STARTED</span>
-              <i className="ri-arrow-right-line mt-1 text-lg md:text-xl"></i>
+              <i className="ri-arrow-right-line mt-1 text-lg md:text-xl" />
             </div>
           </motion.div>
         </div>
 
         <hr className="border-t border-gray-700 my-8 md:my-10" />
 
+        {/* Footer Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-10">
+          {/* Company Info */}
           <div className="text-center sm:text-left">
-            <h2 className="text-[22px] font-bold text-[#E5E5E5] mb-3 racing">
+            <h2 className="text-[22px] font-bold text-[#E5E5E5] mb-3 font-racing">
               VisQode
             </h2>
-            <p className="text-[17px] font-[600] text-[#B0B0B0] leading-relaxed mb-4 openSans">
+            <p className="text-[17px] font-semibold text-[#B0B0B0] leading-relaxed mb-4 font-openSans">
               We know how important customer experience is for a business and
               therefore, we strive.
             </p>
@@ -59,38 +62,41 @@ const Footer = () => {
                   key={name}
                   whileHover={{ scale: 1.2 }}
                   className="bg-[#333333] rounded-full w-9 h-9 flex items-center justify-center cursor-pointer"
+                  aria-label={name}
                 >
-                  <i
-                    className={`${icon}`}
-                    style={{ color: "white", fontSize: "1rem" }}
-                  ></i>
+                  <i className={`${icon} text-white text-base`} />
                 </motion.div>
               ))}
             </div>
           </div>
 
+          {/* Data Science */}
           <div className="text-center sm:text-left">
-            <h2 className="text-[22px] font-bold text-[#E5E5E5] mb-3 racing">
+            <h2 className="text-[22px] font-bold text-[#E5E5E5] mb-3 font-racing">
               Data Science
             </h2>
-            <ul className="text-[16px] text-[#B0B0B0] font-[500] space-y-2 openSans">
+            <ul className="text-[16px] text-[#B0B0B0] font-medium space-y-2 font-openSans">
               <li>Business Use-Case</li>
               <li>Data Roles</li>
               <li>Blog</li>
               <li>Machine Learning</li>
               <li>
-                <Link href="/privacy" className="block">
+                <Link
+                  href="/privacy"
+                  className="hover:underline focus:outline-none"
+                >
                   Privacy Policy
                 </Link>
               </li>
             </ul>
           </div>
 
+          {/* About */}
           <div className="text-center sm:text-left">
-            <h2 className="text-[22px] font-bold text-[#E5E5E5] mb-3 racing">
+            <h2 className="text-[22px] font-bold text-[#E5E5E5] mb-3 font-racing">
               About
             </h2>
-            <ul className="text-[16px] font-[500] text-[#B0B0B0] space-y-2 openSans">
+            <ul className="text-[16px] text-[#B0B0B0] font-medium space-y-2 font-openSans">
               <li>Contact Us</li>
               <li>Support Us</li>
               <li>Community</li>
@@ -98,11 +104,12 @@ const Footer = () => {
             </ul>
           </div>
 
+          {/* Programs */}
           <div className="text-center sm:text-left">
-            <h2 className="text-[22px] font-bold text-[#E5E5E5] mb-3 racing">
+            <h2 className="text-[22px] font-bold text-[#E5E5E5] mb-3 font-racing">
               Programs
             </h2>
-            <ul className="text-[16px] font-[500]  text-[#B0B0B0] space-y-2 openSans">
+            <ul className="text-[16px] text-[#B0B0B0] font-medium space-y-2 font-openSans">
               <li>Learning Modules</li>
               <li>Partnership</li>
               <li>Events</li>
@@ -111,9 +118,10 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex text-[15px] font-[600]  flex-col md:flex-row justify-between items-center mt-8 md:mt-10 text-[#B0B0B0] text-sm gap-3 openSans">
+        {/* Footer Bottom */}
+        <div className="flex flex-col md:flex-row justify-between items-center mt-8 md:mt-10 text-[#B0B0B0] text-sm gap-3 font-semibold font-openSans">
           <span>VisQode, INC.</span>
-          <span>COPYRIGHT © 2023 VisQode</span>
+          <span>COPYRIGHT © {new Date().getFullYear()} VisQode</span>
         </div>
       </motion.div>
     </div>
