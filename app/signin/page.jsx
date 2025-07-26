@@ -146,6 +146,7 @@ export default function SignIn() {
                   className="w-full inline-flex justify-center py-3 px-4 border border-gray-300 rounded-xl shadow-sm text-sm font-medium text-gray-500 hover:bg-gray-50 transition-all duration-300"
                 >
                   <i className="bxl bx-google text-xl"></i>
+                  Continue with Google
                 </motion.button>
                 <motion.button
                   whileHover={{ scale: 1.02 }}
@@ -153,13 +154,14 @@ export default function SignIn() {
                   className="w-full inline-flex justify-center py-3 px-4 border border-gray-300 rounded-xl shadow-sm text-sm font-medium text-gray-500 hover:bg-gray-50 transition-all duration-300"
                 >
                   <i className="bxl bx-github text-xl"></i>
+                  Continue with GitHub
                 </motion.button>
               </div>
             </div>
           </motion.div>
         </div>
       </main>
-      <Footer /> {/* Use Footer component */}
+      <Footer />{" "}
     </div>
   );
 }
