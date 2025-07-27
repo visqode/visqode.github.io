@@ -1086,40 +1086,40 @@ function About() {
     const stats = [
         {
             number: "50+",
-            label: "Projects Completed",
-            desc: "Successfully delivered across various industries"
+            label: "Projects Delivered",
+            desc: "From MVPs to enterprise solutions, we’ve built scalable platforms across tech, healthcare, retail, and more."
         },
         {
             number: "5+",
-            label: "Years Experience",
-            desc: "Years of expertise in digital solutions"
+            label: "Years of Expertise",
+            desc: "Hands-on experience delivering end-to-end digital solutions tailored to evolving industry needs."
         },
         {
             number: "100%",
-            label: "Client Satisfaction",
-            desc: "Committed to exceeding expectations"
+            label: "Client-Centric Focus",
+            desc: "We don't just complete projects — we build lasting partnerships based on transparency and trust."
         }
     ];
     const values = [
         {
             icon: "bx-rocket",
             title: "Innovation",
-            description: "We constantly push boundaries with cutting-edge technologies and creative solutions."
+            description: "From concept to launch, we infuse originality and forward-thinking into every pixel and line of code."
         },
         {
             icon: "bx-heart",
             title: "Partnership",
-            description: "We work closely with our clients as true partners in their digital transformation journey."
+            description: "We listen, collaborate, and co-create — working as an extension of your team, not just a vendor."
         },
         {
             icon: "bx-shield-check",
-            title: "Quality",
-            description: "Every project meets the highest standards of excellence and attention to detail."
+            title: "Excellence",
+            description: "We uphold top-tier standards in design, development, and delivery to ensure your product stands out and performs flawlessly."
         },
         {
             icon: "bx-trending-up",
-            title: "Growth",
-            description: "We focus on solutions that drive real business growth and long-term success."
+            title: "Growth Mindset",
+            description: "Our solutions are built to scale with your vision. We're here for your next milestone, not just your next task."
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1140,7 +1140,7 @@ function About() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$PageHero$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                 title: "About VisQode",
                 subtitle: "Your Digital Transformation Partner",
-                description: "A full-service digital agency focused on building brands, websites, and long-term digital strategies. We partner with individuals, startups, and enterprises to bring their vision to life.",
+                description: "VisQode is a forward-thinking digital agency empowering businesses through strategic design, innovative technology, and purpose-driven branding. From startups to enterprises, we craft digital experiences that inspire, engage, and drive measurable results.",
                 backgroundImage: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80"
             }, void 0, false, {
                 fileName: "[project]/app/about/page.jsx",
@@ -1201,10 +1201,10 @@ function About() {
                                             baseRotation: 5,
                                             blurStrength: 10,
                                             textClassName: "text-base md:text-lg openSans leading-relaxed text-gray-700",
-                                            children: "VisQode is a full-service digital agency focused on building brands, websites, and long-term digital strategies. We partner with individuals, startups, and enterprises to bring their vision to life — from concept to launch."
+                                            children: "VisQode is your one-stop digital innovation partner. We design, build, and scale digital solutions — from sleek websites to robust web applications — that empower businesses to lead in a competitive digital age."
                                         }, void 0, false, {
                                             fileName: "[project]/app/about/page.jsx",
-                                            lineNumber: 89,
+                                            lineNumber: 90,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Features$2f$ScrollReveal$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1213,10 +1213,22 @@ function About() {
                                             baseRotation: 5,
                                             blurStrength: 10,
                                             textClassName: "text-base md:text-lg openSans leading-relaxed text-gray-700",
-                                            children: "We handle the creative, the technical, and the strategic so you can focus on your vision. Our comprehensive approach ensures every aspect of your digital presence works together seamlessly."
+                                            children: "With an interdisciplinary team of designers, developers, and strategists, we bridge creativity and functionality. Our mission is simple: to craft digital ecosystems that align with your brand, captivate your audience, and fuel growth."
                                         }, void 0, false, {
                                             fileName: "[project]/app/about/page.jsx",
-                                            lineNumber: 101,
+                                            lineNumber: 103,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Features$2f$ScrollReveal$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                            baseOpacity: 0,
+                                            enableBlur: true,
+                                            baseRotation: 5,
+                                            blurStrength: 10,
+                                            textClassName: "text-base md:text-lg openSans leading-relaxed text-gray-700",
+                                            children: "Whether you're launching a new product, redefining your brand, or scaling your platform — we’re here to guide you every step of the way with strategy, innovation, and measurable impact."
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/about/page.jsx",
+                                            lineNumber: 116,
                                             columnNumber: 15
                                         }, this)
                                     ]
@@ -1256,7 +1268,7 @@ function About() {
                                             children: stat.number
                                         }, void 0, false, {
                                             fileName: "[project]/app/about/page.jsx",
-                                            lineNumber: 126,
+                                            lineNumber: 141,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1264,7 +1276,7 @@ function About() {
                                             children: stat.label
                                         }, void 0, false, {
                                             fileName: "[project]/app/about/page.jsx",
-                                            lineNumber: 129,
+                                            lineNumber: 144,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1272,18 +1284,18 @@ function About() {
                                             children: stat.desc
                                         }, void 0, false, {
                                             fileName: "[project]/app/about/page.jsx",
-                                            lineNumber: 130,
+                                            lineNumber: 145,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, index, true, {
                                     fileName: "[project]/app/about/page.jsx",
-                                    lineNumber: 118,
+                                    lineNumber: 133,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/app/about/page.jsx",
-                            lineNumber: 116,
+                            lineNumber: 131,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1294,7 +1306,7 @@ function About() {
                                     children: "Our Core Values"
                                 }, void 0, false, {
                                     fileName: "[project]/app/about/page.jsx",
-                                    lineNumber: 139,
+                                    lineNumber: 154,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Features$2f$ScrollReveal$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1306,13 +1318,13 @@ function About() {
                                     children: "These principles guide everything we do and shape how we work with our clients."
                                 }, void 0, false, {
                                     fileName: "[project]/app/about/page.jsx",
-                                    lineNumber: 142,
+                                    lineNumber: 157,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/about/page.jsx",
-                            lineNumber: 138,
+                            lineNumber: 153,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1341,12 +1353,12 @@ function About() {
                                                 className: `bx ${value.icon} text-2xl text-black`
                                             }, void 0, false, {
                                                 fileName: "[project]/app/about/page.jsx",
-                                                lineNumber: 165,
+                                                lineNumber: 180,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/about/page.jsx",
-                                            lineNumber: 164,
+                                            lineNumber: 179,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1354,7 +1366,7 @@ function About() {
                                             children: value.title
                                         }, void 0, false, {
                                             fileName: "[project]/app/about/page.jsx",
-                                            lineNumber: 167,
+                                            lineNumber: 182,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1362,18 +1374,59 @@ function About() {
                                             children: value.description
                                         }, void 0, false, {
                                             fileName: "[project]/app/about/page.jsx",
-                                            lineNumber: 168,
+                                            lineNumber: 183,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, index, true, {
                                     fileName: "[project]/app/about/page.jsx",
-                                    lineNumber: 156,
+                                    lineNumber: 171,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/app/about/page.jsx",
-                            lineNumber: 154,
+                            lineNumber: 169,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "text-center my-12",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    className: "text-3xl md:text-4xl racing font-bold mb-6",
+                                    children: [
+                                        "What Do",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "bg-[#a7ff59] px-[.3rem] rounded-[6px] mx-2",
+                                            children: "We"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/about/page.jsx",
+                                            lineNumber: 194,
+                                            columnNumber: 15
+                                        }, this),
+                                        " ",
+                                        "Do?"
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/app/about/page.jsx",
+                                    lineNumber: 192,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Features$2f$ScrollReveal$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                    baseOpacity: 0,
+                                    enableBlur: true,
+                                    baseRotation: 5,
+                                    blurStrength: 10,
+                                    textClassName: "text-lg openSans text-gray-600 max-w-3xl mx-auto cursor-default",
+                                    children: "We are more than just a digital firm. We provide a broad range of services to help businesses succeed in the digital era as a full-service partner for digital transformation. VisQode offers everything from production-ready software development to social media automation and brand building."
+                                }, void 0, false, {
+                                    fileName: "[project]/app/about/page.jsx",
+                                    lineNumber: 199,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/app/about/page.jsx",
+                            lineNumber: 191,
                             columnNumber: 11
                         }, this)
                     ]
@@ -1389,7 +1442,7 @@ function About() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Footer$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/about/page.jsx",
-                lineNumber: 177,
+                lineNumber: 215,
                 columnNumber: 7
             }, this)
         ]

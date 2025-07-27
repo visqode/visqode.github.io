@@ -10,18 +10,18 @@ export default function About() {
   const stats = [
     {
       number: "50+",
-      label: "Projects Completed",
-      desc: "Successfully delivered across various industries",
+      label: "Projects Delivered",
+      desc: "From MVPs to enterprise solutions, we’ve built scalable platforms across tech, healthcare, retail, and more.",
     },
     {
       number: "5+",
-      label: "Years Experience",
-      desc: "Years of expertise in digital solutions",
+      label: "Years of Expertise",
+      desc: "Hands-on experience delivering end-to-end digital solutions tailored to evolving industry needs.",
     },
     {
       number: "100%",
-      label: "Client Satisfaction",
-      desc: "Committed to exceeding expectations",
+      label: "Client-Centric Focus",
+      desc: "We don't just complete projects — we build lasting partnerships based on transparency and trust.",
     },
   ];
 
@@ -30,25 +30,25 @@ export default function About() {
       icon: "bx-rocket",
       title: "Innovation",
       description:
-        "We constantly push boundaries with cutting-edge technologies and creative solutions.",
+        "From concept to launch, we infuse originality and forward-thinking into every pixel and line of code.",
     },
     {
       icon: "bx-heart",
       title: "Partnership",
       description:
-        "We work closely with our clients as true partners in their digital transformation journey.",
+        "We listen, collaborate, and co-create — working as an extension of your team, not just a vendor.",
     },
     {
       icon: "bx-shield-check",
-      title: "Quality",
+      title: "Excellence",
       description:
-        "Every project meets the highest standards of excellence and attention to detail.",
+        "We uphold top-tier standards in design, development, and delivery to ensure your product stands out and performs flawlessly.",
     },
     {
       icon: "bx-trending-up",
-      title: "Growth",
+      title: "Growth Mindset",
       description:
-        "We focus on solutions that drive real business growth and long-term success.",
+        "Our solutions are built to scale with your vision. We're here for your next milestone, not just your next task.",
     },
   ];
 
@@ -61,7 +61,7 @@ export default function About() {
       <PageHero
         title="About VisQode"
         subtitle="Your Digital Transformation Partner"
-        description="A full-service digital agency focused on building brands, websites, and long-term digital strategies. We partner with individuals, startups, and enterprises to bring their vision to life."
+        description="VisQode is a forward-thinking digital agency empowering businesses through strategic design, innovative technology, and purpose-driven branding. From startups to enterprises, we craft digital experiences that inspire, engage, and drive measurable results."
         backgroundImage="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80"
       />
 
@@ -86,6 +86,7 @@ export default function About() {
               <h2 className="text-3xl md:text-4xl rajdhani font-bold">
                 What is VisQode?
               </h2>
+
               <ScrollReveal
                 baseOpacity={0}
                 enableBlur={true}
@@ -93,11 +94,12 @@ export default function About() {
                 blurStrength={10}
                 textClassName="text-base md:text-lg openSans leading-relaxed text-gray-700"
               >
-                VisQode is a full-service digital agency focused on building
-                brands, websites, and long-term digital strategies. We partner
-                with individuals, startups, and enterprises to bring their
-                vision to life — from concept to launch.
+                VisQode is your one-stop digital innovation partner. We design,
+                build, and scale digital solutions — from sleek websites to
+                robust web applications — that empower businesses to lead in a
+                competitive digital age.
               </ScrollReveal>
+
               <ScrollReveal
                 baseOpacity={0}
                 enableBlur={true}
@@ -105,9 +107,22 @@ export default function About() {
                 blurStrength={10}
                 textClassName="text-base md:text-lg openSans leading-relaxed text-gray-700"
               >
-                We handle the creative, the technical, and the strategic so you
-                can focus on your vision. Our comprehensive approach ensures
-                every aspect of your digital presence works together seamlessly.
+                With an interdisciplinary team of designers, developers, and
+                strategists, we bridge creativity and functionality. Our mission
+                is simple: to craft digital ecosystems that align with your
+                brand, captivate your audience, and fuel growth.
+              </ScrollReveal>
+
+              <ScrollReveal
+                baseOpacity={0}
+                enableBlur={true}
+                baseRotation={5}
+                blurStrength={10}
+                textClassName="text-base md:text-lg openSans leading-relaxed text-gray-700"
+              >
+                Whether you're launching a new product, redefining your brand,
+                or scaling your platform — we’re here to guide you every step of
+                the way with strategy, innovation, and measurable impact.
               </ScrollReveal>
             </div>
           </div>
@@ -171,9 +186,32 @@ export default function About() {
               </motion.div>
             ))}
           </div>
+
+          {/* Whad Do we Do*/}
+          <div className="text-center my-12">
+            <h2 className="text-3xl md:text-4xl racing font-bold mb-6">
+              What Do
+              <span className="bg-[#a7ff59] px-[.3rem] rounded-[6px] mx-2">
+                We
+              </span>{" "}
+              Do?
+            </h2>
+            <ScrollReveal
+              baseOpacity={0}
+              enableBlur={true}
+              baseRotation={5}
+              blurStrength={10}
+              textClassName="text-lg openSans text-gray-600 max-w-3xl mx-auto cursor-default"
+            >
+              We are more than just a digital firm. We provide a broad range of
+              services to help businesses succeed in the digital era as a
+              full-service partner for digital transformation. VisQode offers
+              everything from production-ready software development to social
+              media automation and brand building.
+            </ScrollReveal>
+          </div>
         </div>
       </main>
-
       <Footer />
     </div>
   );
