@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: "export", // 🔥 Enable static export
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -7,8 +8,8 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
-    unoptimized: true,
+    unoptimized: true, // Required for static export
   },
-}
+};
 
-export default nextConfig
+export default nextConfig;
