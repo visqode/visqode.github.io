@@ -1,13 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* testing if it's working or not  */
-
-body::-webkit-scrollbar {
-  display: none;
-}
 
 @layer utilities {
   .text-balance {
@@ -17,9 +10,6 @@ body::-webkit-scrollbar {
 
 @layer base {
   :root {
-    --radius: 0.5rem;
-    --primary: #a7ff59;
-    --primary-hover: #8fee3f;
     --background: 0 0% 100%;
     --foreground: 0 0% 3.9%;
     --card: 0 0% 100%;
@@ -91,15 +81,10 @@ body::-webkit-scrollbar {
 }
 
 @layer base {
-  html {
-    @apply font-rajdhani;
-  }
-
-  body {
-    @apply bg-background text-foreground overflow-x-hidden;
-  }
-
   * {
     @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
   }
 }
