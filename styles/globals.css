@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+.gradient-icon {
+  background: linear-gradient(135deg, #3de8d1 0%, #438a78 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-flex;
+  /* For SVG to inherit the color */
+  color: transparent;
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;

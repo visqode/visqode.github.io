@@ -99,21 +99,24 @@ export default function Navbar() {
           </div>
 
           {/* CTA Button */}
+
           <div className="hidden md:block">
-            <Link href="/contact">
+            <Link href="/contact" passHref>
               <motion.button
                 whileHover={{
                   scale: 1.05,
                   boxShadow: "0 0 20px rgba(180, 232, 219, 0.3)",
                 }}
                 whileTap={{ scale: 0.97 }}
-                className="group relative inline-flex items-center rounded-full transition-all duration-300"
+                className="group relative inline-flex items-center rounded-lg transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-tiffany-blue"
+                aria-label="Get started"
+                type="button"
               >
                 {/* Gradient border layer */}
                 <span className="absolute -inset-1 rounded-full p-3 bg-gradient-to-r from-tiffany-blue via-hookers-green to-tiffany-blue" />
 
                 {/* Inner content with black background */}
-                <span className="relative z-10 bg-black text-sm md:text-base px-5 py-2.5 rounded-full flex items-center gap-2">
+                <span className="relative z-10 bg-black text-sm md:text-base px-5 py-2.5 rounded-full flex items-center gap-2 select-none">
                   {/* Gradient Text */}
                   <span className="bg-gradient-to-r from-tiffany-blue to-hookers-green bg-clip-text text-transparent font-semibold">
                     Get Started
@@ -129,6 +132,8 @@ export default function Navbar() {
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
+                    aria-hidden="true"
+                    focusable="false"
                   >
                     <defs>
                       <linearGradient
@@ -149,7 +154,6 @@ export default function Navbar() {
               </motion.button>
             </Link>
           </div>
-
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsOpen(!isOpen)}

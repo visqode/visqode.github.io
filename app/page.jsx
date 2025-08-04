@@ -186,7 +186,7 @@ export default function HomePage() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-night text-white overflow-hidden">
+    <div className="min-h-screen bg-night text-white overflow-hidden my-32">
       {/* Hero Section */}
       <section
         ref={heroRef}
@@ -210,11 +210,14 @@ export default function HomePage() {
             </motion.div>
 
             {/* Main Title */}
-            <h1 className="hero-title text-7xl md:text-8xl font-bold mb-8 leading-none">
+
+            <h1
+              className="hero-title text-7xl md:text-8xl font-bold mb-8 leading-none"
+              aria-label="Transform your digital vision"
+            >
               <span className="block text-white">Transform Your</span>
               <span className="block text-tiffany-blue">Digital Vision</span>
             </h1>
-
             {/* Subtitle */}
             <p className="hero-subtitle text-xl md:text-2xl text-gray-400 mb-12 max-w-4xl mx-auto leading-relaxed">
               We craft extraordinary digital experiences that elevate brands to
@@ -231,19 +234,20 @@ export default function HomePage() {
                     boxShadow: "0 0 40px rgba(180, 232, 219, 0.4)",
                   }}
                   whileTap={{ scale: 0.95 }}
-                  className="group px-10 py-5 bg-gradient-to-r from-tiffany-blue to-hookers-green text-night font-bold text-lg rounded-full flex items-center gap-3 transition-all duration-300"
+                  className="group px-8 py-3 bg-gradient-to-r from-tiffany-blue to-hookers-green text-night font-bold text-base rounded-md flex items-center gap-2 transition-all duration-300"
                 >
                   Start Your Project
-                  <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
+                  <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </motion.button>
               </Link>
+              {/* button right  */}
 
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="group px-10 py-5 border-2 border-white/20 text-white font-bold text-lg rounded-full backdrop-blur-xl hover:bg-white/5 transition-all duration-300 flex items-center gap-3"
+                className="group px-8 py-3 border-2 border-white/20 text-white font-bold text-base rounded-md backdrop-blur-xl hover:bg-white/5 transition-all duration-300 flex items-center gap-2"
               >
-                <Play className="w-6 h-6" />
+                <Play className="w-5 h-5" />
                 Watch Our Story
               </motion.button>
             </div>
@@ -329,7 +333,12 @@ export default function HomePage() {
       </section>
 
       {/* Stats Section */}
-      <section ref={statsRef} className="py-20 px-6 relative">
+
+      <section
+        ref={statsRef}
+        className="py-20 px-6 relative"
+        aria-label="Company statistics"
+      >
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-4 gap-8">
             {[
@@ -353,19 +362,28 @@ export default function HomePage() {
                 label: "Team Members",
                 sublabel: "Global Experts",
               },
-            ].map((stat, index) => (
+            ].map(({ number, label, sublabel }) => (
               <motion.div
-                key={stat.label}
+                key={label}
                 whileHover={{ y: -10, scale: 1.05 }}
                 className="stat-card text-center p-8 rounded-3xl bg-gradient-to-br from-white/5 to-white/10 backdrop-blur-xl border border-white/10 hover:border-tiffany-blue/30 transition-all duration-500"
+                role="group"
+                tabIndex={0}
+                aria-labelledby={`${label.replace(/\s+/g, "-").toLowerCase()}-label ${label.replace(/\s+/g, "-").toLowerCase()}-number`}
               >
-                <div className="text-5xl font-bold text-tiffany-blue mb-3">
-                  {stat.number}
+                <div
+                  id={`${label.replace(/\s+/g, "-").toLowerCase()}-number`}
+                  className="text-5xl font-bold text-tiffany-blue mb-3"
+                >
+                  {number}
                 </div>
-                <div className="text-lg font-semibold text-white mb-2">
-                  {stat.label}
+                <div
+                  id={`${label.replace(/\s+/g, "-").toLowerCase()}-label`}
+                  className="text-lg font-semibold text-white mb-2"
+                >
+                  {label}
                 </div>
-                <div className="text-sm text-gray-400">{stat.sublabel}</div>
+                <div className="text-sm text-gray-400">{sublabel}</div>
               </motion.div>
             ))}
           </div>
@@ -565,8 +583,8 @@ export default function HomePage() {
                 className="process-step group text-center"
               >
                 <div className="relative mb-8">
-                  <div className="w-20 h-20 bg-gradient-to-br from-tiffany-blue to-hookers-green rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
-                    <process.icon className="w-10 h-10 text-night" />
+                  <div className="w-20 h-20   rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+                    <process.icon className="w-10 h-10 text-tiffany-blue border-tiffany-blue border-b pb-1" />
                   </div>
                   <div className="absolute -top-2 -right-2 w-8 h-8 bg-night border-2 border-tiffany-blue rounded-full flex items-center justify-center text-sm font-bold text-tiffany-blue">
                     {process.step}
